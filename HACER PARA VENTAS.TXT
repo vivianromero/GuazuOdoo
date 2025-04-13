@@ -1,0 +1,26 @@
+ En Config como adminisrador id a parametros de sistema y añadir 
+
+    guazu_sale.warehouse_promocion_id
+    guazu_sale.warehouse_consignacion_id
+    guazu_sale.warehouse_ferias_id
+    
+    Actualizar
+    guazu_sale.warehouse_id - 16
+    guazu_sale.location_id - 19
+    
+update guazu_stock_location set name='Ventas Clientes' where id=19;
+update guazu_stock_location set name='Promocion' where id=39;
+update guazu_stock_location set name='Consignacion' where id=65;
+update guazu_stock_location set name='Ferias' where id=66;
+
+En config grupos quitar a ventas del Existencia/Administrador
+-No puede manejar las ubicaciones
+
+
+Ver la secuencia de los numero de las ofertas si son por tipo de factura? (Mejor no, porque entonces hay que cambiar la numeracion aitom 
+del doc de inventario y no ser FV sino en dependencia del tipo de Fact FV FVP TVF FVC para cliente, promoc, feria y consignacion respectivamente
+
+Ir a Configuración/Secuencias y marcar usar subsecuencia por rango de fecha, para que cambie por año, para la sec de los numeros de ofertas.
+
+
+
