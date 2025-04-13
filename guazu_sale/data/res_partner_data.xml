@@ -1,0 +1,3113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="client_29" model="res.partner">
+			<field name="company_type">company </field>
+			<field name="vat">29</field>
+			<field name="name">Aduana Gral</field>
+			<field name="phone">77945716,77945080 ext 77301-77303,77945708 ext 77301-77303</field>
+			<field name="mobile">55651178</field>
+			<field name="email">especialista1.atm@uaa.aduana.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_32" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">32</field>
+			<field name="name">Labiofam Villa Clara</field>
+			<field name="email">esp1rhumanos@vcl.labiofam.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_34" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">34</field>
+			<field name="name">Labiofam Las Tunas</field>
+			<field name="phone">52167341</field>
+			<field name="email">espp.rhumanos@ltu.labiofam.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_35" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">35</field>
+			<field name="name">Labiofam Santi Spiritus</field>
+			<field name="email">esp1.rhumanos@ssp.labiofam.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_36" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">36</field>
+			<field name="name">Enia</field>
+			<field name="email">enrique@eniavc.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_38" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">38</field>
+			<field name="name">TECNOAZUCAR Artemisa</field>
+			<field name="phone">48522718</field>
+			<field name="email">edelsa.camacho@taar.azcuba.cu, rolando.ortega@taar.azcuba.cu, ares.dimentel@taar.azcuba.cu</field>
+			<field name="state_id">649</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_39" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">39</field>
+			<field name="name">Mat. Const. Holguín</field>
+			<field name="email">erlan@medano.co.cu, anab@holguin.geicon.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_50" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">50</field>
+			<field name="name">Emp. Transp. Ciego de Ávila</field>
+			<field name="phone">33222737</field>
+			<field name="email">mtrujillo@eptca.transnet.cu, despacho@eptca.transnet.cu, economia@eptca.transnet.cu, ania@eptca.transnet.cu, zulema@eptca.transnet.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_51" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">51</field>
+			<field name="name">Comunales Holguín</field>
+			<field name="phone">24423282,24466396,24453436,</field>
+			<field name="email">epasac@enet.cu, servchg@enet.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_52" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">52</field>
+			<field name="name">TECNOAZUCAR Las Tunas</field>
+			<field name="phone">31346298</field>
+			<field name="email">emilio.perez@talt.azcuba.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_76" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">76</field>
+			<field name="name">ECOI 16</field>
+			<field name="phone">24501555 ext 110,52099364</field>
+			<field name="email">eplana@castor.co.cu, ysanchez@castor.co.cu, fdelgado@castor.co.cu, ydominguez@castor.co.cu, oguilarte@castor.co.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_77" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">77</field>
+			<field name="name">Frigorífico Santiago</field>
+			<field name="phone">226344012,2630287</field>
+			<field name="mobile">55557957</field>
+			<field name="email">frigodir@enet.cu, copmarstgo@copmarstgo.alinet.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_83" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">83</field>
+			<field name="name">Frutas Selectas VC</field>
+			<field name="email">fsvc@frutasvcl.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_98" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">98</field>
+			<field name="name">Eléctrica Artemisa</field>
+			<field name="mobile">52091873</field>
+			<field name="email">estrella@elecart.une.cu, grasielatm@elecart.une.cu, anairis@elecart.une.cu, melba@elecart.une.cu, evelincdg@elecart.une.cu</field>
+			<field name="state_id">649</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_117" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">117</field>
+			<field name="name">ANAP Guantánamo</field>
+			<field name="email">informatica@gtm.anap.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_118" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">118</field>
+			<field name="name">CAI Arrocero Los Palacios</field>
+			<field name="email">informatico@arrozls.pri.minag.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_124" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">124</field>
+			<field name="name">Banco Central de Cuba</field>
+			<field name="email">ileana.fundora@bc.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_125" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">125</field>
+			<field name="name">TECNOAZUCAR Habana</field>
+			<field name="phone">72617953</field>
+			<field name="email">ivon@tahb.azcuba.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_142" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">142</field>
+			<field name="name">Emp. Restauración y Conservación</field>
+			<field name="email">personal@eprc.co.cu, informatico@eprc.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_144" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">144</field>
+			<field name="name">Labiofam Ciego de Avila</field>
+			<field name="mobile">52120608</field>
+			<field name="email">jorge.luis@cav.labiofam.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_147" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">147</field>
+			<field name="name">fcbc ss</field>
+			<field name="email">isabel@ssp.fcbc.cu, liana@ssp.fcbc.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_148" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">148</field>
+			<field name="name">gecot varadero</field>
+			<field name="email">vfernandez@gecot.co.cu</field>
+			<field name="city">Varadero</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_149" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">149</field>
+			<field name="name">eicma habana</field>
+			<field name="email">dchumano@oc.eicma.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_151" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">151</field>
+			<field name="name">BANDEC Santi Spiritus</field>
+			<field name="phone">41327001,41324877 ext116</field>
+			<field name="email">guille@dpss.bandec.cu, oriol@dpss.bandec.cu, adita@dpss.bandec.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_159" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">159</field>
+			<field name="name">Ecoing 16 Holguin</field>
+			<field name="email">oguilarte@castor.cu, ydominguez@castor.cu, npauda@castor.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_161" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">161</field>
+			<field name="name">Artes Gráficas</field>
+			<field name="phone">42202192,42216370</field>
+			<field name="email">loly@villaargraf.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_162" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">162</field>
+			<field name="name">CAI Arrocero Sur del Jíbaro</field>
+			<field name="phone">41455112,41434237</field>
+			<field name="email">ueb.aseguramiento@jibaro.ssp.minag.cu, ueb.aseguramiento@jibaro.ssp.minagri.cu</field>
+			<field name="city">Sur del Jibaro</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_163" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">163</field>
+			<field name="name">Transmetro</field>
+			<field name="email">avelazquez@logort.transmetro.cu, anay@transmetro.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_164" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">164</field>
+			<field name="name">BPA Guantánamo</field>
+			<field name="email">rourdel@mail.gt.bpa.cu, lilianch@mail.gt.bpa.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_166" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">166</field>
+			<field name="name">Alastor Villa Clara</field>
+			<field name="email">alastorvc@alastorvc.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_167" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">167</field>
+			<field name="name">Desoft</field>
+			<field name="phone">42210961 ext 63</field>
+			<field name="email">amarilys.rodriguez@desoft.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_168" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">168</field>
+			<field name="name">Aeropuertos</field>
+			<field name="phone">42284117</field>
+			<field name="email">arnelis@snu.ecasa.avianet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_169" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">169</field>
+			<field name="name">Bandec Las Tunas</field>
+			<field name="phone">31342499</field>
+			<field name="email">ana@dplt.bandec.cu, miriam@dplt.bandec.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_170" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">170</field>
+			<field name="name">BPA Granma</field>
+			<field name="email">arnaldo@mail.gr.bpa.cu, shelton@mail.gr.bpa.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_171" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">171</field>
+			<field name="name">Emp. Serv. Portuarios. Tunas</field>
+			<field name="email">raiza@espcarupano.transnet.cu, aimara@espcarupano.transnet.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_172" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">172</field>
+			<field name="name">Abastecimiento de Materiales</field>
+			<field name="email">abastmat@enet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_173" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">173</field>
+			<field name="name">Intermar Casa Matriz</field>
+			<field name="phone">78332225,78332493 al 95</field>
+			<field name="email">anaisi@casamatriz.intermar.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_176" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">176</field>
+			<field name="name">Pesquera Industrial Caibarién</field>
+			<field name="email">asegura@epicai.alinet.cu</field>
+			<field name="city">Caibarien</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_181" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">181</field>
+			<field name="name">ASTRO Guantánamo</field>
+			<field name="email">astro@gtmo.inf.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_183" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">183</field>
+			<field name="name">MCV.S.A.</field>
+			<field name="phone">42201359,42205363,42291391</field>
+			<field name="mobile">52624536</field>
+			<field name="email">a.lliteras@vcl.mcvs.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_184" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">184</field>
+			<field name="name">MADY</field>
+			<field name="phone">42406347</field>
+			<field name="mobile">52094003</field>
+			<field name="email">agrostodgo@vcl.eicma.cu, fcamady@vcl.eicma.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_185" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">185</field>
+			<field name="name">ECOI 9 Holguín</field>
+			<field name="phone">24463322,24461136,24423624, 24463322</field>
+			<field name="mobile">52133410,52800896</field>
+			<field name="email">dselcis@conam.cu, ddiaz@conam.cu, alopez@conam.cu, aguilera@conam.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_189" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">189</field>
+			<field name="name">Recape</field>
+			<field name="email">angel@recape.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_191" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">191</field>
+			<field name="name">Apicultura Isla de la Juventud</field>
+			<field name="email">apicultura@apicultura.iju.minag.cu</field>
+			<field name="state_id">651</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_192" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">192</field>
+			<field name="name">Taxi Habana</field>
+			<field name="email">alberto@taxihabana.trasnet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_195" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">195</field>
+			<field name="name">Pesquera Industrial Granma</field>
+			<field name="email">alfredo@epigran.alinet.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_196" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">196</field>
+			<field name="name">Fepca Matanzas</field>
+			<field name="phone">45245453,45267183</field>
+			<field name="mobile">52864647</field>
+			<field name="email">vargas@fepca.transnet.cu, ariadna@fepca.transnet.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_197" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">197</field>
+			<field name="name">Transporte Las Tunas</field>
+			<field name="email">linton@translt.transnet.cu, andres@translt.transnet.cu, eliza@translt.transnet.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_198" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">198</field>
+			<field name="name">Rente Santiago</field>
+			<field name="phone">22711203 ext 2109,55555882</field>
+			<field name="email">alejandro@cterente.une.cu, osmar@cterente.une.cu, allida@cterente.une.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_201" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">201</field>
+			<field name="name">CANEC</field>
+			<field name="email">area7@shge.canec.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_202" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">202</field>
+			<field name="name">Alastor Camaguey</field>
+			<field name="email">alastorcm@enet.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_204" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">204</field>
+			<field name="name">MINAG Camaguey</field>
+			<field name="email">administrador@dpf.cmg.minag.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_205" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">205</field>
+			<field name="name">ONAT</field>
+			<field name="email">adalejandro@onat.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_206" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">206</field>
+			<field name="name">IMECO</field>
+			<field name="email">achon@imeco.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_210" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">210</field>
+			<field name="name">Bandec Granma 2Bandec</field>
+			<field name="phone">23425802,23426079</field>
+			<field name="email">abel@dpgr.bandec.cu, yoelis@dpgr.bandec.cu, iselnis@dpgr.bandec.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_212" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">212</field>
+			<field name="name">Eppa Villa Clara</field>
+			<field name="email">adys@eppa.vcl.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_215" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">215</field>
+			<field name="name">Servicom</field>
+			<field name="email">antonioos@servicom.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_216" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">216</field>
+			<field name="name">Gardis</field>
+			<field name="email">adecor@gardis.co.cu, lama@gardis.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_219" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">219</field>
+			<field name="name">Bandec Holguín</field>
+			<field name="phone">24461389,24421127</field>
+			<field name="mobile">52795201,52795201</field>
+			<field name="email">sfernandez@dphg.bandec.cu, mariae@dphg.bandec.cu, anabel@dphg.bandec.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_220" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">220</field>
+			<field name="name">AZCUBA</field>
+			<field name="email">alfredo.coba@panchito.azcuba.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_221" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">221</field>
+			<field name="name">Bandec Guantánamo</field>
+			<field name="phone">24385040,24384751-55,24382211</field>
+			<field name="mobile">52865104</field>
+			<field name="email">arnolvis@dpgt.bandec.cu telvia@dpgt.bandec.cu, camino@dpgt.bandec.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_229" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">229</field>
+			<field name="name">Abogado</field>
+			<field name="email">abogado@consultandolex.com</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_231" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">231</field>
+			<field name="name">Cubacons</field>
+			<field name="email">amarilys@cubacons.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_233" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">233</field>
+			<field name="name">FCBC</field>
+			<field name="email">arturo@fcbc.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_237" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">237</field>
+			<field name="name">Cervecería Antonio Díaz Manacas</field>
+			<field name="phone">42406326</field>
+			<field name="email">bettsy.t@cmanacas.alinet.cu</field>
+			<field name="city">Manacas</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_238" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">238</field>
+			<field name="name">Energomat</field>
+			<field name="phone">78702501  al 05</field>
+			<field name="email">blanca@energomat.une.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_240" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">240</field>
+			<field name="name">Bandec Matanzas</field>
+			<field name="phone">45242241,45245061</field>
+			<field name="mobile">52173021</field>
+			<field name="email">barbara@dpmt.bandec.cu, ibis@dpmt.bandec.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_241" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">241</field>
+			<field name="name">TaxisCuba Camagüey</field>
+			<field name="email">belkis@cmg.taxiscuba.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_243" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">243</field>
+			<field name="name">Suelas Italia</field>
+			<field name="email">belli@suelas-italia.com, exportaciones@suelas-italia.com</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_247" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">247</field>
+			<field name="name">Emp. Ing. y Proyecto INEL Stgo Cuba</field>
+			<field name="phone">669135,696150</field>
+			<field name="mobile">52796103,52796103,52115557</field>
+			<field name="email">brea@inelsan.inel.une.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_248" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">248</field>
+			<field name="name">Joven Club</field>
+			<field name="email">betsy.reyes@vcl.jovenclub.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_250" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">250</field>
+			<field name="name">Bujias</field>
+			<field name="phone">42665549</field>
+			<field name="email">basilio@bujias.co.cu, liuber@bujias.co.cu, yanita@bujias.co.cu</field>
+			<field name="city">Sagua</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_257" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">257</field>
+			<field name="name">Transporte Cienfuegos</field>
+			<field name="email">comercial@eptcfg.transnet.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_258" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">258</field>
+			<field name="name">Conservas La Conchita</field>
+			<field name="phone">42203791</field>
+			<field name="email">chumano@conservavc.alinet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_252" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">252</field>
+			<field name="name">Empresa Agroforestal IMIAS GTM</field>
+			<field name="phone">21880256,,,21880257,52099502</field>
+			<field name="email">boris@agfimias.gtm.minag.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_260" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">260</field>
+			<field name="name">Sepcom VC</field>
+			<field name="email">capitalh.vcl@sepcom.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_261" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">261</field>
+			<field name="name">INDER</field>
+			<field name="email">cuadvcl@inder.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_264" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">264</field>
+			<field name="name">Comunales Santi Spíritus</field>
+			<field name="phone">41326970,41326923,41334986,41326713</field>
+			<field name="email">comss@enet.cu, claribel@scom.co.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_269" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">269</field>
+			<field name="name">ACINOX Camaguey</field>
+			<field name="email">comunicacion@acinoxcm.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_277" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">277</field>
+			<field name="name">CIMEX</field>
+			<field name="email">cabrerag@cimex.com.cu, xiomaraz@cimex.com.cu,anamirly@cimex.com.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_284" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">284</field>
+			<field name="name">Bandec</field>
+			<field name="phone">32291378</field>
+			<field name="mobile">54226630</field>
+			<field name="email">calixto@almacen.dpcm.bandec.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_285" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">285</field>
+			<field name="name">Comunales Habana</field>
+			<field name="phone">78339964 ,7833996465,76914462,78336825,78306622</field>
+			<field name="email">comercial@scom.ch.gob.cu, comercial2@scom.ch.gob.cu, comunal@scom.ch.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_286" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">286</field>
+			<field name="name">TECNOAZUCAR Ciego de Ávila</field>
+			<field name="phone">33212099</field>
+			<field name="email">camilo.quincoses@taca.azcuba.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_287" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">287</field>
+			<field name="name">Transmetro Habana</field>
+			<field name="email">osvaldo@logistica.transmetro.cu, comercial@logistica.transmetro.cu, sergio@logistica.transmetro.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_292" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">292</field>
+			<field name="name">ENIA Cienfuegos</field>
+			<field name="email">jesus@eniacfg.co.cu, carmen@eniacfg.co.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_303" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">303</field>
+			<field name="name">MINAG Granma</field>
+			<field name="email">capote@grm.minag.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_312" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">312</field>
+			<field name="name">Eléctrica Santi Sipiritus</field>
+			<field name="email">delia@elecssp.une.cu, marily@elecssp.une.cu, tarcilia@elecssp.une.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_313" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">313</field>
+			<field name="name">Eléctrica Santiago</field>
+			<field name="phone">22652501,22652503</field>
+			<field name="mobile">52865179</field>
+			<field name="email">tay@elecstg.une.cu, davidv@elecstg.une.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_314" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">314</field>
+			<field name="name">Geysel</field>
+			<field name="phone">42227594,42201192,42211332</field>
+			<field name="email">diana@cayo.geysel.une.cu, yaima@cayo.geysel.une.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_315" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">315</field>
+			<field name="name">Cubalub</field>
+			<field name="email">danny@vc.cubalub.cupet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_316" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">316</field>
+			<field name="name">BANDEC Nacional</field>
+			<field name="phone">78604911</field>
+			<field name="email">doralkis@aseguramiento.oc.bandec.cu, dayneris@aseguramiento.oc.bandec.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_322" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">322</field>
+			<field name="name">Comunales Ciego de Avila</field>
+			<field name="phone">52791322,52791317,52799944</field>
+			<field name="email">mairelys@comca.co.cu, david@comca.co.cu, luis@comca.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_325" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">325</field>
+			<field name="name">Fab. Cemento Siguaney</field>
+			<field name="email">dayneli@cementosig.co.cu</field>
+			<field name="city">Siguaney</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_327" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">327</field>
+			<field name="name">Astilleros Oriente</field>
+			<field name="phone">22691101,22692495</field>
+			<field name="email">danais@astor.transnet.cu, emplea@astor.transnet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_328" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">328</field>
+			<field name="name">Labiofam Habana</field>
+			<field name="email">esp2.rhumanosups@labiofam.cu, despacho@genix.co.cu, director@genix.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_330" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">330</field>
+			<field name="name">CONAM</field>
+			<field name="email">dselci@conam.cu, aguilera@conam.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_332" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">332</field>
+			<field name="name">Confecciones Melissa</field>
+			<field name="phone">31344336,31347501</field>
+			<field name="email">diana@melissa.co.cu, mayra@melissa.co.cu, raiza@melissa.co.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_341" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">341</field>
+			<field name="name">Cereales Cardenas</field>
+			<field name="email">didier@cerealescardenas.alinet.cu</field>
+			<field name="city">Cardenas</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_343" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">343</field>
+			<field name="name">Cedema</field>
+			<field name="email">director@cedema.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_352" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">352</field>
+			<field name="name">Bandec Pinar del Río</field>
+			<field name="email">doris@dele.dppr.bandec.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_353" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">353</field>
+			<field name="name">ASTRO</field>
+			<field name="email">director@astro.transnet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_355" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">355</field>
+			<field name="name">Genix</field>
+			<field name="email">director@genix.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_359" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">359</field>
+			<field name="name">Eléctrica Ciego de Avila</field>
+			<field name="phone">32200708 ext 147, 360, 148</field>
+			<field name="email">dulce@eleccav.une.cu, diosdado@eleccav.une.cu, manuel@eleccav.une.cu, raquel@eleccav.une.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_361" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">361</field>
+			<field name="name">Demos Matanzas</field>
+			<field name="phone">45242101</field>
+			<field name="mobile">52797744</field>
+			<field name="email">demos@gardis.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_378" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">378</field>
+			<field name="name">Micalum</field>
+			<field name="phone">43523545</field>
+			<field name="email">jcgarcia@micalum.co.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_380" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">380</field>
+			<field name="name">Labiofam Santiago</field>
+			<field name="email">j.rh@scu.labiofam.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_384" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">384</field>
+			<field name="name">BPA Habana Oficina Central</field>
+			<field name="phone">72022545,72033191,72086530,</field>
+			<field name="mobile">52800186</field>
+			<field name="email">juan@mail.bpa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_385" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">385</field>
+			<field name="name">BPA Santi Spiritus</field>
+			<field name="phone">41327612,41332142</field>
+			<field name="email">dpto-organizacion@mail.ssbpa.cu, jdpto-atm@atm5292.ss.bpa.cu, macias@mail.ss.bpa.cu,belkis@mail.ssbpa.cu,jdpto-organizacion@mail.ss.bpa.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_389" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">389</field>
+			<field name="name">TECNOAZUCAR Granma</field>
+			<field name="phone">23421659</field>
+			<field name="email">juana.olivera@tagr.azcuba.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_400" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">400</field>
+			<field name="name">Emcomed Las Tunas</field>
+			<field name="email">lala@ltu.emcomed.cu, kiusmery@ltu.emcomed.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_402" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">402</field>
+			<field name="name">Materiales de la Const. Ciego de Avila</field>
+			<field name="email">lierkisqh@cavila.geicon.cu, iraidasf@cavila.geicon.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_403" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">403</field>
+			<field name="name">Labiofam Holguin</field>
+			<field name="email">labiofam@hlg.labiofam.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_408" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">408</field>
+			<field name="name">MACUM</field>
+			<field name="email">liliana@macun.vcl.geg.cu, norma@macum.vcl.geg.cu, roberto@macum.vcl.geg.cu, diosvel@macum.vcl.geg.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_419" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">419</field>
+			<field name="name">TECNOAZUCAR Villa Clara</field>
+			<field name="phone">42272047</field>
+			<field name="email">livan.perez@tavc.azcuba.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_420" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">420</field>
+			<field name="name">TECNOAZUCAR José A. Echevarría</field>
+			<field name="phone">45290792,45522270</field>
+			<field name="email">landy@tajae.azcuba.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_438" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">438</field>
+			<field name="name">ITH Habana</field>
+			<field name="email">margaritam@ith.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_441" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">441</field>
+			<field name="name">Ecoa 17</field>
+			<field name="email">oromero@ingeco.cu, srodriguez@ingeco.cu, msanchez@ingeco.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_442" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">442</field>
+			<field name="name">Acinox VC</field>
+			<field name="email">meily@villaclara.steels-net.cu, ernesto@villaclara.steels-net.cu, santos@villaclara.steels-net.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_443" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">443</field>
+			<field name="name">Genética Matanzas</field>
+			<field name="email">epgmmtz@atenas.inf.cu, mherrera@epgm.mtz.geg.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_456" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">456</field>
+			<field name="name">Fusibles VC</field>
+			<field name="email">yamilet@fusibles.epem.une.cu, meri@fusibles.epem.une.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_471" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">471</field>
+			<field name="name">Servicios Integrales VC</field>
+			<field name="email">mari@alastorvc.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_476" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">476</field>
+			<field name="name">Eléctrica Las Tunas</field>
+			<field name="phone">31346929 ext 1013 1046,31346941 ex  1030 1014</field>
+			<field name="email">msabater@elecltu.une.cu, ocutino@elecltu.une.cu, ssanchez@elecltu.une.cu, ifiguera@elecltu.une.cu, ltray@elecltu.une.cu, narua@elecltu.une.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_477" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">477</field>
+			<field name="name">Bandec Villa Clara</field>
+			<field name="email">servicios@dpvc.bandec.cu, melier@dpvc.bandec.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_514" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">514</field>
+			<field name="name">Aseguramiento Logístico</field>
+			<field name="email">nereyda.palacios@gobart.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_535" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">535</field>
+			<field name="name">Eléctrica Camaguey</field>
+			<field name="phone">32261703,52851670,32275915 ext 102</field>
+			<field name="mobile">52092738,52851670</field>
+			<field name="email">olgalidia@eleccmg.une.cu, marisleydis@eleccmg.une.cu, blancaelena@eleccmg.une.cu, dayani@eleccmg.une.cu, olga@eleccmg.une.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_540" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">540</field>
+			<field name="name">Bandec Granma</field>
+			<field name="phone">23425802,23426079</field>
+			<field name="email">yoalis@dpgr.bandec.cu, pedro@dpgr.bandec.cu, ofelia@dpgr.bandec.cu, vladimir@dpgr.bandec.cu,yoelis@dpgr.bandec.cu,lourdes@dpgr.bandec.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_543" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">543</field>
+			<field name="name">Divep Las Tunas</field>
+			<field name="email">omar.soto@diveplt.co.cu, made.campos@diveplt.co.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_562" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">562</field>
+			<field name="name">TECNOAZUCAR Camagüey</field>
+			<field name="phone">32297846</field>
+			<field name="email">pedro.saldana@tacm.azcuba.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_563" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">563</field>
+			<field name="name">Emp. Prov. Cubataxi Camaguey</field>
+			<field name="email">pmando@cmg.taxiscuba.cu, belkis@cmg.taxiscuba.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_570" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">570</field>
+			<field name="name">Campismo Popular</field>
+			<field name="email">pierre@lnh.campismopopular.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_574" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">574</field>
+			<field name="name">Labiofam Guantánamo</field>
+			<field name="mobile">52147222</field>
+			<field name="email">rrhh1@gtm.labiofam.cu, rrhh@gtm.labiofam.cu, director@gtm.labiofam.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_576" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">576</field>
+			<field name="name">Ecoa 19</field>
+			<field name="email">rfreeman@acimut.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_577" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">577</field>
+			<field name="name">Emp. Const. Mant. y Reparación</field>
+			<field name="email">rhumanos@epcmc.capgrm.co.cu, rhumanos@epcm.capgrm.co.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_578" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">578</field>
+			<field name="name">Acopio Granma</field>
+			<field name="email">rhumanos@acopio.grm.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_581" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">581</field>
+			<field name="name">Acopio Guantánamo</field>
+			<field name="email">rrhh@acopio.gtm.minag.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_582" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">582</field>
+			<field name="name">Pesquera Isla de la Juventud</field>
+			<field name="email">rosa.castillo@pescaij.alinet.cu, rafael@pescaij.alinet.cu</field>
+			<field name="state_id">651</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_585" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">585</field>
+			<field name="name">Macun</field>
+			<field name="email">roberto@macun.vcl.geg.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_587" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">587</field>
+			<field name="name">Emp. Agropecuaria Las Tunas</field>
+			<field name="email">rhdirector@agroplt.co.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_590" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">590</field>
+			<field name="name">Apicultura Matanzas</field>
+			<field name="email">rhumanos@mtz.apicuba.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_592" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">592</field>
+			<field name="name">Pesca Isla de la Juventud</field>
+			<field name="email">rosa.castillo@pescaij.alinet.cu</field>
+			<field name="state_id">651</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_596" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">596</field>
+			<field name="name">Acopio Holguin</field>
+			<field name="email">rhumanos@acopio.grm.minag.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_598" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">598</field>
+			<field name="name">Transporte Holguin</field>
+			<field name="email">rhtec@dptholg.transnet.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_599" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">599</field>
+			<field name="name">Pesquera Santi Spiritus</field>
+			<field name="email">rrivero@pescapir.alinet.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_601" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">601</field>
+			<field name="name">Geicon Camagüey</field>
+			<field name="email">ramon.ruiz@cmg.geicon.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_602" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">602</field>
+			<field name="name">Fábrica de Machetes Ogún</field>
+			<field name="email">ricardo@ogun.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_603" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">603</field>
+			<field name="name">TECNOAZUCAR Cienfuegos</field>
+			<field name="phone">43601237</field>
+			<field name="email">raul.fondin@tacf.azcuba.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_605" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">605</field>
+			<field name="name">TECNOAZUCAR Santi Spiritus</field>
+			<field name="phone">41361243</field>
+			<field name="email">reinier.benitez@tass.azcuba.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_608" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">608</field>
+			<field name="name">Tecnoazucar Santiago</field>
+			<field name="phone">22643735</field>
+			<field name="email">yenisleidys@tasc.azcuba.cu, rolando.lobaina@tasc.azcuba.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_609" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">609</field>
+			<field name="name">Alastor Ciego de Ávila</field>
+			<field name="email">rmontoto@alastorca.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_611" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">611</field>
+			<field name="name">Conservas Ciego de Avila</field>
+			<field name="email">rhciego@conservascav.alinet.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_614" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">614</field>
+			<field name="name">Servisa Cienfuegos</field>
+			<field name="email">rebeca@cfg.servisa.tur.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_616" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">616</field>
+			<field name="name">Geocuba Pinar del Río</field>
+			<field name="email">recursoshumanos@pinar.geocuba.cu,sst@pinar.geocuba.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_617" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">617</field>
+			<field name="name">Empresa de Tabaco Holguín</field>
+			<field name="email">recursoshumanos@tabaco.holguin.co.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_618" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">618</field>
+			<field name="name">Geocuba Matanzas</field>
+			<field name="email">rheureka@geocmtz.geocuba.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_620" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">620</field>
+			<field name="name">Gecons VC</field>
+			<field name="email">renegp@geconsvc.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_666" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">666</field>
+			<field name="name">ECOAI 4</field>
+			<field name="email">torres@crearq.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_667" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">667</field>
+			<field name="name">Direc. Prov. del Minist. Agricultura</field>
+			<field name="email">tec-eaf-comercial@dlg.pri.minag.gob.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_672" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">672</field>
+			<field name="name">Ministerio de Educación Superior</field>
+			<field name="email">tayra@mes.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_673" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">673</field>
+			<field name="name">TECNOAZUCAR Holguín</field>
+			<field name="phone">24461287</field>
+			<field name="email">tecazhog@enet.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_682" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">682</field>
+			<field name="name">Acueducto y Alcantarillado</field>
+			<field name="email">yeni@eaass.hidro.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_690" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">690</field>
+			<field name="name">Pesquera Cienfuegos</field>
+			<field name="email">yamila@epicien.alinet.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_691" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">691</field>
+			<field name="name">Contex Habana</field>
+			<field name="phone">72043898</field>
+			<field name="email">yudania@cimex.com.cu, cabrerag@cimex.com.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_693" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">693</field>
+			<field name="name">Aludem Ciego de Avila</field>
+			<field name="email">yandirav@aludemcav.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_717" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">717</field>
+			<field name="name">Bebidas y Refrescos Calabazar de Sagua</field>
+			<field name="email">ueb6@embervc.alinet.cu</field>
+			<field name="city">Calabazar de Sagua</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_718" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">718</field>
+			<field name="name">Comunales Las Tunas</field>
+			<field name="phone">31348728,31344547,,31344111 ext 107,52866267</field>
+			<field name="email">uliser@dpcomlt.co.cu, comunaleslt@dpcomlt.co.cu, sigifredo@dpcomlt.co.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_727" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">727</field>
+			<field name="name">Geicon Las Tunas</field>
+			<field name="email">zonia@tunas.geicon.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_737" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">737</field>
+			<field name="name">Emp. Const. y Obras Varadero</field>
+			<field name="phone">45619262,45619824</field>
+			<field name="email">vsanchez@varse.gecot.co.cu</field>
+			<field name="city">Varadero</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_745" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">745</field>
+			<field name="name">Geominera del Centro</field>
+			<field name="mobile">52143731</field>
+			<field name="email">upmsc@enet.cu, ailec@gmc.gms.minem.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_747" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">747</field>
+			<field name="name">Transtur Habana</field>
+			<field name="phone">78360060,78334458,78360062</field>
+			<field name="mobile">52790283</field>
+			<field name="email">msierra@transtur.cu, josea.amory@atm.transtur.cu, francisco.rivera@transtur.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_748" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">748</field>
+			<field name="name">Semillas Varias</field>
+			<field name="phone">42291015</field>
+			<field name="email">secretaria@sem.vcl.minag.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_749" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">749</field>
+			<field name="name">Logistica Agropecuaria</field>
+			<field name="phone">42201020 ext 114</field>
+			<field name="email">ssalud@epavcl.minag.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_750" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">750</field>
+			<field name="name">Fábrica de Antenas</field>
+			<field name="phone">42208562</field>
+			<field name="email">madelbys@antena.vc.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_751" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">751</field>
+			<field name="name">Cometal S.C.</field>
+			<field name="phone">42208997</field>
+			<field name="email">rebeca@ctro.cometal.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_753" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">753</field>
+			<field name="name">Copextel</field>
+			<field name="phone">42291757</field>
+			<field name="email">yanetmc@vc.copextel.com.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_754" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">754</field>
+			<field name="name">Sarex</field>
+			<field name="email">ismar@sarex.co.cu, mpiedra@sarex.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_755" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">755</field>
+			<field name="name">EMPROY</field>
+			<field name="phone">42204609</field>
+			<field name="email">wendy@emproyvc.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_756" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">756</field>
+			<field name="name">ARTEX S.C.</field>
+			<field name="phone">42206720 ext 110</field>
+			<field name="email">gerrhhvc@scvc.artex.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_757" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">757</field>
+			<field name="name">Poligráfico V.C.</field>
+			<field name="phone">42251577</field>
+			<field name="email">sst@versal.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_758" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">758</field>
+			<field name="name">Insp. Estatal</field>
+			<field name="phone">42205844</field>
+			<field name="email">raquel@onietvc.alinet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_759" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">759</field>
+			<field name="name">CIGET</field>
+			<field name="email">lidvel@ciget.vcl.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_760" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">760</field>
+			<field name="name">Fab. de Bujías</field>
+			<field name="phone">42665549</field>
+			<field name="email">liuber@bujias.co.cu</field>
+			<field name="city">Sagua</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_762" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">762</field>
+			<field name="name">Bufete internacional</field>
+			<field name="phone">42217269</field>
+			<field name="email">martha.maria@vcl.onbc.cu,bufete@bufeteinternacional.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_763" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">763</field>
+			<field name="name">Motocentro</field>
+			<field name="phone">42204453</field>
+			<field name="email">rhumanos@vcl.mcmotorcentro.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_764" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">764</field>
+			<field name="name">Los Portales Nacional</field>
+			<field name="phone">72044153 ext 124</field>
+			<field name="email">elisa@losportales.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_765" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">765</field>
+			<field name="name">Minerva</field>
+			<field name="phone">42207541 ext 221</field>
+			<field name="email">maibelys@ciclocentro.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_766" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">766</field>
+			<field name="name">EISA</field>
+			<field name="phone">42216814</field>
+			<field name="email">iran@villamoto.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_767" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">767</field>
+			<field name="name">Geocuba</field>
+			<field name="phone">42275358</field>
+			<field name="email">mrcabreras@edivc.geocuba.cu, agomez@vcl.geocuba.cu, carlos@geodesa.geocuba.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_768" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">768</field>
+			<field name="name">Logistica Hidraulica</field>
+			<field name="phone">42205342</field>
+			<field name="email">melva@vc.hidro.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_769" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">769</field>
+			<field name="name">Trimagen Casa Matriz</field>
+			<field name="phone">78702581 al 85 ext 109-122-121,78786595</field>
+			<field name="email">producciones@trimagen.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_770" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">770</field>
+			<field name="name">Gaviota</field>
+			<field name="phone">72047526,72045708</field>
+			<field name="email">gaviotatours@gaviotatours.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_772" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">772</field>
+			<field name="name">ELQUIM</field>
+			<field name="phone">42663015 ext 304</field>
+			<field name="email">mgonzalez@elquim.cu, jdaniel@elquim.cu</field>
+			<field name="city">Sagua</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_784" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">784</field>
+			<field name="name">Eléctrica Cienfuegos</field>
+			<field name="phone">43511049,43516220</field>
+			<field name="email">luisdg@eleccfg.une.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_785" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">785</field>
+			<field name="name">CCREA</field>
+			<field name="phone">42201578</field>
+			<field name="email">zenia@ccrea.transnet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_786" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">786</field>
+			<field name="name">Materiales de la Construicción VC</field>
+			<field name="phone">42291556</field>
+			<field name="email">castellon@matvcons.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_771" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">771</field>
+			<field name="name">Artex Casa Matriz</field>
+			<field name="phone">72049140</field>
+			<field name="mobile">52872701 Felipe,52873716 Yarlenis</field>
+			<field name="email">felipe_chaple@clauros.artex.cu, yarlenys@clauros.artex.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_773" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">773</field>
+			<field name="name">Empleadora Micons Mariel</field>
+			<field name="phone">78799614</field>
+			<field name="email">anamj@empleamicons.cu, yaneted@empleamicons.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_775" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">775</field>
+			<field name="name">Emp. Consignatora Mambisa</field>
+			<field name="phone">45243079</field>
+			<field name="email">rhumanos@cmmtz.transnet.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_776" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">776</field>
+			<field name="name">Comunales Granma</field>
+			<field name="phone">23425595,23427957,23425777</field>
+			<field name="email">dpsc@capgrm.co.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_777" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">777</field>
+			<field name="name">Comunales Guantánamo</field>
+			<field name="phone">21325619,21326545,21326367,21326367 ext 116</field>
+			<field name="email">director@scom.co.cu, claribel@scom.co.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_778" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">778</field>
+			<field name="name">Comunales Matanzas</field>
+			<field name="phone">45267742,45242574,5242860</field>
+			<field name="mobile">52803313</field>
+			<field name="email">maribel.mena@dpsc.co.cu, servicom@enet.cu, maribel.mena@dpscmtz.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_780" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">780</field>
+			<field name="name">Eléctrica Guantánamo</field>
+			<field name="phone">21325852 RH,21323196 ext 109 ATM</field>
+			<field name="mobile">52857170</field>
+			<field name="email">dieguez@elecgtm.une.cu, sidaco@elecgtm.une.cu, raquelh@elecgtm.une.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_781" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">781</field>
+			<field name="name">Eléctrica Matanzas</field>
+			<field name="phone">45245033 ext 8663 ATM, 8627 RH</field>
+			<field name="mobile">52134320,53292684</field>
+			<field name="email">director.atm@elecmtz.une.cu, direccion.general@elecmtz.une.cu, espcompras@elecmtz.une.cu, personal@elecmtz.une.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_787" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">787</field>
+			<field name="name">Transtur Cienfuegos</field>
+			<field name="phone">43605212 ext 110,43520395</field>
+			<field name="mobile">52920682</field>
+			<field name="email">nancy.viera@cfg.transtur.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_788" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">788</field>
+			<field name="name">BPA Cienfuegos</field>
+			<field name="email">lcasanova@mail.cf.bpa.cu, armando@mail.cf.bpa.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_789" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">789</field>
+			<field name="name">BPA Yaguajay</field>
+			<field name="email">director@4942.ss.bpa.cu</field>
+			<field name="city">Yaguajay</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_790" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">790</field>
+			<field name="name">BPA Mayabeque</field>
+			<field name="email">mercyrh@mail.ha.bpa.cu</field>
+			<field name="state_id">650</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_791" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">791</field>
+			<field name="name">Agropecuaria CAI Guatemala</field>
+			<field name="email">secregua*2016@hlg.eima.cu, secregua*2016@hlg.eicma.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_792" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">792</field>
+			<field name="name">BPA Habana</field>
+			<field name="phone">72022545,72066530</field>
+			<field name="email">yasmen@mail.bpa.cu, romelia@mail.bpa.cu, lamaya@mail.bpa.cu,daumara@mail.bpa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_793" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">793</field>
+			<field name="name">Asistur Habana</field>
+			<field name="email">sandra@asistur.cu, yusimi@asistur.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_794" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">794</field>
+			<field name="name">Citma</field>
+			<field name="email">miguel.rodriguez@imsmet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_795" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">795</field>
+			<field name="name">Emp. Comercial del Cemento</field>
+			<field name="email">jcontablevc@ecocem.cu, mayitovc@ecocem.cu, comercialvc@ecocem.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_796" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">796</field>
+			<field name="name">BPA Villa Clara</field>
+			<field name="email">hugo@mail.vc.bpa.cu, dayli@mail.vc.bpa.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_797" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">797</field>
+			<field name="name">BPA Pinar del Rio</field>
+			<field name="email">adalberto@a1492.pr.bpa.cu, teodoro@a1492.pr.bpa.cu, niurka@a1492.pr.bpa.cu,especialistarh@a1492.pr.bpa.cu, director@a1492.pr.bpa.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_798" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">798</field>
+			<field name="name">BPA Camaguey</field>
+			<field name="phone">32292070</field>
+			<field name="email">migue@mail.cm.bpa.cu, yenni@mail.cm.bpa.cu, carlos@mail.cm.bpa.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_799" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">799</field>
+			<field name="name">BPA Ciego de Avila</field>
+			<field name="phone">33223308,33224307,33223170,33202022,</field>
+			<field name="email">rene@mail.ca.bpa.cu, lourdes@mail.ca.bpa.cu, tony@mail.ca.bpa.cu,martha@mail.ca.bpa.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_800" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">800</field>
+			<field name="name">BPA Tunas</field>
+			<field name="phone">31342851,31346156</field>
+			<field name="email">oneydis.ferrales@mail.lt.bpa.cu, miladys.hechevarria@jabber.lt.bpa.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_801" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">801</field>
+			<field name="name">BPA Holguin</field>
+			<field name="phone">24462633,24463387</field>
+			<field name="email">nelson@mail.ho.bpa.cu, carlos.guerra@mail.ho.bpa.cu, elva@mail.ho.bpa.cu,fernando@atm72921.ho.bpa.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_802" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">802</field>
+			<field name="name">BPA Santiago</field>
+			<field name="email">laiquen@mail.sc.bpa.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_803" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">803</field>
+			<field name="name">Eléctrica Pinar del Rio</field>
+			<field name="phone">48753722,52631556</field>
+			<field name="email">yaciel.izquierdo@elecpri.une.cu, senrique@elecpri.une.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_804" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">804</field>
+			<field name="name">Dirección de ADMON y Serv.</field>
+			<field name="email">ileanafundora@bc.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_805" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">805</field>
+			<field name="name">Eléctrica Villa Clara</field>
+			<field name="phone">42207511</field>
+			<field name="email">lazarojg@elecvcl.une.cu, rosana@elecvcl.une.cu, julia@elecvcl.une.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_806" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">806</field>
+			<field name="name">Educación Vial Habana</field>
+			<field name="email">eumelia@tramos.transnet.cu, pablo@tramos.transnet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_807" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">807</field>
+			<field name="name">Campismo Mayabeque</field>
+			<field name="email">maritza@lnh.campismopopular.cu</field>
+			<field name="state_id">650</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_808" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">808</field>
+			<field name="name">Empresa Mayorista</field>
+			<field name="email">ileana.martinez@ar.unal.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_809" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">809</field>
+			<field name="name">Confecciones Boga</field>
+			<field name="phone">78630013,78636682</field>
+			<field name="mobile">52795434</field>
+			<field name="email">jesus@boga.cu, loly@boga.cu, lizette@boga.cu, rosa@boga.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_810" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">810</field>
+			<field name="name">Omnibus Urbanos</field>
+			<field name="email">lola@eptvc.vcl.transnet.cu, luis.mo@movil.transnet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_811" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">811</field>
+			<field name="name">BPA Isla de la Juventud</field>
+			<field name="email">mirtab@mail.ij.bpa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_812" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">812</field>
+			<field name="name">Pecuaria Managuaco Jatibonico</field>
+			<field name="email">direcpecmg@enet.cu</field>
+			<field name="city">Jatibonico</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_813" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">813</field>
+			<field name="name">Bandec Cienfuegos</field>
+			<field name="phone">43514647,43516570</field>
+			<field name="email">dunia_c@dpcf.bandec.cu, odalis@dpcf.bandec.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_814" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">814</field>
+			<field name="name">BANDEC Santiago</field>
+			<field name="phone">22623987,22623096,22624205</field>
+			<field name="mobile">54047969</field>
+			<field name="email">armando@base.dpsc.bandec.cu, yauselin@base.dpsc.bandec.cu, orlando@dpsc.bandec.cu, liliana@dpsc.bandec.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_815" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">815</field>
+			<field name="name">Transporte Santiago</field>
+			<field name="email">mayra@eptsc.transnet.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_816" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">816</field>
+			<field name="name">Transporte Guantanamo</field>
+			<field name="email">rafaell@transgtm.co.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_817" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">817</field>
+			<field name="name">Ceballos Ciego de Avila</field>
+			<field name="email">sgeneral@dcballos.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_818" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">818</field>
+			<field name="name">Transporte Matanzas</field>
+			<field name="email">empmecon@transnet.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_819" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">819</field>
+			<field name="name">Confecciones Trebol</field>
+			<field name="email">ralvarez@trevolcav.co.cu, dilma@trevolcav.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_820" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">820</field>
+			<field name="name">Transporte Isla de la Juventud</field>
+			<field name="email">atm@transisla.co.cu</field>
+			<field name="state_id">651</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_821" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">821</field>
+			<field name="name">Geysel Artemisa</field>
+			<field name="email">javier@art.geysel.une.cu</field>
+			<field name="state_id">649</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_822" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">822</field>
+			<field name="name">Omnibus Ciego de Avila</field>
+			<field name="email">ivetty@eomcav.transnet.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_823" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">823</field>
+			<field name="name">Transporte Granma</field>
+			<field name="email">yanias@dptgr.co.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_824" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">824</field>
+			<field name="name">Pesquera Holguin</field>
+			<field name="email">dianellys@pescaholg.alinet.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_825" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">825</field>
+			<field name="name">Pesquera Ciego de Avila</field>
+			<field name="email">miruli@provevila.alinet.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_826" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">826</field>
+			<field name="name">Pesquera Las Tunas</field>
+			<field name="email">vilma@pescatun.alinet.cu, maritza@pescatun.alinet.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_827" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">827</field>
+			<field name="name">Aseguramiento Logística Mayabeque</field>
+			<field name="email">mayelinmy@apppmy.cu</field>
+			<field name="state_id">650</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_828" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">828</field>
+			<field name="name">Aseguramiento Logística Isla de la Juventud</field>
+			<field name="email">yohany@delecgci.atenas.inf.cu</field>
+			<field name="state_id">651</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_829" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">829</field>
+			<field name="name">Citma Cienfuegos</field>
+			<field name="email">elizabeth@citmacfg.gob.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_830" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">830</field>
+			<field name="name">Ganadería Santi Spiritus</field>
+			<field name="email">contabilidad@egamess.co.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_833" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">833</field>
+			<field name="name">Labiofam Ciego de Avila</field>
+			<field name="email">rrhh@cav.labiofam.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_834" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">834</field>
+			<field name="name">Bandec Ciego de Avila</field>
+			<field name="phone">33222727,33223109,33223194,33223002,</field>
+			<field name="email">julio@dpca.bandec.cu, personal@dpca.bandec.cu, juaquin@dpca.bandec.cu,silvia@dpca.bandec.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_835" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">835</field>
+			<field name="name">Emp. Porcino Las Tunas</field>
+			<field name="email">roberto@plo.lt.geg.cu, drrhh@tu.grupor.co.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_838" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">838</field>
+			<field name="name">Garbo</field>
+			<field name="phone">24422346</field>
+			<field name="mobile">52099377,52117566</field>
+			<field name="email">yleiva@garbo.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_839" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">839</field>
+			<field name="name">Azucarera Las Tunas AZCUBA</field>
+			<field name="email">yudeisy.suarez@ealt.azcuba.cu</field>
+			<field name="state_id">656</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_840" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">840</field>
+			<field name="name">EISA Matanzas</field>
+			<field name="email">anabel@eisamtz.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_841" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">841</field>
+			<field name="name">Eléctrica Holguin</field>
+			<field name="phone">24423702,24462487,24423731,</field>
+			<field name="mobile">52852700</field>
+			<field name="email">matos@elechol.une.cu, rafael@elechol.une.cu, lelio@elechol.une.cu,raquel@elechol.une.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_842" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">842</field>
+			<field name="name">Confecciones Fénix VC</field>
+			<field name="phone">42202030,42215632,42217204,,42205825</field>
+			<field name="email">rosmary@confenix.co.cu, raisa@confenix.co.cu, victor@confenix.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_843" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">843</field>
+			<field name="name">Cepil Ciego de Avila</field>
+			<field name="phone">33222764,33225973,33211884,</field>
+			<field name="email">lilian@cepil.co.cu, lourdes@cepil.co.cu, comercial@cepil.co.cu,idalia@cepil.co.cu, ramona@cepil.co.cu, julian@cepil.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_845" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">845</field>
+			<field name="name">Villaargraf</field>
+			<field name="email">rey@villargraf.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_846" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">846</field>
+			<field name="name">Emp de Bujías Neftalí Martinez</field>
+			<field name="email">dgeneral@bujias.co.cu</field>
+			<field name="city">Sagua</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_847" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">847</field>
+			<field name="name">Imp. Gral. del Transporte TRADEX</field>
+			<field name="email">anamaria@igt.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_848" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">848</field>
+			<field name="name">Emp.Prov. Cubataxi Artemisa</field>
+			<field name="email">raul@cubataxi.transnet.cu, alberto@taxihabana.transnet.cu</field>
+			<field name="state_id">649</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_849" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">849</field>
+			<field name="name">Emp. Serv. Dip trasbase</field>
+			<field name="email">nolberto.lao@hlg.hidro.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_850" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">850</field>
+			<field name="name">UNY Moda Matanzas</field>
+			<field name="phone">45253000,45291575</field>
+			<field name="email">direccion@gardis.co.cu, unymoda@gardis.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_851" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">851</field>
+			<field name="name">Grupo Gelma</field>
+			<field name="email">vpi@gelma.minag.cu, subdireccion@gelma.minag.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_852" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">852</field>
+			<field name="name">Seprot Habana</field>
+			<field name="email">direccion@seprot.ch.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_853" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">853</field>
+			<field name="name">Acopio Villa Clara</field>
+			<field name="email">tony@acopiovc.co.cu, lrhumanos@acopiovc.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_854" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">854</field>
+			<field name="name">Planta Mecánica</field>
+			<field name="email">geidy@plantamec.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_855" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">855</field>
+			<field name="name">INPUD</field>
+			<field name="phone">42208758 ext 123</field>
+			<field name="email">marelys@inpud.co.cu, rh@inpud.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_856" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">856</field>
+			<field name="name">Mat. Construcción Guantánamo</field>
+			<field name="email">margenis@gtm.geicon.cu</field>
+			<field name="state_id">659</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_857" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">857</field>
+			<field name="name">Mat. Const. Granma</field>
+			<field name="email">yarisleidis@granma.geicon.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_858" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">858</field>
+			<field name="name">Emp. Forestal Integral Ciénaga de Zapata</field>
+			<field name="email">rrhh@efic.z.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_859" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">859</field>
+			<field name="name">Refinería Santiago</field>
+			<field name="phone">22412777</field>
+			<field name="mobile">52129022</field>
+			<field name="email">yoslaydys@refscu.cupet.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_860" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">860</field>
+			<field name="name">Gráfica Matanzas</field>
+			<field name="phone">45253132</field>
+			<field name="mobile">52791919</field>
+			<field name="email">direccion@grafica.co.cu, aylin@grafica.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_861" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">861</field>
+			<field name="name">Comercial Cemento</field>
+			<field name="email">cruznvt@ecocem.cu, alicianvt@ecocem.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_862" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">862</field>
+			<field name="name">Comercial Cemento Artemisa</field>
+			<field name="email">candita.meneses@cemart.co.cu</field>
+			<field name="state_id">649</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_863" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">863</field>
+			<field name="name">Moa Holguín</field>
+			<field name="email">jcaballero@cil.moa.minen.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_864" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">864</field>
+			<field name="name">Emp. Tabaco Torcido</field>
+			<field name="email">salud@ettpartagas.co.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_865" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">865</field>
+			<field name="name">Herrajes y Galvanizado</field>
+			<field name="email">lidia@phgalv.epem.une.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_866" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">866</field>
+			<field name="name">UEB Manuel Fajardo</field>
+			<field name="email">sala202@correo.azcuba.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_867" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">867</field>
+			<field name="name">Eléctrica Habana</field>
+			<field name="phone">76463174,76463626 ext 3626</field>
+			<field name="mobile">52868736</field>
+			<field name="email">luisr@eleclh.une.cu, nancy@eleclh.une.cu, barbarita@eleclh.une.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_868" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">868</field>
+			<field name="name">Emp. Prov. Cemento Habana</field>
+			<field name="email">yhernandez@ecocem.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_869" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">869</field>
+			<field name="name">Eléctrica Mayabeque</field>
+			<field name="phone">47865659,47861208</field>
+			<field name="email">tahilin@elecmbq.une.cu, jgruporh@elecmbq.une.cu</field>
+			<field name="state_id">650</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_870" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">870</field>
+			<field name="name">Logística Oriente</field>
+			<field name="email">logisticaort@holguin.transmetro.co.cu</field>
+			<field name="state_id">660</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_875" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">875</field>
+			<field name="name">INIVIT viandas tropicales Sto Domingo</field>
+			<field name="email">sergio@inivit.cu, secadmon@inivit.cu, enit@inivit.cu</field>
+			<field name="city">Sto Domingo</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_878" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">878</field>
+			<field name="name">Empresa de Hormigón</field>
+			<field name="phone">42222505</field>
+			<field name="email">luisrr@ueb4.geconsvc.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_871" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">871</field>
+			<field name="name">Termoeléctrica Nuevitas</field>
+			<field name="phone">32412777,32412944</field>
+			<field name="mobile">52858393</field>
+			<field name="email">dirrrhh@ctenue.une.cu, reynelda@ctenue.une.cu, miriel@ctenue.une.cu, mirna@ctenue.une.cu, marianelaf@ctenue.une.cu</field>
+			<field name="city">Nuevitas</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_873" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">873</field>
+			<field name="name">Comunales Mayabeque</field>
+			<field name="phone">47863475,47863441,47863490</field>
+			<field name="email">yaisel@gm.co.cu</field>
+			<field name="state_id">650</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_874" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">874</field>
+			<field name="name">Comunales Pinar del Rio</field>
+			<field name="phone">48755388,48752547,48752815,48752542</field>
+			<field name="email">marlenis@dpsc.co.cu, marlenis.diaz@dpsc.co.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_876" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">876</field>
+			<field name="name">Electrica Granma</field>
+			<field name="phone">23427412,23427593 ext 858, 814 y 830 ATM 807 RH</field>
+			<field name="mobile">52792797</field>
+			<field name="email">leonis@elecgrm.une.cu, idelo@elecgrm.une.cu, rigo@elecgrm.une.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_880" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">880</field>
+			<field name="name">Energoimport</field>
+			<field name="email">glenda@energonet.une.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_884" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">884</field>
+			<field name="name">Comunales Isla de la Juventud</field>
+			<field name="mobile">52796095,52111015,52153547</field>
+			<field name="email">comercial@comunalesijv.co.cu, secretaria@comunalesijv.co.cu</field>
+			<field name="state_id">651</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_885" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">885</field>
+			<field name="name">Comunales Cienfuegos</field>
+			<field name="phone">43512546,43516865,43512250</field>
+			<field name="email">elopez@pa.cf.rimed.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_888" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">888</field>
+			<field name="name">Comunales Camaguey</field>
+			<field name="phone">32294552 ext 103 ext 120, 121,32291013 ext 120</field>
+			<field name="email">maite.escolante@cmgdpsc.co.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_889" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">889</field>
+			<field name="name">Comunales Santiago</field>
+			<field name="phone">22626227,22620696,22669491,22656428,22652922,</field>
+			<field name="email">hilsia@gobscu.cu</field>
+			<field name="state_id">658</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_890" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">890</field>
+			<field name="name">Emp. Transp. Serv. Mecanización</field>
+			<field name="phone">42204660-118</field>
+			<field name="email">obermudeza@tmvc.azcuba.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_891" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">891</field>
+			<field name="name">EMCOMED VC</field>
+			<field name="phone">42218311,42218315</field>
+			<field name="email">lesly@vcl.emcomed.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_894" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">894</field>
+			<field name="name">Cometal Nacional</field>
+			<field name="phone">76938023</field>
+			<field name="email">direccion@cometal.co.cu, yamilet@cometal.co.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_895" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">895</field>
+			<field name="name">Cítricos Ceiba</field>
+			<field name="phone">47315406,,,47315542 ext 109</field>
+			<field name="email">encceiba@enet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_922" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">922</field>
+			<field name="name">Puerto de Nuevitas</field>
+			<field name="phone">32414361</field>
+			<field name="email">noel@puertonv.transnet.cu, eliecer@puertonv.transnet.cu</field>
+			<field name="city">Nuevitas</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_923" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">923</field>
+			<field name="name">Vivero Alamar</field>
+			<field name="email">ubpc_alamar@hab.minag.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_896" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">896</field>
+			<field name="name">Caracol</field>
+			<field name="phone">72041691,72040437</field>
+			<field name="email">institucional@caracol.cu, nela@caracol.cu, niurka.castro@caracol.cu, estela@caracol.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_897" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">897</field>
+			<field name="name">SEISASEISA Casa Matriz</field>
+			<field name="phone">72046587</field>
+			<field name="email">negocios@seisa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_898" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">898</field>
+			<field name="name">SEISA Habana</field>
+			<field name="phone">78832023</field>
+			<field name="email">habana@seisa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_899" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">899</field>
+			<field name="name">CUEX SA</field>
+			<field name="phone">72040397</field>
+			<field name="email">cuex@cuex.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_900" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">900</field>
+			<field name="name">GEIA</field>
+			<field name="phone">78698100,78624029</field>
+			<field name="email">presidencia@geia.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_901" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">901</field>
+			<field name="name">DESOFT Nac.</field>
+			<field name="email">negocios@desoft.cu, soporte@hab.desoft.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_902" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">902</field>
+			<field name="name">TECNOAZUCAR Casa Matriz</field>
+			<field name="phone">78324352,78305060</field>
+			<field name="email">sala.ta@tecnoazucar.azcuba.cu, mileidys.izquierdo@tecnoazucar.azcuba.cu, maria.pereira@tecnoazucar.azcuba.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_903" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">903</field>
+			<field name="name">TECNOAZUCAR Mayabeque</field>
+			<field name="phone">47533262,47533263</field>
+			<field name="email">alexey.moro@tamy.azcuba.cu</field>
+			<field name="state_id">650</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_904" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">904</field>
+			<field name="name">Comunales Habana 2</field>
+			<field name="phone">78339965,78336825,76914462</field>
+			<field name="mobile">52099886</field>
+			<field name="email">rhumanos1@secom.ch.gob.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_905" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">905</field>
+			<field name="name">UEB Tecnoazucar Pinar del Río.</field>
+			<field name="phone">48777226 y 48778139</field>
+			<field name="email">ricardo.leon@tapr.azcuba.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_907" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">907</field>
+			<field name="name">Escambray Casa Matriz</field>
+			<field name="phone">78331077 /79,78383056 /57,78383053</field>
+			<field name="email">arais@escambray.com.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_908" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">908</field>
+			<field name="name">Cubacontrol Nacional</field>
+			<field name="email">ccontrol@cubacontrol.com.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_909" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">909</field>
+			<field name="name">AGESP</field>
+			<field name="email">agespd@transnet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_911" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">911</field>
+			<field name="name">RCB</field>
+			<field name="phone">72094700,72022301,72021013</field>
+			<field name="email">director@rcb.transnet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_913" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">913</field>
+			<field name="name">Sepcom Habana</field>
+			<field name="phone">78733718,76427802,72609406</field>
+			<field name="email">frias@sepcom.co.cu, sepcoma9@enet.cu, sepcoma7@enet.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_914" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">914</field>
+			<field name="name">Sepcom Cienfuegos</field>
+			<field name="phone">43528032</field>
+			<field name="email">cd@enet.cu, logistica.cfgs@sepcom.co.cu, economia.cfgs@sepcom.co.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_916" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">916</field>
+			<field name="name">ETECSA NAC.</field>
+			<field name="email">georgina.perez@etecsa.cu, dalila.pousa@etecsa.cu, solmaria.rios@etecsa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_917" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">917</field>
+			<field name="name">TEXORO</field>
+			<field name="phone">23483332</field>
+			<field name="mobile">52855029</field>
+			<field name="email">idalmis@texoro.sarex.co.cu</field>
+			<field name="state_id">657</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_919" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">919</field>
+			<field name="name">Aprovechamiento Hidráulico SS</field>
+			<field name="phone">41366054</field>
+			<field name="email">dsoria@ssp.hidro.cu</field>
+			<field name="state_id">654</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_920" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">920</field>
+			<field name="name">ETECSA NAC. 2</field>
+			<field name="email">rafael.martinez@etecsa.cu, lazaro.aneiro@etecsa.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_915" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">915</field>
+			<field name="name">DIMARQ Ciego de Ávila</field>
+			<field name="phone">33206898,33206981,33202188,</field>
+			<field name="mobile">52795889</field>
+			<field name="email">general@dimarq.co.cu, rregalado@dimarq.co.cu</field>
+			<field name="state_id">647</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_921" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">921</field>
+			<field name="name">Emp. Acopio Beneficio del Tabaco PR</field>
+			<field name="phone">48703445,48703156,48703101,,48709091</field>
+			<field name="email">direccion@tpinar.co.cu, uebaseguramiento@tpinar.co.cu, sdirector@tpinar.co.cu</field>
+			<field name="state_id">648</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_925" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">925</field>
+			<field name="name">BPA Matanzas</field>
+			<field name="phone">45261610,45242222,45262545,45242223</field>
+			<field name="email">yamelin@a3912.ma.bpa.cu, mayelin.santos@a3912.ma.bpa.cu, oscar.ricardo@3912.ma.bpa.cu, hilier@mail.ma.bpa.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_927" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">927</field>
+			<field name="name">Ronera de Cardenas</field>
+			<field name="phone">45522102 ext 443</field>
+			<field name="email">ajimenez@cbron.co.cu</field>
+			<field name="state_id">652</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_931" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">931</field>
+			<field name="name">TECNOAZUCAR Nacional</field>
+			<field name="email">maria.pereira@tecnoazucar.azcuba.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_933" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">933</field>
+			<field name="name">SUMARPO</field>
+			<field name="phone">78617557,78624670,78617562</field>
+			<field name="email">teresita@sumarpo.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_934" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">934</field>
+			<field name="name">Comercializadora Camilo Cienfuegos</field>
+			<field name="phone">77977001 ext 320 RH</field>
+			<field name="email">yamila@copacce.cu, inalvis@copacce.cu, yuliena@copacce.cu, inalvis@copacce.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_935" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">935</field>
+			<field name="name">Micalum Cienfuegos</field>
+			<field name="phone">43524118</field>
+			<field name="mobile">52859727</field>
+			<field name="email">aleja@micalum.co.cu, eddy@micalum.co.cu</field>
+			<field name="state_id">653</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_936" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">936</field>
+			<field name="name">Azumat</field>
+			<field name="mobile">52797480</field>
+			<field name="email">lazaro.marin@azumat.azcuba.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_937" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">937</field>
+			<field name="name">Servicios Viajeros Camagüey</field>
+			<field name="email">director@viajerocmg.transnet.cu, rhumanos@viajerocmg.transnet.cu</field>
+			<field name="state_id">655</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_938" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">938</field>
+			<field name="name">Emprestur</field>
+			<field name="email">faise@esvc.tur.cu, yuniel@esvc.tur.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_939" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">939</field>
+			<field name="name">La Estancia</field>
+			<field name="phone">72730579-80-86</field>
+			<field name="mobile">52856218</field>
+			<field name="email">marylin@laestancia.cu, clara@laestancia.cu, jesica@laestancia.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_942" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">942</field>
+			<field name="name">Transtur Habana 2</field>
+			<field name="phone">72086905,72086899,72086900</field>
+			<field name="email">sst@transtur.cu, yadira.ramirez@atm.transmetro.cu</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+		<record id="client_944" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">944</field>
+			<field name="name">Empresa Const. de Vías Ferreas VC</field>
+			<field name="phone">42882856</field>
+			<field name="email">ailyn@solcar.ferronet.cu</field>
+			<field name="state_id">646</field>
+			<field name="country_id">52</field>
+			<field name="customer">True</field>
+		</record>
+	</data>
+</odoo>

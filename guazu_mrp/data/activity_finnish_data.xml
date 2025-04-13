@@ -1,0 +1,400 @@
+<odoo>
+    <data noupdate="0">
+		<record id="mrp_activity_finnish_66" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Empate Cordones 0.025</field>
+			<field name="price">0.025</field>
+		</record>
+		<record id="mrp_activity_finnish_24" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Descantillado de Vistas 0.10</field>
+			<field name="price">0.1</field>
+		</record>
+		<record id="mrp_activity_finnish_10" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Descantillado de Lenguas</field>
+			<field name="price">0.1</field>
+		</record>
+		<record id="mrp_activity_finnish_32" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Empate  Cordones</field>
+			<field name="price">0.11</field>
+		</record>
+		<record id="mrp_activity_finnish_67" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Cosido Cordones 0.11</field>
+			<field name="price">0.11</field>
+		</record>
+		<record id="mrp_activity_finnish_77" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Envase en Jaba 0.11</field>
+			<field name="price">0.11</field>
+		</record>
+		<record id="mrp_activity_finnish_79" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Media Plantilla 0.13</field>
+			<field name="price">0.13</field>
+		</record>
+		<record id="mrp_activity_finnish_54" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantilla 0.15</field>
+			<field name="price">0.15</field>
+		</record>
+		<record id="mrp_activity_finnish_26" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantilla de Carnaza 0.15</field>
+			<field name="price">0.15</field>
+		</record>
+		<record id="mrp_activity_finnish_13" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Cortadas 0.15</field>
+			<field name="price">0.15</field>
+		</record>
+		<record id="mrp_activity_finnish_92" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Media Plantilla 0.20</field>
+			<field name="price">0.2</field>
+		</record>
+		<record id="mrp_activity_finnish_38" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Vista 0.25</field>
+			<field name="price">0.25</field>
+		</record>
+		<record id="mrp_activity_finnish_80" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Retoque de Pintura</field>
+			<field name="price">0.25</field>
+		</record>
+		<record id="mrp_activity_finnish_47" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantilla 0.25</field>
+			<field name="price">0.25</field>
+		</record>
+		<record id="mrp_activity_finnish_14" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantillas Cortadas 0.25</field>
+			<field name="price">0.25</field>
+		</record>
+		<record id="mrp_activity_finnish_16" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Pintura  0.25</field>
+			<field name="price">0.25</field>
+		</record>
+		<record id="mrp_activity_finnish_86" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Diferencia de Pago 0.28</field>
+			<field name="price">0.28</field>
+		</record>
+		<record id="mrp_activity_finnish_41" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Sellos a Naúticos 0.3</field>
+			<field name="price">0.3</field>
+		</record>
+		<record id="mrp_activity_finnish_61" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Vistas 0.30</field>
+			<field name="price">0.3</field>
+		</record>
+		<record id="mrp_activity_finnish_20" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Pintura 0.35</field>
+			<field name="price">0.35</field>
+		</record>
+		<record id="mrp_activity_finnish_90" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantillas 0.35</field>
+			<field name="price">0.35</field>
+		</record>
+		<record id="mrp_activity_finnish_17" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Pintura 0.50</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_6" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Ranurar</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_34" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Cortadas 0.50</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_11" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Descantillado Cortes</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_31" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Martillar Botas</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_12" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Pegadas 0.5</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_81" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Vista 0.5</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_finnish_76" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Brillo y retoque 0.55</field>
+			<field name="price">0.55</field>
+		</record>
+		<record id="mrp_activity_finnish_84" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Sellos Guazú 0.56</field>
+			<field name="price">0.56</field>
+		</record>
+		<record id="mrp_activity_finnish_40" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Pegadas 0.6</field>
+			<field name="price">0.6</field>
+		</record>
+		<record id="mrp_activity_finnish_52" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantillas 0.60</field>
+			<field name="price">0.6</field>
+		</record>
+		<record id="mrp_activity_finnish_75" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantilla Troquelada</field>
+			<field name="price">0.667</field>
+		</record>
+		<record id="mrp_activity_finnish_68" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Piezas para Zapatillas 0.7</field>
+			<field name="price">0.7</field>
+		</record>
+		<record id="mrp_activity_finnish_39" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Vistas 0.7</field>
+			<field name="price">0.7</field>
+		</record>
+		<record id="mrp_activity_finnish_30" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Cortadas 0.75</field>
+			<field name="price">0.75</field>
+		</record>
+		<record id="mrp_activity_finnish_28" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Pintura Botas 0.78</field>
+			<field name="price">0.78</field>
+		</record>
+		<record id="mrp_activity_finnish_57" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_corte_plantillas" />
+			<field name="name">Plantilla 0.78</field>
+			<field name="price">0.78</field>
+		</record>
+		<record id="mrp_activity_finnish_46" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Pintura 1</field>
+			<field name="price">1</field>
+		</record>
+		<record id="mrp_activity_finnish_33" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Descantillado Especial</field>
+			<field name="price">1</field>
+		</record>
+		<record id="mrp_activity_finnish_25" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido de 1.00</field>
+			<field name="price">1</field>
+		</record>
+		<record id="mrp_activity_finnish_56" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Pirograbado Plantilla 1.00</field>
+			<field name="price">1</field>
+		</record>
+		<record id="mrp_activity_finnish_55" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Plantilla 1.0</field>
+			<field name="price">1</field>
+		</record>
+		<record id="mrp_activity_finnish_7" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Lenguas 1.02 </field>
+			<field name="price">1.02</field>
+		</record>
+		<record id="mrp_activity_finnish_82" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Plantillas timbradas 1.11</field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_finnish_72" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Pieles 1.11</field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_finnish_60" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_plantillas_cordones" />
+			<field name="name">Plantillas </field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_finnish_70" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_pintura" />
+			<field name="name">Pintura 1.11</field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_finnish_78" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Vistas de Piel 1.20</field>
+			<field name="price">1.2</field>
+		</record>
+		<record id="mrp_activity_finnish_8" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Lenguas 1.50</field>
+			<field name="price">1.5</field>
+		</record>
+		<record id="mrp_activity_finnish_51" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido 1.50</field>
+			<field name="price">1.5</field>
+		</record>
+		<record id="mrp_activity_finnish_35" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido Máquina 1.50</field>
+			<field name="price">1.5</field>
+		</record>
+		<record id="mrp_activity_finnish_18" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido a Máquina 1.67</field>
+			<field name="price">1.67</field>
+		</record>
+		<record id="mrp_activity_finnish_1" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Tacón de Bota 2.0</field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_finnish_83" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Tacón de Mocasín 2.00</field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_finnish_21" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido Máquina Tacon </field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_finnish_91" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Forro para Náuticos</field>
+			<field name="price">2.22</field>
+		</record>
+		<record id="mrp_activity_finnish_74" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Colegiales</field>
+			<field name="price">2.5</field>
+		</record>
+		<record id="mrp_activity_finnish_87" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Sandalias Mujer 2.78</field>
+			<field name="price">2.78</field>
+		</record>
+		<record id="mrp_activity_finnish_2" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Bota de Mujer 3.0</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_50" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Guantes 3.00</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_19" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido a Maquina 3.00</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_65" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Piel 3 m2</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_27" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido 3.00</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_64" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Pieles m2 (3.00)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_63" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Mocasines 3.00</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_69" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_misc" />
+			<field name="name">Piel 3</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_finnish_88" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Sandalia Hombre 3.33</field>
+			<field name="price">3.33</field>
+		</record>
+		<record id="mrp_activity_finnish_3" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cerco Bota Trabajo 4.0</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_finnish_89" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Sandalia Mujer 4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_finnish_85" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Náutico vestir 4.00</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_finnish_58" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido 4.44</field>
+			<field name="price">4.44</field>
+		</record>
+		<record id="mrp_activity_finnish_59" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido 5.00</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_finnish_71" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Respaldo de Taburete</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_finnish_5" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Tacón y suela 5.0</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_finnish_23" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido 7.00</field>
+			<field name="price">7</field>
+		</record>
+		<record id="mrp_activity_finnish_22" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cosido" />
+			<field name="name">Cosido de 9.00</field>
+			<field name="price">9</field>
+		</record>
+		<record id="mrp_activity_finnish_37" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Braceros 40</field>
+			<field name="price">40</field>
+		</record>
+		<record id="mrp_activity_finnish_36" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_finnish" />
+			<field name="name">Braceros 50</field>
+			<field name="price">50 </field>
+		</record>
+
+    </data>
+</odoo>

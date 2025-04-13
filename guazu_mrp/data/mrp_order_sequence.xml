@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<odoo>
+<data noupdate="1">
+    <record model="ir.sequence" id="seq_mrp_order">
+        <field name="name">guazu.mrp.order</field>
+        <field name="code">guazu.mrp.order</field>
+        <field name="prefix">OP-%(year)s-%(month)s-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False" />
+    </record>
+</data>
+</odoo>

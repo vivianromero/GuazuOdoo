@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_stock_balance">
+            <t t-call="report.html_container"> <!-- web.html_container -->
+                 <t t-call="report.internal_layout"> <!-- web.external_layout -->
+                        <div class="page">
+                            <script>window.print();</script>
+                            <div class="oe_structure"/>
+                            <h2>Balance de inventarios por productos</h2>
+                           
+							<table class="table table-condensed table-bordered">
+                                <!--<tr>-->
+                                    <!--<td width="33%"><strong>Categorías</strong></td>-->
+                                    <!--<td width="33%"><strong>Atributos</strong></td>-->
+                                    <!--<td width="33%"><strong>Ubicaciones</strong></td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td><span t-foreach="categories" t-as="cat"><span t-esc="cat"/><br/></span></td>-->
+                                    <!--<td><span t-foreach="attributes" t-as="att"><span t-esc="att"/><br/></span></td>-->
+                                    <!--<td><span t-foreach="locations" t-as="loc"><span t-esc="loc"/><br/></span></td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td width="33%"><strong>Colores</strong></td>-->
+                                    <!--<td width="33%"><strong>Sexos</strong></td>-->
+                                    <!--<td width="33%"><strong>Materiales</strong></td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td><span t-foreach="colors" t-as="col"><span t-esc="col"/><br/></span></td>-->
+                                    <!--<td><span t-foreach="sexs" t-as="sex"><span t-esc="sex"/><br/></span></td>-->
+                                    <!--<td><span t-foreach="materials" t-as="mat"><span t-esc="mat"/><br/></span></td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td width="33%"><strong>Productos</strong></td>-->
+                                    <!--<td width="33%"><strong>Fecha inicial</strong></td>-->
+                                    <!--<td width="33%"><strong>Fecha final</strong></td>-->
+                                <!--</tr>-->
+                                <!--<tr>-->
+                                    <!--<td><span t-foreach="product_templates" t-as="prod"><span t-esc="prod"/><br/></span></td>-->
+                                    <!--<td><span t-esc="start_date"/></td>-->
+                                    <!--<td><span t-esc="end_date"/></td>-->
+                                <!--</tr>-->
+                                <tr>
+                                    <!--<td><span t-foreach="locations" t-as="loc"><span t-esc="loc"/><br/></span></td>-->
+                                    <td><strong>Fecha Inicial </strong><span t-esc="start_date"/></td>
+                                    <td><strong>Fecha Final </strong><span t-esc="end_date"/></td>
+                                </tr>
+                            </table>
+                            
+                            <div t-foreach="lines" t-as="line">
+<!--                                <br/><br/>-->
+                                <h3><span t-esc="line['location']"/></h3>
+                                <!-- <div t-foreach="line['products']" t-as="product"> -->
+                                    <table class="table table-condensed table-bordered">
+                                        <thead>
+                                            <tr t-if="access_price">
+                                                <th rowspan="2" width="30%">Producto</th>
+                                                <th rowspan="2" width="6%" class="text-center">UdM</th>
+                                                <th colspan="2" width="16%" class="text-center">Existencia Inicial</th>
+                                                <th colspan="2" width="16%" class="text-center">Entradas</th>
+                                                <th colspan="2" width="16%" class="text-center">Salidas</th>
+                                                <th colspan="2" width="16%" class="text-center">Existencia Final</th>
+                                            </tr>
+											
+											<tr t-if="not access_price">
+                                                <th rowspan="2" width="30%">Producto</th>
+                                                <th rowspan="2" width="6%" class="text-center">UdM</th>
+												<th width="8%" class="text-center">Existencia Inicial</th>
+                                                <th width="8%" class="text-center">Entradas</th>
+                                                <th width="8%" class="text-center">Salidas</th>
+                                                <th width="8%" class="text-center">Existencia Final</th>
+                                            </tr>
+											
+                                            <tr>
+                                                <th width="8%" class="text-center">Cantidad</th>
+                                                <th t-if="access_price" width="8%" class="text-center">Importe (MP)</th>
+                                                <th width="8%" class="text-center">Cantidad</th>
+                                                <th t-if="access_price" width="8%" class="text-center">Importe (MP)</th>
+                                                <th width="8%" class="text-center">Cantidad</th>
+                                                <th t-if="access_price" width="8%" class="text-center">Importe (MP)</th>
+                                                <th width="8%" class="text-center">Cantidad</th>
+                                                <th t-if="access_price" width="8%" class="text-center">Importe (MP)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody >
+
+                                            <tr t-foreach="line['products']" t-as="product">
+                                                    <td t-if="not product['is_total']"><span t-esc="product['name']"/></td>
+                                                    <td t-if="not product['is_total']"><span t-esc="product['uom']"/></td>
+                                                    <td t-if="not product['is_total']" class="text-right"><span t-esc="product['initial_qty']"/></td>
+                                                    <td t-if="access_price and not product['is_total']" class="text-right"><span t-esc="product['initial_balance']"/></td>
+                                                    <td class="text-right" t-if="not product['is_total']"><span t-esc="product['in_qty']"/></td>
+                                                    <td t-if="access_price and not product['is_total']" class="text-right"><span t-esc="product['in_balance']"/></td>
+                                                    <td t-if="not product['is_total']" class="text-right"><span t-esc="product['out_qty']"/></td>
+                                                    <td t-if="access_price and not product['is_total']" class="text-right"><span t-esc="product['out_balance']"/></td>
+                                                    <td t-if="not product['is_total']" class="text-right"><span t-esc="product['final_qty']"/></td>
+                                                    <td t-if="access_price and not product['is_total']" class="text-right"><span t-esc="product['final_balance']"/></td>
+
+                                                    <th t-if="product['is_total']"><span t-esc="product['name']"/></th>
+                                                    <th t-if="product['is_total']"><span t-esc="product['uom']"/></th>
+                                                    <th t-if="product['is_total']" class="text-right"><span t-esc="product['initial_qty']"/></th>
+                                                    <th t-if="access_price and product['is_total']" class="text-right"><span t-esc="product['initial_balance']"/></th>
+                                                    <th class="text-right" t-if="product['is_total']"><span t-esc="product['in_qty']"/></th>
+                                                    <th t-if="access_price and product['is_total']" class="text-right"><span t-esc="product['in_balance']"/></th>
+                                                    <th t-if="product['is_total']" class="text-right"><span t-esc="product['out_qty']"/></th>
+                                                    <th t-if="access_price and product['is_total']" class="text-right"><span t-esc="product['out_balance']"/></th>
+                                                    <th t-if="product['is_total']" class="text-right"><span t-esc="product['final_qty']"/></th>
+                                                    <th t-if="access_price and product['is_total']" class="text-right"><span t-esc="product['final_balance']"/></th>
+                                                </tr>
+                                        </tbody>
+                                        <!-- <tfooter>
+                                            <tr>
+                                                <th>TOTAL</th>
+                                                <th></th>
+                                                <th class="text-right"><span t-esc="line['total_balance']"/></th>
+                                                <th class="text-center"></th>
+                                                <th class="text-center"></th>
+                                                <th class="text-right"><span t-esc="line['total_amount']"/></th>
+                                            </tr>
+                                        </tfooter> -->
+                                    </table>
+                                <!-- </div> -->
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
+                    </t>
+                </t>
+            <!-- </t> -->
+        </template>
+    </data>
+</odoo>

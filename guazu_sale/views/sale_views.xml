@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_sale_order_filter" model="ir.ui.view">
+            <field name="name">guazu.sale.order.filter</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <search string="Buscar órdenes de venta">
+                    <separator/>
+                    <filter string="Ofertas" name="type_offer" domain="[('state', 'in', ('draft', 'sent', 'confirmed'))]" />
+                    <filter string="Demorada" name="type_delayed" domain="[('is_late', '=', True)]" />
+                    <field name="name"/>
+                    <field name="partner_id"/>
+                    <field name="state"/>
+                    <group expand="0" string="Agrupar por">
+                        <filter string="Cliente" domain="[]" context="{'group_by':'partner_id'}"/>
+                        <filter string="Estado" name="type_state" domain="[]" context="{'group_by':'state'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="view_sale_order_calendar" model="ir.ui.view">
+            <field name="name">guazu.sale.order.calendar</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <calendar string="Órdenes de venta" date_start="create_date" color="state">
+                    <field name="partner_id"/>
+                    <field name="amount_total" widget="monetary"/>
+                </calendar>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_sale_order_graph">
+            <field name="name">guazu.sale.order.graph</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <graph string="Órdenes de venta">
+                    <field name="partner_id"/>
+                    <field name="amount_total" type="measure"/>
+                </graph>
+            </field>
+        </record>
+        <record model="ir.ui.view" id="view_sale_order_pivot">
+            <field name="name">guazu.sale.order.pivot</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <pivot string="Órdenes de venta">
+                    <field name="create_date" type="row"/>
+                    <field name="amount_total" type="measure"/>
+                </pivot>
+            </field>
+        </record>
+
+        <!-- Órdenes de venta Kanban View  -->
+        <record model="ir.ui.view" id="view_sale_order_kanban">
+            <field name="name">guazu.sale.order.kanban</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="partner_id"/>
+                    <field name="amount_total"/>
+                    <field name="create_date"/>
+                    <field name="state"/>
+                    <field name="is_late"/>
+                    <field name="currency_id"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                                <div class="o_kanban_record_top mb16">
+                                    <div class="o_kanban_record_headings mt4">
+                                        <t t-if="record.is_late.raw_value"><span class="fa fa-clock-o fa-2x text-danger"> </span></t>
+                                        <strong class="o_kanban_record_title"><span><t t-esc="record.partner_id.value"/></span></strong>
+                                    </div>
+                                    <strong><field name="amount_total" widget="monetary"/></strong>
+                                </div>
+                                <div class="o_kanban_record_bottom">
+                                    <div class="oe_kanban_bottom_left text-muted">
+                                        <span><t t-esc="record.name.value"/> </span>
+                                        <!-- <button name="action_send" states="draft" class="oe_button oe_highlight" type="object" string="Oferta enviada" help="Marcar esta oferta como enviada al cliente"/> -->
+                                    </div>
+                                    <div class="oe_kanban_bottom_right">
+                                        <field name="state" widget="label_selection" options="{'classes': {'draft': 'default', 'sent': 'warning', 'confirmed': 'info', 'invoiced':'success', 'cancel': 'danger', 'cancelnotback': 'danger','done': 'success'}}"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <record id="view_order_tree" model="ir.ui.view">
+            <field name="name">guazu.sale.order.tree</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <tree string="Órdenes de venta" decoration-danger="state=='cancel'" decoration-muted="state=='done'" decoration-success="state in ('draft','confirmed')" decoration-warning="state=='sent'" decoration-info="state=='invoiced'">
+<!--                <tree string="Órdenes de venta" decoration-success="state=='draft'" decoration-warning="state=='wait'" decoration-muted="state=='done'" decoration-danger="state=='cancel'">    -->
+                    <field name="name"/>
+                    <field name="confirmation_date" />
+                    <field name="partner_id"/>
+                    <field name="amount_total" sum="Total" widget="monetary"/>
+                    <field name="currency_id" invisible="1"/>
+                    <field name="state" />
+                    <field name="is_late" invisible="1"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_order_form" model="ir.ui.view">
+            <field name="name">guazu.sale.order.form</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+                <form string="Orden de venta" class="o_sale_order">
+                <header>
+                    <button name="print_quotation" string="Imprimir" type="object" states="draft,sent,register,confirmed,invoiced,done,cancel,cancelnotback,pay" class="o_sale_print"/>
+                    <button name="action_send" states="draft" class="oe_highlight" type="object" string="Oferta enviada" help="Marcar esta oferta como enviada al cliente"/>
+                    <button name="action_confirm" string="Confirmar venta" class="oe_highlight" type="object" states="sent"/>
+                    <button name="action_invoice" states="confirmed" class="oe_highlight" type="object" string="Facturada"  help="Marcar esta oferta como facturada"/>
+                    <button name="action_cancel" states="sent,confirmed,invoiced,register" type="object" string="Cancelar" />
+                    <button name="action_draft" states="cancel" type="object" string="Volver a oferta"/>
+                    <!--<button name="action_done" type="object" class="oe_highlight" string="Terminar" help="Termina la venta y los movimientos de inventarios asociados" states="invoiced" confirm="¿Está seguro de que desea terminar esta orden de venta?"/>-->
+                    <field name="state" widget="statusbar" statusbar_visible="draft,sent,confirmed,invoiced,done"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="partner_id" domain="[('customer','=',True)]" attrs="{'readonly': [('state', 'not in', ['draft'])]}" context="{'search_default_customer':1, 'show_address': 1}" options='{"always_reload": True}'/>
+                            <field name="company_id" groups="base.multi_company"/>
+                            <field name="pricelist_id" groups="product.group_sale_pricelist"/>
+                            <field name="currency_id" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="validity_date" attrs="{'invisible': [('state', 'in', ['sale', 'done'])]}"/>
+                            <field name="confirmation_date" attrs="{'invisible': [('state', 'in', ['draft', 'sent', 'cancel'])]}"/>
+                            <!-- <field name="is_late" /> -->
+                        </group>
+                        <group>
+                            <field name="location_id" />
+                            <field name="picking_date" attrs="{'readonly': [('state', 'not in', ['confirmed', 'invoiced'])], 'invisible': [('state', 'in', ['draft', 'sent'])]}"/>
+                            <!--<field name="stock_move_id" attrs="{'invisible': [('stock_move_id', '=', False)]}"/>-->
+                        </group>
+						<group>
+							<field name="nro_invoice" attrs="{'invisible':[('state', 'not in', ['confirmed','invoiced','cancelnotback'])],
+							'readonly':[('state', 'in', ['cancel', 'invoiced', 'cancelnotback'])]}"/>
+						</group>
+                        <group>
+                            <label for="sale_type" string="Tipo de Venta" class="font-weight-bold"/>
+                            <div style="display: flex; align-items: center;">
+                                <field name="sale_type" widget="radio"/>
+                            </div>
+                        </group>
+                        <!--<group>-->
+                            <!--<field name="department_id" attrs="{'readonly': [('state', 'in', ['done', 'cancel'])]}"/>-->
+                            <!--<field name="employee_ids" attrs="{'readonly': [('state', 'in', ['done', 'cancel'])]}" widget="many2many_tags"/>-->
+
+                        <!--</group>-->
+                    </group>
+                    <notebook>
+                        <page string="Detalles">
+                            <field colspan="4" name="line_ids" nolabel="1" mode="tree,kanban" context="{'location_id': location_id}" attrs="{'readonly':[('state','!=','draft')]}" >
+
+                                <tree string="Detalles" editable="bottom" decoration-danger="quantity &gt; existence and state not in ('done', 'cancel', 'cancelnotback')">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="product_id"
+                                        context="{'partner_id':parent.partner_id, 'quantity':quantity, 'pricelist':parent.pricelist_id, 'company_id': parent.company_id}"
+                                       />
+                                    <!-- <field name="track_id" /> -->
+                                    <field name="quantity"
+                                        string="Cantidad"
+                                        context="{'partner_id':parent.partner_id, 'quantity':quantity, 'pricelist':parent.pricelist_id, 'company_id': parent.company_id}"
+                                    />
+                                    <field name="existence"  attrs="{'invisible':['|', ('state', 'in', ('done', 'cancel','cancelnotback','invoiced'))]}"/>
+                                    <field name="uom_id" options='{"no_open": True}'/>
+                                    <field name="price" widget="monetary"/>
+                                    <field name="amount" widget="monetary" />
+                                    <field name="currency_id" invisible="1"/>
+                                    <field name="state" invisible="1"/>
+                                </tree>
+                                <kanban class="o_kanban_mobile">
+                                    <field name="product_id"/>
+                                    <field name="quantity"/>
+                                    <field name="uom_id"/>
+                                    <field name="price"/>
+                                    <field name="amount"/>
+                                    <field name="currency_id" invisible="1"/>
+                                    <field name="state" invisible="1"/>
+                                    <templates>
+                                        <t t-name="kanban-box">
+                                            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                                                <div class="row">
+                                                    <div class="col-xs-8">
+                                                        <strong><span><t t-esc="record.product_id.value"/></span></strong>
+                                                    </div>
+                                                    <div class="col-xs-4">
+                                                        <strong><span class="pull-right text-right">
+                                                        <t t-esc="record.price_subtotal.value"/></span></strong>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12 text-muted">
+                                                        <span>Quantity: <t t-esc="record.quantity.value"/> <t t-esc="record.uom_id.value"/></span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12 text-muted">
+                                                        <span>Precio: <t t-esc="record.price_unit.value"/></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr/>
+                                        </t>
+                                    </templates>
+                                </kanban>
+                                <form string="Detalles de la orden de ventas">
+                                    <group>
+                                        <group>
+                                            <field name="product_id"
+                                                context="{'partner_id':parent.partner_id, 'quantity':quantity, 'pricelist':parent.pricelist_id,'company_id': parent.company_id}"
+                                                                      force_save="1"
+                                               />
+                                            <label for="quantity" string="Cantidad"/>
+                                            <div>
+                                                <field
+                                                    context="{'partner_id':parent.partner_id, 'quantity':quantity, 'pricelist':parent.pricelist_id,'uom_qty_change':True, 'company_id': parent.company_id}"
+                                                    name="quantity" class="oe_inline"/>
+                                                <field name="uom_id" groups="product.group_uom" class="oe_inline oe_no_button"
+                                                    attrs="{'readonly': [('state', 'in', ('sale','done', 'cancel','cancelnotback','draft'))]}"/>
+                                            </div>
+                                            <field name="price"/>
+                                            <field name="amount" class="oe_inline"/>
+                                            <field name="track_id" />
+                                            <field name="state" invisible="1"/>
+                                        </group>
+                                    </group>
+                                </form>
+                            </field>
+                            <group class="oe_subtotal_footer oe_right" colspan="2" name="sale_total">
+                                <div class="oe_subtotal_footer_separator oe_inline o_td_label">
+                                    <label for="quantity_total" string="Cantidad"/>
+                                </div>
+                                <field name="quantity_total" nolabel="1" class="oe_subtotal_footer_separator" />
+
+                                <div class="oe_subtotal_footer_separator oe_inline o_td_label">
+                                    <label for="amount_total" string="Importe"/>
+                                </div>
+                                <field name="amount_total" nolabel="1" class="oe_subtotal_footer_separator" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                            </group>
+                            <field name="note" class="oe_inline" placeholder="Observaciones de esta venta..."/>
+                            <div class="oe_clear"/>
+                        </page>
+						<page string="Adjuntar Ficheros" attrs="{'invisible': [('state', 'not in', ('invoiced','done', 'cancel','cancelnotback'))]}">
+							<field name="attachment_ids" widget="many2many_binary" attrs="{'invisible': [('state', 'not in', ('invoiced','done', 'cancel','cancelnotback'))]}"/>
+							
+						</page>
+                    </notebook>
+                </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_sale_order_list" model="ir.ui.view">
+            <field name="name">guazu.sale.order.list</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="arch" type="xml">
+<!--                <tree string="Ventas" decoration-success="state=='draft'">-->
+                <tree string="Ventas" decoration-danger="state in ('cancel', 'cancelnotback')" decoration-muted="state=='done'" decoration-success="state in ('draft','confirmed')" decoration-warning="state=='sent'" decoration-info="state=='invoiced'">
+                    <field name="name" />
+                    <!--<field name="company_id" groups="base.group_multi_company"/>-->
+                    <field name="partner_id"/>
+                    <!--<field name="date"/>-->
+                    <!--<field name="trans_nro"/>-->
+                    <field name="amount_total" string="Importe" sum="total" widget="monetary"/>
+                    <field name="currency_id" invisible="1"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_orders" model="ir.actions.act_window">
+            <field name="name">Órdenes de venta</field>
+            <!--<field name="type">ir.actions.act_window</field>-->
+            <field name="res_model">guazu.sale.order</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,kanban,form,calendar,pivot,graph</field>
+            <field name="view_id" ref="view_sale_order_list"/>
+            <field name="search_view_id" ref="view_sale_order_filter"/>
+            <field name="context">{'search_default_type_offer':'1'}</field>
+            <!--<field name="domain">[]</field>-->
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Cree una oferta, el primer paso en una nueva venta.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_sale_order"
+            name="Órdenes de venta"
+            action="action_orders"
+            parent="sales_menu"
+            sequence="1"/>
+    </data>
+</odoo>

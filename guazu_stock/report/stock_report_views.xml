@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            string="Movimiento de inventario"
+            id="action_report_stock_move"
+            model="guazu.stock.move"
+            report_type="qweb-pdf"
+            name="guazu_stock.report_stock_move"
+            file="guazu_stock.report_move_operations"
+        />
+        <!-- print_report_name="'Movimiento de Inventario - %s' % (object.name)" -->
+        
+        <report
+            string="Factura"
+            id="action_report_stock_move_invoice"
+            model="guazu.stock.move"
+            report_type="qweb-pdf"
+            name="guazu_stock.report_stock_move_invoice"
+            file="guazu_stock.report_move_operations"
+        
+        />
+        <!-- print_report_name="'Factura - %s' % (object.name)" -->
+        <report
+            string="Existencia de productos"
+            id="action_report_stock_existence"
+            model="guazu.stock.existence.report"
+            report_type="qweb-pdf"
+            name="guazu_stock.report_stock_existence"
+            file="guazu_stock.report_stock_existence"
+            
+        />
+        <!-- print_report_name="Existencia de productos" -->
+
+        <report
+            string="Balance de inventarios por productos"
+            id="action_report_stock_balance"
+            model="guazu.stock.balance.report"
+            report_type="qweb-pdf"
+            name="guazu_stock.report_stock_balance"
+            file="guazu_stock.report_stock_balance"
+            
+        />
+        <!-- print_report_name="Balance de inventarios por productos" -->
+
+        <report
+            string="Balance de inventarios por categorías"
+            id="action_report_stock_balance_cat"
+            model="guazu.stock.balance.cat.report"
+            report_type="qweb-pdf"
+            name="guazu_stock.report_stock_balance_cat"
+            file="guazu_stock.report_stock_balance_cat"
+            
+        />
+        <!-- print_report_name="Balance de inventarios por categorías" -->
+    </data>
+</odoo>

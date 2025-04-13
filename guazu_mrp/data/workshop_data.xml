@@ -1,0 +1,45 @@
+<odoo>
+    <data noupdate="0">
+        <record id="workshop_cut" model="guazu.mrp.workshop">
+			<field name="code">4</field>
+			<field name="name">Corte</field>
+			<field name="department_id" ref="guazu_hr.department_cut" />
+		</record>
+		<record id="workshop_finnish" model="guazu.mrp.workshop">
+			<field name="code">5</field>
+			<field name="name">Alistamiento</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+		<record id="workshop_corte_plantillas" model="guazu.mrp.workshop">
+			<field name="code">7</field>
+			<field name="name">Corte de Plantillas</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+		<record id="workshop_makey" model="guazu.mrp.workshop">
+			<field name="code">28</field>
+			<field name="name">Maquina Makey</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+		<record id="workshop_plantillas_cordones" model="guazu.mrp.workshop">
+			<field name="code">16</field>
+			<field name="name">Plantillas y Cordones</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+		<record id="workshop_cosido" model="guazu.mrp.workshop">
+			<field name="code">27</field>
+			<field name="name">Taller Cosido</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+		<record id="workshop_misc" model="guazu.mrp.workshop">
+			<field name="code">25</field>
+			<field name="name">Taller Misceláneas de Piel</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+		<record id="workshop_pintura" model="guazu.mrp.workshop">
+			<field name="code">8</field>
+			<field name="name">Taller Pintura</field>
+			<field name="invoice">False</field>
+			<field name="department_id" ref="guazu_hr.department_finnish" />
+		</record>
+    </data>
+</odoo>

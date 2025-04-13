@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <record id="view_guazu_mrp_analysis_pivot" model="ir.ui.view">
+        <field name="name">guazu.mrp.analysis.pivot</field>
+        <field name="model">report.guazu.mrp.analysis</field>
+        <field name="arch" type="xml">
+            <pivot string="Análisis de producción" disable_linking="True">
+                <field name="workshop_id" type="row"/>
+                <field name="employee_id" type="row"/>
+                <field name="activity_id" type="row"/>
+                <field name="quantity" type="measure"/>
+                <field name="price" type="measure"/>
+                <field name="value" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <record id="view_guazu_mrp_analysis_graph" model="ir.ui.view">
+        <field name="name">guazu.mrp.analysis.graph</field>
+        <field name="model">report.guazu.mrp.analysis</field>
+        <field name="arch" type="xml">
+            <graph string="Análisis de producción" type="line">
+                <field name="employee_id" type="col"/>
+                <field name="value" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id="view_guazu_mrp_analysis_filter" model="ir.ui.view">
+        <field name="name">view.guazu.mrp.analysis.filter</field>
+        <field name="model">report.guazu.mrp.analysis</field>
+        <field name="arch" type="xml">
+            <search string="Análisis de producción">
+                <field name="workshop_id"/>
+                <field name="employee_id"/>
+                <field name="activity_id"/>
+                <field name="date"/>
+                <group expand="1" string="Group By">
+                    <filter string="Tabla" name="pivot_by" context="{'pivot_row_groupby': ['workshop_id','employee_id','activity_id'], 'pivot_column_groupby': ['date:week'],'pivot_measures': ['quantity','price','value']}"/>
+                    <filter string="Gráfico" name="graph_by" context="{'graph_groupbys': ['date:week', 'workshop_id']}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_guazu_mrp_analysis_report_template" model="ir.actions.act_window">
+        <field name="name">Análisis de producción</field>
+        <field name="res_model">report.guazu.mrp.analysis</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">graph,pivot</field>
+        <field name="search_view_id" ref="view_guazu_mrp_analysis_filter"/>
+        <field name="context">{'search_default_pivot_by':1, 'search_default_graph_by':1}</field>
+        <field name="view_id" ref="view_guazu_mrp_analysis_pivot"/>
+    </record>
+
+    <menuitem id="menu_guazu_mrp_analysis" name="Análisis de producción" action="action_guazu_mrp_analysis_report_template" parent="report_menu" sequence="1"/>
+    </data>
+</odoo>

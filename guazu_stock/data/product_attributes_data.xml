@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- TALLA HOMBRE -->
+        <record id="product_attribute_talla_h" model="product.attribute">
+            <field name="name">Talla H</field>
+            <field name="sequence">1</field>
+            <field name="create_variant">True</field>
+        </record>
+		<record id="product_attribute_talla_h_35" model="product.attribute.value">
+            <field name="name">35</field>
+            <field name="sequence">1</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+		<record id="product_attribute_talla_h_36" model="product.attribute.value">
+            <field name="name">36</field>
+            <field name="sequence">2</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_37" model="product.attribute.value">
+            <field name="name">37</field>
+            <field name="sequence">3</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_38" model="product.attribute.value">
+            <field name="name">38</field>
+            <field name="sequence">4</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_39" model="product.attribute.value">
+            <field name="name">39</field>
+            <field name="sequence">5</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_40" model="product.attribute.value">
+            <field name="name">40</field>
+            <field name="sequence">6</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_41" model="product.attribute.value">
+            <field name="name">41</field>
+            <field name="sequence">7</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_42" model="product.attribute.value">
+            <field name="name">42</field>
+            <field name="sequence">8</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_43" model="product.attribute.value">
+            <field name="name">43</field>
+            <field name="sequence">9</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_44" model="product.attribute.value">
+            <field name="name">44</field>
+            <field name="sequence">10</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_45" model="product.attribute.value">
+            <field name="name">45</field>
+            <field name="sequence">11</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_46" model="product.attribute.value">
+            <field name="name">46</field>
+            <field name="sequence">12</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+        <record id="product_attribute_talla_h_47" model="product.attribute.value">
+            <field name="name">47</field>
+            <field name="sequence">13</field>
+            <field name="attribute_id" ref="product_attribute_talla_h" />
+        </record>
+
+        <!-- TALLA MUJER -->
+        <record id="product_attribute_talla_m" model="product.attribute">
+            <field name="name">Talla M</field>
+            <field name="sequence">2</field>
+            <field name="create_variant">True</field>
+        </record>
+		<record id="product_attribute_talla_m_34" model="product.attribute.value">
+            <field name="name">34</field>
+            <field name="sequence">2</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_35" model="product.attribute.value">
+            <field name="name">35</field>
+            <field name="sequence">3</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_36" model="product.attribute.value">
+            <field name="name">36</field>
+            <field name="sequence">4</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_37" model="product.attribute.value">
+            <field name="name">37</field>
+            <field name="sequence">5</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_38" model="product.attribute.value">
+            <field name="name">38</field>
+            <field name="sequence">6</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_39" model="product.attribute.value">
+            <field name="name">39</field>
+            <field name="sequence">7</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_40" model="product.attribute.value">
+            <field name="name">40</field>
+            <field name="sequence">8</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_41" model="product.attribute.value">
+            <field name="name">41</field>
+            <field name="sequence">9</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_42" model="product.attribute.value">
+            <field name="name">42</field>
+            <field name="sequence">10</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_43" model="product.attribute.value">
+            <field name="name">43</field>
+            <field name="sequence">11</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+		<record id="product_attribute_talla_m_44" model="product.attribute.value">
+            <field name="name">44</field>
+            <field name="sequence">12</field>
+            <field name="attribute_id" ref="product_attribute_talla_m" />
+        </record>
+    </data>
+</odoo>

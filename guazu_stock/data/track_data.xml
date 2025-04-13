@@ -1,0 +1,135 @@
+<odoo>
+    <data noupdate="0">
+		<record id="track_60" model="guazu.stock.track">
+			
+			<field name="name">Barbara Dueñas</field>
+			
+		</record>
+		<record id="track_72" model="guazu.stock.track">
+			
+			<field name="name">Blas Pérez García</field>
+			
+		</record>
+		<record id="track_113" model="guazu.stock.track">
+			
+			<field name="name">Dennis Michel</field>
+			
+		</record>
+		<record id="track_34" model="guazu.stock.track">
+			
+			<field name="name">Dennis Rodríguez Rodríguez</field>
+			
+		</record>
+		<record id="track_76" model="guazu.stock.track">
+			
+			<field name="name">Elvis Portal Jiménez</field>
+			
+		</record>
+		<record id="track_79" model="guazu.stock.track">
+			
+			<field name="name">Felipe Monteagudo</field>
+			
+		</record>
+		<record id="track_38" model="guazu.stock.track">
+			
+			<field name="name">Francisco León</field>
+			
+		</record>
+		<record id="track_74" model="guazu.stock.track">
+			
+			<field name="name">Gerardo Pérez</field>
+			
+		</record>
+		<record id="track_78" model="guazu.stock.track">
+			
+			<field name="name">Jesús  Martínez</field>
+			
+		</record>
+		<record id="track_14" model="guazu.stock.track">
+			
+			<field name="name">Jorge León Villafaña</field>
+			
+		</record>
+		<record id="track_111" model="guazu.stock.track">
+			
+			<field name="name">Juan Jesús Cabrera Orfila</field>
+			
+		</record>
+		<record id="track_102" model="guazu.stock.track">
+			
+			<field name="name">Juan Jesús Moya Morales</field>
+			
+		</record>
+		<record id="track_12" model="guazu.stock.track">
+			
+			<field name="name">Manuel Rodriguez  Pérez</field>
+			
+		</record>
+		<record id="track_71" model="guazu.stock.track">
+			
+			<field name="name">Miguel A. Noriega Santos</field>
+			
+		</record>
+		<record id="track_81" model="guazu.stock.track">
+			
+			<field name="name">Orleany Santana Fernández</field>
+			
+		</record>
+		<record id="track_115" model="guazu.stock.track">
+			
+			<field name="name">Pedro Ramos</field>
+			
+		</record>
+		<record id="track_11" model="guazu.stock.track">
+			
+			<field name="name">Rafael Bouza González</field>
+			
+		</record>
+		<record id="track_67" model="guazu.stock.track">
+			
+			<field name="name">Ricardo León Villafaña</field>
+			
+		</record>
+		<record id="track_17" model="guazu.stock.track">
+			
+			<field name="name">Sandra Pérez Osés</field>
+			
+		</record>
+		<record id="track_99" model="guazu.stock.track">
+			
+			<field name="name">Sin taller</field>
+			
+		</record>
+		<record id="track_117" model="guazu.stock.track">
+			
+			<field name="name">Taller Badín</field>
+			
+		</record>
+		<record id="track_104" model="guazu.stock.track">
+			
+			<field name="name">Taller No 8</field>
+			
+		</record>
+		<record id="track_69" model="guazu.stock.track">
+			
+			<field name="name">Taller No. 6</field>
+			
+		</record>
+		<record id="track_112" model="guazu.stock.track">
+			
+			<field name="name">Taller No. 7</field>
+			
+		</record>
+		<record id="track_43" model="guazu.stock.track">
+			
+			<field name="name">Ulises Urquía</field>
+			
+		</record>
+		<record id="track_10" model="guazu.stock.track">
+			
+			<field name="name">Víctor M. Rodríguez C.</field>
+			
+		</record>
+
+    </data>
+</odoo>

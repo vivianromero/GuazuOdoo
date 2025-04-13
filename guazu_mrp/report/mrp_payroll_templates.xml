@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_mrp_payroll">
+            <t t-call="report.html_container">
+                 <t t-call="report.internal_layout">
+                    <!-- <t t-foreach="docs" t-as="o"> -->
+                        <div class="page">
+                            <script>window.print();</script>
+                            <div class="oe_structure"/>
+                            <h2>Nominilla de Producción</h2>
+                            <table class="table table-condensed table-bordered mt32">
+                                <thead>
+                                    <tr>
+                                        <th width="20%" class="text-center">Fecha inicial</th>
+                                        <th width="20%" class="text-center">Fecha final</th>
+                                        <th width="20%" class="text-center">Total a pagar</th>
+                                        <th width="20%" class="text-center">Total impuestos</th>
+                                        <th width="20%" class="text-center">Total neto</th>
+                                    </tr>
+                                </thead>
+                                <tbody >
+                                    <tr>
+                                        <td class="text-center"><span t-esc="data['form']['initial_date']"/></td>
+                                        <td class="text-center"><span t-esc="data['form']['final_date']"/></td>
+                                        <td class="text-center"><span t-esc="total[0]"/></td>
+                                        <td class="text-center"><span t-esc="total[1]"/></td>
+                                        <td class="text-center"><span t-esc="total[2]"/></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div style="page-break-inside: avoid;" t-foreach="analysis" t-as="ana">
+                                <br/>
+                                <h4><span t-esc="ana['workshop']"/></h4>
+                                <table class="table table-condensed table-bordered mt32">
+                                <thead>
+                                    <tr>
+                                        <th width="27%">Empleado</th>
+                                        <th width="13%" class="text-center">A Pagar</th>
+                                        <th width="13%" class="text-center">Impuesto</th>
+                                        <th width="13%" class="text-center">Neto</th>
+                                        <th width="20%" class="text-center">Observaciones</th>
+                                        <th width="13%" class="text-center">Firma</th>
+                                    </tr>
+                                </thead>
+                                <tbody >
+                                    <tr t-foreach="ana['items']" t-as="item">
+                                        <td><span t-esc="item['name_related']"/></td>
+                                        <td class="text-right">$ <span t-esc="item['amount']"/></td>
+                                        <td class="text-right">$ <span t-esc="item['tax']"/></td>
+                                        <td class="text-right">$ <span t-esc="item['value']"/></td>
+                                        <td> </td>
+                                        <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Total:</b></td>
+                                        <td class="text-right"><b>$ <span t-esc="ana['total_amount']"/></b></td>
+                                        <td class="text-right"><b>$ <span t-esc="ana['total_tax']"/></b></td>
+                                        <td class="text-right"><b>$ <span t-esc="ana['total_value']"/></b></td>
+                                        <td> </td>
+                                        <td> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            <!-- </t> -->
+        </template>
+    </data>
+</odoo>

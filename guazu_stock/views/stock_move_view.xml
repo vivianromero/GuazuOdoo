@@ -1,0 +1,207 @@
+<odoo>
+    <data>
+    <record id="guazu_stock_move_search" model="ir.ui.view">
+			<field name="name">guazu.stock.move.search</field>
+			<field name="model">guazu.stock.move</field>
+			<field name="arch" type="xml">
+				<search>
+                    <filter string="Borradores y En espera" help="Muestra los movimientos en estado borrador y en espera" name="type_draft_wait" domain="[('state','in',('draft','wait'))]"/>
+                    <filter string="Terminados y Cancelados" help="Muestra los movimientos en estado terminado y cancelado" name="type_done_cancel" domain="[('state','in',('done','cancel'))]"/>
+                    <separator/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="name" />
+                    <field name="location_id" />
+                    <field name="location_dest_id" />
+                    <field name="product_id" />
+                    <field name="emission_date" />
+                    <field name="done_date" />
+                    <field name="state" />
+                    <group expand="1" string="Agrupar por">
+                         <filter string="Compañía" name="company_id" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                         <filter string="Origen" name="location_id" context="{'group_by':'location_id'}"/>
+                         <filter string="Destino" name="location_dest_id" context="{'group_by':'location_dest_id'}"/>
+                         <filter string="Mes de emisión" context="{'group_by':'emission_date:month'}"/>
+                         <filter string="Mes de terminación" context="{'group_by':'done_date:month'}"/>
+                         <filter string="Estado" context="{'group_by':'state'}"/>
+                    </group>
+				</search>
+			</field>
+		</record>
+
+        <record id="guazu_stock_move_calendar" model="ir.ui.view">
+            <field name="name">guazu.stock.move.calendar</field>
+            <field name="model">guazu.stock.move</field>
+            <field name="arch" type="xml">
+                <calendar string="Movimientos de inventario" color="location_id" date_start="done_date" date_stop="done_date">
+                    <field name="name" />
+                    <field name="total_amount" />
+                </calendar>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="guazu_stock_move_graph">
+            <field name="name">guazu.stock.move.graph</field>
+            <field name="model">guazu.stock.move</field>
+            <field name="arch" type="xml">
+                <graph string="Movimientos de inventario" type="pie">
+                    <field name="location_id" type="row"/>
+                    <field name="location_dest_id" type="row"/>
+                    <field name="total_amount" type="measure"/>
+                </graph>
+            </field>
+        </record>
+
+        <record id="guazu_stock_move_list" model="ir.ui.view">
+            <field name="name">guazu.stock.move.list</field>
+            <field name="model">guazu.stock.move</field>
+            <field name="arch" type="xml">
+                <tree string="Movimientos de inventario" decoration-success="state=='draft'" decoration-warning="state=='wait'" decoration-muted="state=='done'" decoration-danger="state=='cancel'">
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="name" />
+                    <field name="location_id" />
+                    <field name="location_dest_id" />
+                    <field name="emission_date" invisible="1"/>
+                    <field name="product_id" invisible="1"/>
+                    <field name="done_date" />
+                    <field name="total_amount" string="Importe" sum="total" widget="monetary"/>
+                    <field name="currency_id" invisible="1"/>
+                    <field name="state" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="guazu_stock_move_form" model="ir.ui.view">
+            <field name="name">guazu.stock.move.form</field>
+            <field name="model">guazu.stock.move</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="case_done" string="Terminar" type="object"
+                                help="Termina el movimiento de inventario" class="oe_highlight" states="draft,wait" confirm="¿Está seguro de que desea terminar este movimiento de inventario?"/>
+
+<!--                        <button name="case_cancel" string="Cancelar" type="object"-->
+<!--                                help="Cancela el movimiento de inventario" states="wait"-->
+<!--                                confirm="¿Está seguro de cancelar este movimiento de inventario.?"/>-->
+
+                        <button name="action_open_report_move" string="Imprimir" type="object"
+                                help="Imprime el movimiento de inventario"
+                                />
+                        <button name="action_open_report_invoice" string="Imprimir factura" type="object"
+                                help="Imprime el movimiento de inventario como una factura"
+                                />
+
+                        <field name="state" widget="statusbar" statusbar_visible="draft,wait,done" class="oe_highlight"/>
+                    </header>
+                    <sheet>
+                            <div class="oe_title">
+                                <label for="name"/>
+                                <h1><field name="name" placeholder="" attrs="{'readonly':[('state','!=','draft')]}" /></h1>
+                            </div>
+                        <group colspan="4">
+                            <group>
+                                <field name="company_id" attrs="{'readonly':[('state','!=','draft')]}" groups="base.group_multi_company"/>
+                                <field name="location_id" domain="[('id', '!=', location_dest_id)]" attrs="{'readonly':[('state','!=','draft')]}"/>
+                                <field name="location_dest_id" domain="[('id', '!=', location_id)]" attrs="{'readonly':[('state','!=','draft')]}"/>
+                                <field name="origin" attrs="{'invisible':[('origin','=',False)]}"/>
+                            </group>
+                            <group>
+                                <field name="currency_id" attrs="{'readonly':[('state','!=','draft')]}" invisible="1"/>
+                                <field name="emission_date" attrs="{'readonly':[('state','!=','draft')]}"/>
+                                <field name="done_date" attrs="{'readonly':[('state','not in',('draft','wait'))]}"/>
+                            </group>
+                        </group>
+                        <notebook colspan="4">
+                            <page string="Detalles">
+                                <field colspan="4" name="line_ids" nolabel="1" context="{'location_id': location_id}" attrs="{'readonly':[('state','!=','draft')]}" >
+                                    <tree string="Details" editable="bottom" decoration-danger="quantity &gt; existence and auto_price==True and state in ('draft', 'wait')">
+                                        <field name="product_id" />
+                                        <field name="uom_id" />
+                                        <field name="use_tracks" invisible="1"/>
+                                        <field name="track_id" open="false" attrs="{'readonly':[('use_tracks', '=', False)]}"/>
+                                        <field name="quantity" />
+                                        <field name="existence" attrs="{'invisible':['|', ('state', 'in', ('done', 'cancel'))]}"/>
+                                        <field name="auto_price" invisible="1"/>
+                                        <field name="state" invisible="1"/>
+                                        <field name="currency_id" invisible="1"/>
+                                        <field name="price" attrs="{'readonly':[('auto_price','=', True)]}" />
+                                        <field name="amount" readonly="1" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                                        <field name="existence_final" attrs="{'invisible':['|', ('state', 'in', ('done', 'cancel'))]}"/>
+                                    </tree>
+                                    <form string="Detalle de movimiento de inventario">
+                                        <sheet>
+                                            <group>
+                                                <field name="product_id" />
+                                                <field name="uom_id"/>
+                                                <field name="use_tracks" invisible="1"/>
+                                                <field name="track_id" attrs="{'invisible':[('use_tracks', '=', False)]}" />
+                                                <field name="quantity" />
+                                                <field name="existence" attrs="{'invisible':['|', ('state', 'in', ('done', 'cancel'))]}"/>
+                                                <field name="auto_price" invisible="1"/>
+                                                <field name="state" invisible="1"/>
+                                                <field name="currency_id" invisible="1"/>
+                                                <field name="price" attrs="{'readonly':[('auto_price','=', True)]}" />
+                                                <field name="amount" readonly="1" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                                            </group>
+                                        </sheet>
+                                    </form>
+                                </field>
+                                <group class="oe_subtotal_footer oe_right" colspan="2" name="total">
+                                    <div class="oe_subtotal_footer_separator oe_inline o_td_label">
+                                        <label for="total_quantity" string="Cantidad"/>
+                                    </div>
+                                    <field name="total_quantity" nolabel="1" class="oe_subtotal_footer_separator" />
+                                    
+                                    <div class="oe_subtotal_footer_separator oe_inline o_td_label">
+                                        <label for="total_amount" string="Importe"/>
+                                    </div>
+                                    <field name="total_amount" nolabel="1" class="oe_subtotal_footer_separator" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                                    
+                                </group>
+                            </page>
+                            <page string="Notas">
+                                <field colspan="4" name="note" nolabel="1" context="" attrs="" />
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="guazu_stock_move_action" model="ir.actions.act_window">
+            <field name="name">Movimientos de inventario</field>
+            <field name="res_model">guazu.stock.move</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+            <field name="view_id" ref="guazu_stock_move_list"/>
+            <field name="search_view_id" ref="guazu_stock_move_search" />
+            <field name="context">{'search_default_type_draft_wait':'1'}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Clic para crear un nuevo movimiento de inventario.
+              </p><p>
+                Defina sus movimientos de inventario.
+              </p>
+            </field>
+        </record>
+
+        <record id="guazu_stock_move_action2" model="ir.actions.act_window">
+            <field name="name">Movimientos de inventario</field>
+            <field name="res_model">guazu.stock.move</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,graph</field>
+            <field name="view_id" ref="guazu_stock_move_list"/>
+            <field name="search_view_id" ref="guazu_stock_move_search" />
+            <field name="context">{'search_default_product_id': active_id}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Clic para crear un nuevo movimiento de inventario.
+              </p><p>
+                Defina sus movimientos de inventario.
+              </p>
+            </field>
+        </record>
+
+        <menuitem id="guazu_stock_move_menu" action="guazu_stock_move_action" parent="stock_menu" sequence="1" groups="group_guazu_stock_viewer"/>
+                
+    </data>
+</odoo>

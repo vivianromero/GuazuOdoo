@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_stock_existence">
+            <t t-call="report.html_container"> <!-- web.html_container -->
+                 <t t-call="report.internal_layout"> <!-- web.external_layout -->
+                    <!-- <t t-foreach="docs" t-as="o"> -->
+                        <div class="page">
+                            <script>window.print();</script>
+                            <div class="oe_structure"/>
+                            <h2>Existencia de productos</h2>
+<!--                            <table class="table table-condensed table-bordered">-->
+<!--                                <tr>-->
+<!--                                    <td width="25%"><strong>Categorías</strong></td>-->
+<!--                                    <td width="25%"><strong>Atributos</strong></td>-->
+<!--                                    <td width="25%"><strong>Ubicaciones</strong></td>-->
+<!--                                    <td width="25%"><strong>Productos</strong></td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td><span t-foreach="categories" t-as="cat"><span t-esc="cat"/><br/></span></td>-->
+<!--                                    <td><span t-foreach="attributes" t-as="att"><span t-esc="att"/><br/></span></td>-->
+<!--                                    <td><span t-foreach="locations" t-as="loc"><span t-esc="loc"/><br/></span></td>-->
+<!--                                    <td><span t-foreach="product_templates" t-as="template"><span t-esc="template"/><br/></span></td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td width="25%"><strong>Colores</strong></td>-->
+<!--                                    <td width="25%"><strong>Sexos</strong></td>-->
+<!--                                    <td width="25%"><strong>Materiales</strong></td>-->
+<!--                                    <td width="25%"><strong>Variantes</strong></td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td><span t-foreach="colors" t-as="col"><span t-esc="col"/><br/></span></td>-->
+<!--                                    <td><span t-foreach="sexs" t-as="sex"><span t-esc="sex"/><br/></span></td>-->
+<!--                                    <td><span t-foreach="materials" t-as="mat"><span t-esc="mat"/><br/></span></td>-->
+<!--                                    <td><span t-foreach="products" t-as="prod"><span t-esc="prod"/><br/></span></td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+                            
+                            <div t-foreach="lines" t-as="line">
+                                <h4><span t-esc="line['location_name']"/></h4>
+                                <table class="table table-condensed table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left">Producto</th>
+											<th class="text-center col-xs-1">UdM</th>
+                                            <th class="text-center col-xs-1">Existencia</th>
+                                            <th t-if="line['access_price']" class="text-center col-xs-1">Precio</th>
+                                            <th t-if="line['access_price']" class="text-center col-xs-1">Importe</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody >
+                                        <t t-foreach="line['products']" t-as="product">
+
+                                            <tr>
+                                                <td><span t-esc="product['name']"/></td>
+												<td class="text-right"><span t-esc="product['uom']"/></td>
+                                                <td class="text-right"><span t-esc="product['existence']"/></td>                                                
+                                                <td t-if="line['access_price']" class="text-right"><span t-esc="product['price']"/></td>
+                                                <td t-if="line['access_price']" class="text-right"><span t-esc="product['amount']"/></td>
+                                            </tr>
+
+                                            <t t-if="line['show_variants']">
+                                                <tr t-foreach="product['variants']" t-as="variant">
+                                                    <td class="text-right"><span t-esc="variant['name']"/></td>
+													<td class="text-right"><span t-esc="variant['uom']"/></td>
+                                                    <td class="text-right"><span t-esc="variant['existence']"/></td>                                                
+                                                    <td t-if="line['access_price']" class="text-right"><span t-esc="variant['price']"/></td>
+                                                    <td t-if="line['access_price']" class="text-right"><span t-esc="variant['amount']"/></td>
+                                                </tr>
+                                            </t>
+                                        </t>
+                                    </tbody>
+                                    <tfooter>
+                                        <tr>
+                                            <th>TOTAL</th>
+											<th class="text-center"></th>
+                                            <th class="text-right"><span t-esc="line['total_existence']"/></th>
+                                            <th t-if="line['access_price']" class="text-center"></th>
+                                            <th t-if="line['access_price']" class="text-right"><span t-esc="line['total_amount']"/></th>
+                                        </tr>
+                                    </tfooter>
+                                </table>
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
+                    </t>
+                </t>
+            <!-- </t> -->
+        </template>
+    </data>
+</odoo>

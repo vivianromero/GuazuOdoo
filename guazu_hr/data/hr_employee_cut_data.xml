@@ -1,0 +1,317 @@
+<odoo>
+    <data noupdate="1">
+        <record id="partner_employee_cut_1" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Rafael Armando Luna Llanes</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_1" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Rafael Armando Luna Llanes</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_1" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_2" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Orleany Santana Fernández</field>
+			<field name="street">San Cristobal 659 e/ R.Fleites y Sterling</field>
+		</record>
+		<record id="employee_cut_2" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Orleany Santana Fernández</field>
+			<field name="identification_id">74061706768</field>
+			<field name="address_home_id" ref="partner_employee_cut_2" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_3" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Jesús Martínez Gómez</field>
+			<field name="street">Síndico 655 e/ Roble y Sterling</field>
+		</record>
+		<record id="employee_cut_3" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Jesús Martínez Gómez</field>
+			<field name="identification_id">54022421765</field>
+			<field name="address_home_id" ref="partner_employee_cut_3" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_4" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Felipe Jesús Monteagudo</field>
+			<field name="street">Prol. Indep. E-1 apto 12 e/ Circunv. y Campo</field>
+		</record>
+		<record id="employee_cut_4" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Felipe Jesús Monteagudo</field>
+			<field name="identification_id">58082320941</field>
+			<field name="address_home_id" ref="partner_employee_cut_4" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_5" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Osmani Mirabal Botell</field>
+			<field name="street">Calle C 176 e/ Callejón Esperanza y Padre Chao</field>
+		</record>
+		<record id="employee_cut_5" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Osmani Mirabal Botell</field>
+			<field name="identification_id">71120405624</field>
+			<field name="address_home_id" ref="partner_employee_cut_5" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_6" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Felix Rafael Meneses Mena</field>
+			<field name="street">Calle C # 58 e/ 1ra y 2da Rpto Vigía SC</field>
+		</record>
+		<record id="employee_cut_6" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Felix Rafael Meneses Mena</field>
+			<field name="identification_id">65120206329</field>
+			<field name="address_home_id" ref="partner_employee_cut_6" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_7" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Jesus Lorenzo Piñon</field>
+			<field name="street">Calle B e/ 4ta y Prolong. Independencia</field>
+		</record>
+		<record id="employee_cut_7" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Jesus Lorenzo Piñon</field>
+			<field name="identification_id">39040804944</field>
+			<field name="address_home_id" ref="partner_employee_cut_7" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_8" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Joan Fernández</field>
+			<field name="street">San Cristobal  (Parqueo Bici)</field>
+		</record>
+		<record id="employee_cut_8" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Joan Fernández</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_8" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_9" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Alain Fernández</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_9" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Alain Fernández</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_9" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_10" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Justo A. Alonso Càrdenas</field>
+			<field name="street">Esparza No.21 e/Gral.Meriño y Prol.Independencia</field>
+		</record>
+		<record id="employee_cut_10" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Justo A. Alonso Càrdenas</field>
+			<field name="identification_id">39080623100</field>
+			<field name="address_home_id" ref="partner_employee_cut_10" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_11" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Romelio Prieto</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_11" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Romelio Prieto</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_11" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_12" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Yanelis Roque</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_12" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Yanelis Roque</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_12" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_13" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Jose I.Squitin Martinez</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_13" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Jose I.Squitin Martinez</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_13" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_14" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Jorge  Ramón Ruiz</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_14" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Jorge  Ramón Ruiz</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_14" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_15" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Angela Prieto</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_15" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Angela Prieto</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_15" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_16" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Duniel Yeras Portela</field>
+			<field name="street">Santa Clara</field>
+		</record>
+		<record id="employee_cut_16" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Duniel Yeras Portela</field>
+			<field name="identification_id">6500526403</field>
+			<field name="address_home_id" ref="partner_employee_cut_16" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_17" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Eduardo Ibañez Mena</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_17" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Eduardo Ibañez Mena</field>
+			<field name="identification_id">14</field>
+			<field name="address_home_id" ref="partner_employee_cut_17" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_18" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Eduardo Ibañez Mena</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_18" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Eduardo Ibañez Mena</field>
+			<field name="identification_id">14</field>
+			<field name="address_home_id" ref="partner_employee_cut_18" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_19" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Elvis Portal Jimenez</field>
+			<field name="street">Santa Clara</field>
+		</record>
+		<record id="employee_cut_19" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Elvis Portal Jimenez</field>
+			<field name="identification_id">19</field>
+			<field name="address_home_id" ref="partner_employee_cut_19" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_20" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Andrés Pérez Rojas</field>
+			<field name="street"></field>
+		</record>
+		<record id="employee_cut_20" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Andrés Pérez Rojas</field>
+			<field name="identification_id">20</field>
+			<field name="address_home_id" ref="partner_employee_cut_20" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_21" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Antonio Pérez</field>
+			<field name="street">Santa Clara</field>
+		</record>
+		<record id="employee_cut_21" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Antonio Pérez</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_21" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_22" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Pedro Emilio Fernández</field>
+			<field name="street">Santa Clara</field>
+		</record>
+		<record id="employee_cut_22" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Pedro Emilio Fernández</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_22" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_23" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Gerardo Pérez</field>
+			<field name="street">Santa Clara</field>
+		</record>
+		<record id="employee_cut_23" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Gerardo Pérez</field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_23" />
+			<field name="is_cutter">True</field>
+		</record>
+		<record id="partner_employee_cut_24" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Juan Miguel del Valle </field>
+			<field name="street">Santa Clara </field>
+		</record>
+		<record id="employee_cut_24" model="hr.employee">
+			<field name="department_id" ref="department_cut"/>
+			<field name="name">Juan Miguel del Valle </field>
+			<field name="identification_id"></field>
+			<field name="address_home_id" ref="partner_employee_cut_24" />
+			<field name="is_cutter">True</field>
+		</record>
+
+    </data>
+</odoo>

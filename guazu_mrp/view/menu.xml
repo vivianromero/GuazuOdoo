@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <menuitem id="mrp_root_menu" 
+            name="Producción" 
+            web_icon="guazu_mrp,static/description/icon.png"
+            groups="group_guazu_mrp_viewer"/>
+        <menuitem id="mrp_menu" parent="mrp_root_menu" name="Producción" groups="group_guazu_mrp_viewer"/>
+        <menuitem id="report_menu" parent="mrp_root_menu" name="Informes" groups="group_guazu_mrp_viewer"/>
+        <menuitem id="settings_menu" parent="mrp_root_menu" name="Ajustes" groups="group_guazu_mrp_manager"/>
+    </data>
+</odoo>

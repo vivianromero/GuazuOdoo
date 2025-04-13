@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<template id="report_saleorder_document">
+    <t t-call="report.internal_layout">
+        <t t-set="doc" t-value="doc" />
+        <div class="page">
+            <script>window.print();</script>
+            <div class="oe_structure"/>
+            <div class="row">
+                <div class="col-xs-5 col-xs-offset-1">
+                    <div t-field="doc.partner_id"
+                        t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}' />
+                    <!-- <p t-if="doc.partner_id.vat"><t t-esc="doc.company_id.country_id.vat_label or 'TIN'"/>: <span t-field="doc.partner_id.vat"/></p> -->
+                </div>
+            </div>
+
+            <h2>
+                <span t-if="doc.state not in ['draft','sent']">Orden de venta ## </span>
+                <span t-if="doc.state in ['draft','sent']">Oferta # </span>
+                <span t-field="doc.name"/>
+            </h2>
+
+            <div class="row mt32 mb32" id="informations">
+                <div class="col-xs-2">
+                    <strong>Estado:</strong>
+                    <p t-field="doc.state"/>
+                </div>
+                <div t-if="doc.create_date and doc.state in ['draft','sent']" class="col-xs-2">
+                    <strong>Creada:</strong>
+                    <p t-field="doc.create_date"/>
+                </div>
+                <div t-if="doc.validity_date and doc.state in ['draft','sent']" class="col-xs-2">
+                    <strong>Expira:</strong>
+                    <p t-field="doc.validity_date"/>
+                </div>
+                <div t-if="doc.confirmation_date and doc.state not in ['draft','sent']" class="col-xs-2">
+                    <strong>Confirmada:</strong>
+                    <p t-field="doc.confirmation_date"/>
+                </div>
+                <div t-if="doc.picking_date and doc.state not in ['draft','sent']" class="col-xs-2">
+                    <strong>Entrega esperada:</strong>
+                    <p t-field="doc.picking_date"/>
+                </div>
+                <div t-if="doc.state == 'done'" class="col-xs-2">
+                    <strong>Entrega real:</strong>
+                    <p t-field="doc.stock_move_id.create_date"/>
+                </div>
+                <div t-if="doc.location_id and doc.state not in ['draft','sent']" class="col-xs-3">
+                    <strong>Almacén:</strong>
+                    <p t-field="doc.location_id.name"/>
+                </div>
+            </div>
+
+
+            <table class="table table-condensed table-bordered" t-if="doc.line_ids">
+                <thead>
+                    <tr>
+                        <th class="text-left col-xs-8">Producto</th>
+                        <th class="col-xs-1">UdM</th>
+                        <th class="text-right col-xs-1">Cantidad</th>
+                        <th class="text-right col-xs-1">Precio</th>
+                        <th class="text-right col-xs-1">Importe</th>
+                    </tr>
+               </thead>
+               <tbody class="sale_tbody">
+                    <tr t-foreach="doc.line_ids" t-as="line">
+                        <td><span t-esc="line.product_id.name_get()[0][1]"/></td>
+                        <td><span t-field="line.uom_id.name"/></td>
+                        <td class="text-right">
+                            <span t-field="line.quantity"/>
+                        </td>
+                        <td class="text-right">
+                            <span t-field="line.price"/>
+                        </td>
+                        <td class="text-right">
+                            <span t-field="line.amount"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td> </td>
+                        <td class="text-right">
+                            <strong><span t-field="doc.quantity_total"/></strong>
+                        </td>
+                        <td class="text-right"> </td>
+                        <td class="text-right">
+                            <strong><span t-field="doc.amount_total"/></strong>
+                        </td>
+                    </tr>
+               </tbody>
+            </table>
+
+
+
+            <p t-field="doc.note" />
+
+            <div class="oe_structure"/>
+        </div>
+    </t>
+</template>
+
+
+<template id="report_saleorder">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="guazu_sale.report_saleorder_document" />
+        </t>
+    </t>
+</template>
+
+
+</data>
+</odoo>

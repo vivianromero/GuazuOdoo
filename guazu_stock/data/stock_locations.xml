@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="location_ent_1" model="guazu.stock.location">
+            <field name="code">1</field>
+            <field name="name">Entradas/Compras</field>
+            <field name="type">external</field>
+        </record>
+		<record id="location_ent_2" model="guazu.stock.location">
+            <field name="code">2</field>
+            <field name="name">Ajuste de Entrada</field>
+            <field name="type">external</field>
+        </record>
+		<record id="location_ent_3" model="guazu.stock.location">
+            <field name="code">3</field>
+            <field name="name">Ajuste de Salida</field>
+            <field name="type">external</field>
+        </record>
+		<record id="location_ent_4" model="guazu.stock.location">
+            <field name="code">4</field>
+            <field name="name">Entradas/Dev. o cambio</field>
+            <field name="type">external</field>
+        </record>
+		<record id="location_ent_5" model="guazu.stock.location">
+            <field name="code">5</field>
+            <field name="name">Salidas/Dev. o cambio</field>
+            <field name="type">external</field>
+        </record>
+        <record id="location_sal_6" model="guazu.stock.location">
+            <field name="code">6</field>
+            <field name="name">Salidas/Ventas</field>
+            <field name="type">external</field>
+        </record>
+
+        <record id="location_alm_8" model="guazu.stock.location">
+            <field name="code">8</field>
+            <field name="name">Almacén de alistamiento</field>
+            <field name="type">storage</field>
+        </record>
+        <record id="location_alm_9" model="guazu.stock.location">
+            <field name="code">9</field>
+            <field name="name">Almacén de producción terminada</field>
+            <field name="type">storage</field>
+        </record>
+    </data>
+</odoo>

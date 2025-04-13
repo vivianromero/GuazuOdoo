@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_stock_balance_cat">
+            <t t-call="report.html_container"> <!-- web.html_container -->
+                 <t t-call="report.internal_layout"> <!-- web.external_layout -->
+                        <div class="page">
+                            <script>window.print();</script>
+                            <div class="oe_structure"/>
+                            <h2>Balance de inventarios por categorías de productos</h2>
+                            <table class="table table-condensed table-bordered">
+                                <!--<tr>                                    
+                                    <td width="33%"><strong>Ubicaciones</strong></td>
+                                    <td width="33%"><strong>Fecha inicial</strong></td>
+                                    <td width="33%"><strong>Fecha final</strong></td>
+                                </tr>-->
+                                <tr>                                    
+                                    <!--<td><span t-foreach="locations" t-as="loc"><span t-esc="loc"/><br/></span></td>-->
+                                    <td><strong>Fecha Inicial </strong><span t-esc="start_date"/></td>
+                                    <td><strong>Fecha Final </strong><span t-esc="end_date"/></td>
+                                </tr>
+                            </table>
+                            
+                            <div t-foreach="lines" t-as="line">
+                                <h4><span t-esc="line['location']"/></h4>
+                                <!-- <div t-foreach="line['products']" t-as="product"> -->
+                                    <table class="table table-condensed table-bordered">
+                                        <thead>
+                                            <tr t-if="access_price">
+                                                <th rowspan="2" width="28%">Producto</th>
+                                                <th colspan="2" width="18%" class="text-center">Existencia Inicial</th>
+                                                <th colspan="2" width="18%" class="text-center">Entradas</th>
+                                                <th colspan="2" width="18%" class="text-center">Salidas</th>
+                                                <th colspan="2" width="18%" class="text-center">Existencia Final</th>
+                                                
+                                            </tr>
+											<tr t-if="not access_price">
+                                                <th rowspan="2" width="28%">Producto</th>
+                                                <th  class="text-center col-xs-1">Existencia Inicial</th>
+                                                <th  class="text-center col-xs-1">Entradas</th>
+                                                <th  class="text-center col-xs-1">Salidas</th>
+                                                <th  class="text-center col-xs-1">Existencia Final</th>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center col-xs-1">Cantidad</th>
+                                                <th t-if="access_price" class="text-center col-xs-1">Importe (MP)</th>
+                                                <th class="text-center col-xs-1">Cantidad</th>
+                                                <th t-if="access_price" class="text-center col-xs-1">Importe (MP)</th>
+                                                <th class="text-center col-xs-1">Cantidad</th>
+                                                <th t-if="access_price" class="text-center col-xs-1">Importe (MP)</th>
+                                                <th class="text-center col-xs-1">Cantidad</th>
+                                                <th t-if="access_price" class="text-center col-xs-1">Importe (MP)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody >
+                                             <tr t-foreach="line['categories']" t-as="category">
+
+                                                 <tr t-foreach="category['data']" t-as="data">
+                                                    <td><span t-esc="data['name']"/></td>
+                                                    <td class="text-right"><span t-esc="data['initial_qty']"/></td>
+                                                    <td t-if="access_price" class="text-right"><span t-esc="data['initial_balance']"/></td>
+                                                    <td class="text-right"><span t-esc="data['in_qty']"/></td>
+                                                    <td t-if="access_price" class="text-right"><span t-esc="data['in_balance']"/></td>
+                                                    <td class="text-right"><span t-esc="data['out_qty']"/></td>
+                                                    <td t-if="access_price" class="text-right"><span t-esc="data['out_balance']"/></td>
+                                                    <td class="text-right"><span t-esc="data['final_qty']"/></td>
+                                                    <td t-if="access_price" class="text-right"><span t-esc="data['final_balance']"/></td>
+                                                </tr>
+                                                    <th><span t-esc="category['sexo']"/></th>
+                                                    <th class="text-right"><span t-esc="category['t_initial_qty']"/></th>
+                                                    <th t-if="access_price" class="text-right"><span t-esc="category['t_initial_balance']"/></th>
+                                                    <th class="text-right"><span t-esc="category['t_in_qty']"/></th>
+                                                    <th t-if="access_price" class="text-right"><span t-esc="category['t_in_balance']"/></th>
+                                                    <th class="text-right"><span t-esc="category['t_out_qty']"/></th>
+                                                    <th t-if="access_price" class="text-right"><span t-esc="category['t_out_balance']"/></th>
+                                                    <th class="text-right"><span t-esc="category['t_final_qty']"/></th>
+                                                    <th t-if="access_price" class="text-right"><span t-esc="category['t_final_balance']"/></th>
+                                            </tr>
+
+                                        </tbody>
+                                        <tfooter>
+                                        <tr>
+                                            <th>TOTAL GENERAL</th>
+                                            <th class="text-right"><span t-esc="line['tot_initial_qty']"/></th>
+                                            <th t-if="access_price" class="text-right"><span t-esc="line['tot_initial_balance']"/></th>
+                                            <th class="text-right"><span t-esc="line['tot_in_qty']"/></th>
+                                            <th t-if="access_price" class="text-right"><span t-esc="line['tot_in_balance']"/></th>
+                                            <th class="text-right"><span t-esc="line['tot_out_qty']"/></th>
+                                            <th t-if="access_price" class="text-right"><span t-esc="line['tot_out_balance']"/></th>
+                                            <th class="text-right"><span t-esc="line['tot_final_qty']"/></th>
+                                            <th t-if="access_price" class="text-right"><span t-esc="line['tot_final_balance']"/></th>
+                                        </tr>
+                                    </tfooter>
+                                    </table>
+                                <!-- </div> -->
+                            </div>
+
+                        </div>
+                    </t>
+                </t>
+            <!-- </t> -->
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>	
+	<data>
+        <record model="ir.ui.view" id="view_order_form_inherit">
+            <field name="name">guazu.order.form.inherit</field>
+            <field name="model">guazu.sale.order</field>
+            <field name="inherit_id" ref="view_order_form"/>
+            <field name="arch" type="xml">
+				<xpath expr="//page[2]" position="after">
+					<page string="Archivos Adjuntos">
+						<group>
+							<field name="attachment_ids" widget="many2many_binary" />
+						</group>
+					</page>
+				</xpath>
+            </field>
+        </record>
+		
+    </data>
+</odoo>

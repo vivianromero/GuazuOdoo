@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<template id="report_stock_move_invoice">
+    <t t-call="report.html_container">  <!-- web.html_container-->
+        <t t-foreach="docs" t-as="o">
+            <t t-call="report.external_layout"> <!-- web.external_layout -->
+                <div class="page">
+                    <script>window.print();</script>
+                    <h1 class="text-center">
+                        <span t-if="o.state == 'draft'">Borrador de Factura</span>
+                        <span t-if="o.state == 'wait'">Factura</span>
+                        <span t-if="o.state == 'done'">Factura</span>
+                        <span t-if="o.state == 'cancel'">Factura Cancelada</span>
+                    </h1>
+                    <br/>
+                    <table class="table table-condensed table-bordered">
+                        <tr>
+                            <td width="50%"><strong>Almacén</strong><p t-field="o.location_id.name"/>
+                            <p t-field="o.location_id.address"/></td>
+                            <td width="50%"><strong>Receptor</strong><p t-field="o.location_dest_id.name"/>
+                            <p t-field="o.location_dest_id.address"/></td>
+                        </tr>
+                    </table>
+                    <table class="table table-condensed table-bordered">
+                        <tr>
+                            <td width="20%"><strong>Número de bultos</strong><br/><br/></td>
+                            <td width="20%"><strong>CI Transportador</strong><br/><br/></td>
+                            <td width="20%"><strong>Chapa Vehículo</strong><br/><br/></td>
+                            <td width="25%"><strong>Licencia de conducción</strong><br/><br/></td>
+                            <td width="15%"><strong>Fecha</strong><p t-field="o.done_date"/></td>
+                        </tr>
+                    </table>
+                    <br/>
+                    <table class="table table-condensed table-bordered" t-if="o.line_ids">
+                      <thead>
+                        <tr>
+                            <th class="col-xs-7"><strong>Producto</strong></th>
+                            <th class="col-xs-1"><strong>UdM</strong></th>
+                            <th class="text-right col-xs-1"><strong>Cantidad</strong></th>
+                            <th class="text-right col-xs-2"><strong>Precio</strong></th>
+                            <th class="text-right col-xs-1"><strong>Importe</strong></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr t-foreach="o.line_ids" t-as="line">
+                                <td><span t-esc="line.product_id.name_get()[0][1]"/></td>
+                                <td><span t-field="line.uom_id.name"/></td>
+                                <td class="text-right">
+                                    <span t-field="line.quantity"/>
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="line.price"/>
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="line.amount"/>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td><strong>Total</strong></td>
+                                <td> </td>
+                                <td class="text-right">
+                                    <strong><span t-field="o.total_quantity"/></strong>
+                                </td>
+                                <td class="text-right"> </td>
+                                <td class="text-right">
+                                    <strong><span t-field="o.total_amount"/></strong>
+                                </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-condensed table-bordered">
+                      <thead>
+                        <tr>
+                            <th width="25%"><strong>Entregado</strong></th>
+                            <th width="25%"><strong>Transportado</strong></th>
+                            <th width="25%"><strong>Recibido</strong></th>
+                            <th width="25%"><strong>Anotado</strong></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>Nombre<br/><br/></td>
+                              <td>Nombre<br/><br/></td>
+                              <td>Nombre<br/><br/></td>
+                              <td></td>
+                          </tr>
+                          <tr>
+                              <td>Cargo<br/><br/></td>
+                              <td>Cargo<br/><br/></td>
+                              <td>Cargo<br/><br/></td>
+                              <td class="text-center" rowspan="2"><h3 t-field="o.name" /></td>
+                          </tr>
+                          <tr>
+                              <td>Firma<br/><br/></td>
+                              <td>Firma<br/><br/></td>
+                              <td>Firma<br/><br/></td>
+                          </tr>
+
+                      </tbody>
+                    </table>
+                    <div t-if="o.note">
+                        <strong>Observaciones:</strong>
+                        <p t-field="o.note"/>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </t>
+</template>
+</data>
+</odoo>

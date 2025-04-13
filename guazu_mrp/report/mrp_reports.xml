@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            string="Nominilla de producción"
+            id="action_report_mrp_payroll"
+            model="guazu.mrp.payroll.report"
+            report_type="qweb-pdf"
+            name="guazu_mrp.report_mrp_payroll"
+            file="guazu_mrp.report_mrp_payroll"
+            
+        />
+        <!-- print_report_name="'Nominilla desde %s hasta %s' % (object.initial_date, object.final_date)" -->
+    </data>
+</odoo>

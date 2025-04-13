@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="product_pt_04113369" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04113369</field>
+			<field name="name">Mocasín H-S/Milton Piel Negra c/Hebilla</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_02121003" model="product.product">
+			<field name="categ_id" ref="product_category_pt_02"/>
+			<field name="default_code">02121003</field>
+			<field name="name">Bota acolchonada s/PVC Tecnopiel Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03120560" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03120560</field>
+			<field name="name">Náutico H-S/Primor Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03120562" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03120562</field>
+			<field name="name">Náutico H-S/Dámaso Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_01112852" model="product.product">
+			<field name="categ_id" ref="product_category_pt_01"/>
+			<field name="default_code">01112852</field>
+			<field name="name">Bota W Piel negra s/Arcodaga</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04113470" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04113470</field>
+			<field name="name">Mocasín H-S/Klim Piel Nobuck Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_05120575" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05120575</field>
+			<field name="name">Sandalia H-S Santiago Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04120563" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04120563</field>
+			<field name="name">Mocasín H S/Importada Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04120560" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04120560</field>
+			<field name="name">Mocasín H-S/Primor Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03120558" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03120558</field>
+			<field name="name">Náutico H-S/Sperry Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04120567" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04120567</field>
+			<field name="name">Mocasín H-S/Iker Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04121053" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04121053</field>
+			<field name="name">Mocasín H-S Mateo Tecnopiel Negro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05123577" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05123577</field>
+			<field name="name">Sandalia H-S Patin Playera Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05120576" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05120576</field>
+			<field name="name">Sandalia H-S Patricio Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04120557" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04120557</field>
+			<field name="name">Mocasín H-S/Londry Carmelita Tecnopiel</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04111066" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04111066</field>
+			<field name="name">Mocasín Piel Negra S/Demócrata</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04111065" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04111065</field>
+			<field name="name">Mocasín H-S Tiger Piel Negro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04111064" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04111064</field>
+			<field name="name">Mocasín H S/Mondy Piel Negro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_03121053" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03121053</field>
+			<field name="name">Náutico H-S/Mateo Tecnopiel Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_02110552" model="product.product">
+			<field name="categ_id" ref="product_category_pt_02"/>
+			<field name="default_code">02110552</field>
+			<field name="name">Bota acolchonada s/arcodaga Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04110561" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04110561</field>
+			<field name="name">Mocasín H-S/Mexicana Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04110560" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04110560</field>
+			<field name="name">Mocasín H-S/Primor Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_05110573" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05110573</field>
+			<field name="name">Sandalia H-S/Júcar Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_05110502" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05110502</field>
+			<field name="name">Sandalia H-S Shú Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_03123161" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03123161</field>
+			<field name="name">Náutico H-S/Mexicana Tecnopiel Negra Corte Blush</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04123660" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04123660</field>
+			<field name="name">Mocasín H-S/Primor Tecnopiel Carmelita c/ Herraje</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03120553" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03120553</field>
+			<field name="name">Náutico H-S/Mateo Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03120557" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03120557</field>
+			<field name="name">Náutico H-S/Londry Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_01111053" model="product.product">
+			<field name="categ_id" ref="product_category_pt_01"/>
+			<field name="default_code">01111053</field>
+			<field name="name">Bota de Vestir S/Mateo Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_03120559" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03120559</field>
+			<field name="name">Náutico H-S/PVC Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_01111051" model="product.product">
+			<field name="categ_id" ref="product_category_pt_01"/>
+			<field name="default_code">01111051</field>
+			<field name="name">Bota W s/ Guazú Piel Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04120553" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04120553</field>
+			<field name="name">Mocasín H-S/Mateo Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03121057" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03121057</field>
+			<field name="name">Náutico H-S/Londry Tecnopiel Negro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05123578" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05123578</field>
+			<field name="name">Sandalia H-S/Morelo Playera Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04121068" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04121068</field>
+			<field name="name">Mocasín H-S/Articulada Tecnopiel Negro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03122957" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03122957</field>
+			<field name="name">Náutico H-S/Londry Tecnopiel Ferrero</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05120516" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05120516</field>
+			<field name="name">Sandalia H-S/Microporo Tecnopiel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03121060" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03121060</field>
+			<field name="name">Náutico H-S/Primor Tecnopiel Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_04111071" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04111071</field>
+			<field name="name">Mocasín H-S/Ferracini Piel Negro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04111072" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04111072</field>
+			<field name="name">Mocasín H-S/Amazona Piel Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_03123059" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03123059</field>
+			<field name="name">Náutico H-S/PVC Blanca Tecnopiel Azul</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_azul"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05110574" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05110574</field>
+			<field name="name">Sandalia H-S Aladino Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04123260" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04123260</field>
+			<field name="name">Mocasín H-S/Primor Tecnopiel Antenegro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03110556" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03110556</field>
+			<field name="name">Náutico H-S/Dacar Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_03110555" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03110555</field>
+			<field name="name">Náutico H-S/Fredom Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_03110554" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03110554</field>
+			<field name="name">Náutico H-S/Voyager Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_04110557" model="product.product">
+			<field name="categ_id" ref="product_category_pt_04"/>
+			<field name="default_code">04110557</field>
+			<field name="name">Mocasín H-S/Londry Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_hombre"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+	</data>
+</odoo>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data noupdate="0">
+    <record id="group_guazu_sale_viewer" model="res.groups">
+        <field name="name">Sales Visor</field>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="category_id" ref="base.module_category_sales"/>
+    </record>
+    <record id="group_guazu_sale_user" model="res.groups">
+        <field name="name">Sales Usuario</field>
+        <field name="implied_ids" eval="[(4, ref('group_guazu_sale_viewer'))]"/>
+        <field name="category_id" ref="base.module_category_sales"/>
+    </record>
+    <record id="group_guazu_sale_manager" model="res.groups">
+        <field name="name">Sales Administrador</field>
+        <field name="category_id" ref="base.module_category_sales"/>
+        <field name="implied_ids" eval="[(4, ref('group_guazu_sale_user'))]"/>
+        <field name="users" eval="[(4, ref('base.user_root'))]"/>
+    </record>
+</data>
+</odoo>

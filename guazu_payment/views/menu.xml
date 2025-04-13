@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <menuitem id="payment_root_menu"
+            name="Cobros"
+            web_icon="guazu_payment,static/description/icon.png"
+            />
+        <menuitem id="guazu_payment_menu" parent="payment_root_menu" sequence="1" name="Cobros" groups="group_guazu_payment_viewer"/>
+        <menuitem id="report_menu" parent="payment_root_menu" sequence="2" name="Reportes" groups="group_guazu_payment_viewer"/>
+		<menuitem id="settings_menu" parent="payment_root_menu" sequence="3" name="Ajustes" groups="group_guazu_payment_viewer"/>
+    </data>
+</odoo>

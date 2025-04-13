@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="guazu_payment_search" model="ir.ui.view">
+			<field name="name">guazu.payment.search</field>
+			<field name="model">guazu.payment</field>
+			<field name="arch" type="xml">
+				<search>
+                    <filter string="Depósito" help="Muestra los cobros en Depósito" name="type_draft" domain="[('state','=','draft')]"/>
+                    <filter string="Liquidado" help="Muestra los cobros Liquidados" name="type_done" domain="[('state','=','done')]"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="name" />
+                    <field name="partner_id" />
+					<field name="date" />
+                    <field name="trans_nro" />
+                    <field name="payment_amount" />
+                    <field name="state" />
+                    <group expand="0" string="Agrupar por">
+                        <filter string="Compañía" name="company_id" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Cliente" domain="[]" context="{'group_by':'partner_id'}"/>
+                        <filter string="Fecha" domain="[]" context="{'group_by':'production_date'}"/>
+                        <filter string="Estado" domain="[]" context="{'group_by':'state'}"/>
+                    </group>
+				</search>
+			</field>
+		</record>
+
+        <record id="guazu_payment_list" model="ir.ui.view">
+            <field name="name">guazu.payment.list</field>
+            <field name="model">guazu.payment</field>
+            <field name="arch" type="xml">
+                <tree string="Cobros" decoration-success="state=='draft'">
+                    <field name="name" />
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="partner_id"/>
+                    <field name="date"/>
+                    <field name="trans_nro"/>
+                    <field name="payment_amount" string="Importe" sum="total" widget="monetary"/>
+                    <!--<field name="discount" string="Aporte" sum="total" widget="monetary"/>-->
+                    <field name="currency_id" invisible="1"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="guazu_payment_form" model="ir.ui.view">
+            <field name="name">guazu.payment.form</field>
+            <field name="model">guazu.payment</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="case_done" string="Liquidar" type="object"
+                                help="Liquidación del cobro" class="oe_highlight" states="draft" confirm="¿Está seguro de que desea liquidar este cobro?"/>
+
+                        <field name="state" widget="statusbar" statusbar_visible="draft,done" class="oe_highlight"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" />
+                            <h1><field name="name" placeholder="" attrs="{'readonly':[('state','!=','draft')]}"/></h1>
+                            <field name="company_id" attrs="{'readonly':[('state','!=','draft')]}" groups="base.group_multi_company"/>
+                            <field name="currency_id" attrs="{'readonly':[('state','!=','draft')]}" invisible="1"/>
+                            <label for="partner_id" />
+                            <h2><field name="partner_id" placeholder="" attrs="{'readonly':[('state','!=','draft')]}" domain="[('customer', '=', True)]"/></h2>
+                        </div>
+                        <group colspan="4">
+                            <group>
+                                <field name="filial_id"/>
+                            </group>
+                            <group>
+                                <field name="date" attrs="{'readonly':[('state','!=','draft')]}" placeholder=""/>
+                            </group>
+                        </group>
+                        <group colspan="4">
+                            <group>
+                                <field name="sale_order_id" attrs="{'readonly':[('state','!=','draft')]}" domain="[('state', '=', 'sent'),('payment_id', '=', False), ('partner_id', '=', partner_id)]" />
+                                <field name="sales_amount" />
+                            </group>
+                            <group>
+                                <field name="trans_nro"/>
+                                <field name="payment_amount" attrs="{'readonly':[('state','!=','draft')]}"/>
+                                <field name="onat"/>
+                                <!--<field name="discount" attrs="{'readonly':[('state','!=','draft')]}"/>-->
+                                <!--<field name="distributable_amount"/>-->
+                            </group>
+                        </group>
+
+                        <notebook colspan="4">
+                            <page string="Distribución">
+                                <field colspan="4" name="line_ids" nolabel="1" context="" attrs="{'readonly':[('state','!=','draft')]}" >
+                                    <tree string="Detalles" editable="bottom">
+                                        <field name="employee_id" options="{'no_create': True}" domain="[('is_authorized', '=', True)]"/>
+                                        <field name="currency_id" invisible="1"/>
+                                        <field name="amount" />
+                                        <field name="discount" />
+                                        <field name="net" />
+                                        <field name="tax" />
+                                        <field name="receive" />
+                                    </tree>
+                                </field>
+                                <!--<group class="oe_subtotal_footer oe_right" colspan="2" name="total">-->
+                                    <!--<div class="oe_subtotal_footer_separator oe_inline o_td_label">-->
+                                        <!--<label for="amount_total" string="Importe"/>-->
+                                    <!--</div>-->
+                                    <!--<field name="amount_total" nolabel="1" class="oe_subtotal_footer_separator" />-->
+
+                                    <!--<div class="oe_subtotal_footer_separator oe_inline o_td_label">-->
+                                        <!--<label for="tax_total" string="Impuesto"/>-->
+                                    <!--</div>-->
+                                    <!--<field name="tax_total" nolabel="1" class="oe_subtotal_footer_separator" widget='monetary' options="{'currency_field': 'currency_id'}"/>-->
+                                    <!--<div class="oe_subtotal_footer_separator oe_inline o_td_label">-->
+                                        <!--<label for="net_total" string="Neto"/>-->
+                                    <!--</div>-->
+                                    <!--<field name="net_total" nolabel="1" class="oe_subtotal_footer_separator" widget='monetary' options="{'currency_field': 'currency_id'}"/>-->
+                                <!--</group>-->
+                            </page>
+                            <page string="Notas">
+                                <field colspan="4" name="note" nolabel="1" />
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="guazu_payment_action" model="ir.actions.act_window">
+            <field name="name">Cobros</field>
+            <field name="res_model">guazu.payment</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,calendar,pivot,graph</field>
+            <field name="view_id" ref="guazu_payment_list"/>
+            <field name="search_view_id" ref="guazu_payment_search" />
+            <field name="context">{'search_default_type_draft':'1'}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Clic para crear un cobro.
+              </p><p>
+                Maneje los cobros efectuados a sus clientes.
+              </p>
+            </field>
+        </record>
+
+        <record id="guazu_payment_calendar" model="ir.ui.view">
+            <field name="name">guazu.payment.calendar</field>
+            <field name="model">guazu.payment</field>
+            <field name="arch" type="xml">
+                <calendar string="Cobros" color="partner_id" date_start="date" date_stop="date">
+                    <field name="name" />
+                    <field name="partner_id" />
+                    <field name="trans_nro"/>
+                    <field name="payment_amount"/>
+                    <!--<field name="discount"/>-->
+                </calendar>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="guazu_payment_graph">
+            <field name="name">guazu.payment.graph</field>
+            <field name="model">guazu.payment</field>
+            <field name="arch" type="xml">
+                <graph string="Cobros" type="pie">
+                    <field name="name" />
+                    <field name="partner_id" />
+                    <field name="trans_nro"/>
+                    <field name="payment_amount"/>
+                </graph>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="guazu_payment_pivot">
+            <field name="name">guazu.payment.pivot</field>
+            <field name="model">guazu.payment</field>
+            <field name="arch" type="xml">
+                <pivot string="Cobros">
+                    <field name="create_date" type="row"/>
+                    <!--<field name="amount_total" type="measure"/>-->
+                </pivot>
+            </field>
+        </record>
+
+        <menuitem id="guazu_pay_menu" action="guazu_payment_action" parent="guazu_payment_menu" sequence="1"/>
+
+    </data>
+</odoo>

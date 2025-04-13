@@ -1,0 +1,1581 @@
+<odoo>
+    <data noupdate="1">
+        <record id="client_217" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">217</field>
+			<field name="name">Compañía Constructora Obras P/ Aviación</field>
+			<field name="org">Instituto Aeronáutica Civil</field>
+			<field name="street">Ciudad de la Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_216" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">216</field>
+			<field name="name">Empresa Cultivos Varios Horquita Cienfuegos</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_215" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">215</field>
+			<field name="name">Empresa Materiales de la Construcción Santiago de </field>
+			<field name="org">MICONS</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_214" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">214</field>
+			<field name="name">Empresa Ómnibus Urbanos Santiago de Cuba</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_213" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">213</field>
+			<field name="name">Empresa Poligráfico Cilla Clara</field>
+			<field name="org">MINCIN</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_212" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">212</field>
+			<field name="name">Empresa ASTRO Las Tunas</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Las Tunas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_211" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">211</field>
+			<field name="name">Empresa Apicultura Holguín</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Holguín</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_210" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">210</field>
+			<field name="name">Empresa Henequenera Eladio Hernández</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_209" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">209</field>
+			<field name="name">ARTEX Villa Clara</field>
+			<field name="org">Ministerio de Cultura</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_208" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">208</field>
+			<field name="name">Empresa Astilleros de oriente</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_207" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">207</field>
+			<field name="name">FCBC Santiago- Venta en Firme</field>
+			<field name="org">MINCULT</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_206" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">206</field>
+			<field name="name">Empresa Pecuaria Rodas</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_205" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">205</field>
+			<field name="name">Empresa Servicio a Ingeniería Santiago</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santiago</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_204" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">204</field>
+			<field name="name">Empresa Costructora de Obras Matanzas</field>
+			<field name="org">MICONS</field>
+			<field name="street">MATANZAS</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_203" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">203</field>
+			<field name="name">EMPROY</field>
+			<field name="org">MICONS</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_202" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">202</field>
+			<field name="name">Empresa DELTA Seguridad</field>
+			<field name="org">SIME</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_201" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">201</field>
+			<field name="name">Empresa Talleres Automotor y Servicentro Santiago</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_200" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">200</field>
+			<field name="name">Empresa Provincial de Transporte Santiago</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_199" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">199</field>
+			<field name="name">Empresa Fertilizante Nitrogenados Cienfuegos</field>
+			<field name="org">MINBAS</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_198" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">198</field>
+			<field name="name">Unidad Básica Héctor Rodríguez</field>
+			<field name="org">MINAZ</field>
+			<field name="street">Sitiecito, Sagua</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_197" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">197</field>
+			<field name="name">Empresa Servicios Ingeniería Ciego de ávila</field>
+			<field name="org">MICONS</field>
+			<field name="street">Ciego de Ávila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_196" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">196</field>
+			<field name="name">Empresa Universal Villa Clara</field>
+			<field name="org">Comercio Interior</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_195" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">195</field>
+			<field name="name">ECOAI # 8</field>
+			<field name="org">MICONS</field>
+			<field name="street">Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_194" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">194</field>
+			<field name="name">Empresa Servicios Portuarios centro Este</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_193" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">193</field>
+			<field name="name">Suchel Trans</field>
+			<field name="org">Industria Ligera</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_192" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">192</field>
+			<field name="name">EMSPROT Villa Clara</field>
+			<field name="org">Poder Popular</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_191" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">191</field>
+			<field name="name">ESPCONS Nacional- Matanzas</field>
+			<field name="org">MICONS</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_190" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">190</field>
+			<field name="name">ESPCONS Nacional - Holguín</field>
+			<field name="org">MICONS</field>
+			<field name="street">Holguín</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_189" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">189</field>
+			<field name="name">ESPCONS Nacional - Santiago de Cuba</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santiago</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_188" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">188</field>
+			<field name="name">Empresa Electromecánica UEB Fab. Fusibles</field>
+			<field name="org">MINBAS</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_187" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">187</field>
+			<field name="name">Empresa Producción Industrial Sancti Spíritus</field>
+			<field name="org">MICONS</field>
+			<field name="street">Sancti Spíritus</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_186" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">186</field>
+			<field name="name">Empresa Provincial de Transporte Matanzas</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_185" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">185</field>
+			<field name="name">Empresa CARIGRAF Ciudad Habana</field>
+			<field name="org">Industria Ligera</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_184" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">184</field>
+			<field name="name">FCBC Trinidad- Galería</field>
+			<field name="org">Cultura</field>
+			<field name="street">Trinidad</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_183" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">183</field>
+			<field name="name">FCBC Sancti Spíritus- Galería</field>
+			<field name="org">Cultura</field>
+			<field name="street">Sancti Spíritus</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_182" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">182</field>
+			<field name="name">TRASVAL Pinar del Río</field>
+			<field name="org">MININT</field>
+			<field name="street">Pinar del Río</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_180" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">180</field>
+			<field name="name">FCBC Granma</field>
+			<field name="org">Cultura</field>
+			<field name="street">Bayamo</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_179" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">179</field>
+			<field name="name">Empresa Cítricos Héroes de Girón</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Jagüey Grande</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_178" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">178</field>
+			<field name="name">TRASVAL vILLA cLARA</field>
+			<field name="org">MININT</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_177" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">177</field>
+			<field name="name">Empresa VEB Transpotación Trabajadores Villa Clara</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_176" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">176</field>
+			<field name="name">Empresa Provincial Productora Alimentos Santiago.</field>
+			<field name="org">Industia Alimenticia</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_175" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">175</field>
+			<field name="name">Empresa Talleres Agropecuarios Cienfuegos</field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_174" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">174</field>
+			<field name="name">Empresa VARSE Varadero</field>
+			<field name="org">MICONS</field>
+			<field name="street">Varadero</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_173" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">173</field>
+			<field name="name">Empresa Pecuaria Remedios</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Remedios</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_172" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">172</field>
+			<field name="name">Empresa Cítricos Victoria de Girón</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Jaguey Grande. Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_171" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">171</field>
+			<field name="name">Empresa Cofecciones Tropicales Jaruco</field>
+			<field name="org">Industria Ligera </field>
+			<field name="street">Jaruco, Habarana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_170" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">170</field>
+			<field name="name">Empresa Granja Estatal Vueltas</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Vueltas, Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_169" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">169</field>
+			<field name="name">Empresa Seg. y Protección MINCIN </field>
+			<field name="org">MINCIN</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_168" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">168</field>
+			<field name="name">Empresa Reparadora Centro Cienfuegos </field>
+			<field name="org">MITRANS</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_167" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">167</field>
+			<field name="name">VEB Fábrica de Transformadores C.Habana</field>
+			<field name="org">Industria Básica</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_166" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">166</field>
+			<field name="name">FIART 2008 Venta en Vivo</field>
+			<field name="org">Ministerio de la Cultura </field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_165" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">165</field>
+			<field name="name">ENCOMED Villa Clara</field>
+			<field name="org">Salud Pública</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_164" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">164</field>
+			<field name="name">Empresa Equipos y Talleres Varadero</field>
+			<field name="org">MICONS</field>
+			<field name="street">Varadero</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_163" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">163</field>
+			<field name="name">Empresa Nacional del Fósforo</field>
+			<field name="org">Industria Ligera</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_162" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">162</field>
+			<field name="name">Empresa Apicultura Ciego de Ávila</field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Ciego de Ávila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_161" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">161</field>
+			<field name="name">Central Termoeléctrica 26 de Julio, Camagüey</field>
+			<field name="org">MINBAS</field>
+			<field name="street">Nuevitas, Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_160" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">160</field>
+			<field name="name">Empresa Apicultura Matanzas</field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Jovellanos, Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_159" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">159</field>
+			<field name="name">A.T.I  Villa Clara</field>
+			<field name="org">MINBAS</field>
+			<field name="street">Santa Clara </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_158" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">158</field>
+			<field name="name">Empresa Pulpa Cuba Trinidad</field>
+			<field name="org">MINAZ</field>
+			<field name="street">Trinidad</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_157" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">157</field>
+			<field name="name">Empresa Pecuaria La Cierra </field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Sagua La Grande </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_156" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">156</field>
+			<field name="name">Jardín Botánico Cienfuegos</field>
+			<field name="org">CITMA</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_155" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">155</field>
+			<field name="name">CUPET Villa Clara</field>
+			<field name="org">Industria Básica</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_154" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">154</field>
+			<field name="name">Empresa Servicios de Reservación Viajeros </field>
+			<field name="org">FFCC-MITRANS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_153" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">153</field>
+			<field name="name">Empresa Provincial Transporte Villa Clara</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_152" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">152</field>
+			<field name="name">Empresa Rectángulo Camaguey</field>
+			<field name="org">MINAGRY</field>
+			<field name="street">Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_151" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">151</field>
+			<field name="name">Empresa Agua Veradero</field>
+			<field name="org">Acueducto Alcantarillado </field>
+			<field name="street">Varadero</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_150" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">150</field>
+			<field name="name">Empresa Pecuria Rectangulo Camagüey</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_149" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">149</field>
+			<field name="name">Empresa Semillas Varias Matanzas</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_148" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">148</field>
+			<field name="name">Empresa Confituras Camagüey</field>
+			<field name="org">MINAL</field>
+			<field name="street">Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_147" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">147</field>
+			<field name="name">Empresa Talleres del Centro Villa Clara</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_146" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">146</field>
+			<field name="name">Empresa Camiones del Centro V.C</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_145" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">145</field>
+			<field name="name">EPSCON NACIONAL</field>
+			<field name="org">MICONS</field>
+			<field name="street">HABANA</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_144" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">144</field>
+			<field name="name">FCBC Consignación Habana</field>
+			<field name="org">Ministerio de la Cultura</field>
+			<field name="street">Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_143" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">143</field>
+			<field name="name">Empresa Refritel Camaguey</field>
+			<field name="org">Industri Básica</field>
+			<field name="street">Camaguey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_142" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">142</field>
+			<field name="name">Empresa Cemento 26 de Julio Nuevitas</field>
+			<field name="org">MICOMS</field>
+			<field name="street">Camaguey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_141" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">141</field>
+			<field name="name">Empresa Pecuria Marti, Matnzas</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_140" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">140</field>
+			<field name="name">Empresa Mantenimiento Constructivo V.C</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_139" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">139</field>
+			<field name="name">Empresa Pecuaria Martí Mtzas</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_138" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">138</field>
+			<field name="name">FCBC Villa Clara--Venta en Firme </field>
+			<field name="org">Cultura</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_137" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">137</field>
+			<field name="name">FCBC Venta en Vivo Manicaragua</field>
+			<field name="org">Cultura </field>
+			<field name="street">Manicaragua</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_136" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">136</field>
+			<field name="name">ENIA Cienfuegos </field>
+			<field name="org">MICONS</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_135" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">135</field>
+			<field name="name">FCBC SANCTI SPÍRITUS- Venta en Vivo</field>
+			<field name="org">Cultura</field>
+			<field name="street">Sancti Spíritus</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_134" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">134</field>
+			<field name="name">FCBC VILLA CLARA Venta en Vivo Placetas</field>
+			<field name="org">Cultura</field>
+			<field name="street">Placetas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_133" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">133</field>
+			<field name="name">Empresa Avicola Matanzas</field>
+			<field name="org">Agricultura</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_132" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">132</field>
+			<field name="name">Unidad Básica Ferroviaria V.C </field>
+			<field name="org">MITRANS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_131" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">131</field>
+			<field name="name">Unidad Básica Ferroviaria Matanzas</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_130" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">130</field>
+			<field name="name">Unidad Basica Ferrobiaria Sagua</field>
+			<field name="org">MITRANS</field>
+			<field name="street">Sagua la Grande</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_129" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">129</field>
+			<field name="name">Empresa Metalurgica José Váldez </field>
+			<field name="org">SIME</field>
+			<field name="street">Matanzas </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_128" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">128</field>
+			<field name="name">Empresa Provincial Productora de Alimentos S.C</field>
+			<field name="org">Industria Alimenticia</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_127" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">127</field>
+			<field name="name">Empresa Pecuaria Macúm</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Sagua la Grande</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_126" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">126</field>
+			<field name="name">Empresa Mecánica Pallares C.Habana</field>
+			<field name="org">SIME</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_125" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">125</field>
+			<field name="name">ESPCON Nacional Cienfuegos</field>
+			<field name="org">MICONS</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_124" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">124</field>
+			<field name="name">Empresa Islazul Villa Clara</field>
+			<field name="org">MINTUR</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_123" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">123</field>
+			<field name="name">ESPCONS Nacional Santi Spiritu</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santi Spiritu</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_122" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">122</field>
+			<field name="name">Cupet Habana</field>
+			<field name="org">MINBAS</field>
+			<field name="street">Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_121" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">121</field>
+			<field name="name">Empresa de Instalaciones Fijas - Traviesa VC</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santya Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_118" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">118</field>
+			<field name="name">Empresa a Trabajadores Villa Clara</field>
+			<field name="org">MITRANS </field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_117" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">117</field>
+			<field name="name">Talleres Agropecuarios Villa Clara</field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_116" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">116</field>
+			<field name="name">CITMA Villa Clara</field>
+			<field name="org">CITMA</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_115" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">115</field>
+			<field name="name">Empresa Materiales Constrc. Villa Clara</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santa Clara </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_112" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">112</field>
+			<field name="name">Empresa Pesquera Villa Clara</field>
+			<field name="org">Pesca</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_111" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">111</field>
+			<field name="name">BISART Centro Villa Clara</field>
+			<field name="org">Recaud. De divisa</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_110" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">110</field>
+			<field name="name">Empresa Citricos Arimaus Cienfuegos</field>
+			<field name="org">Ministerio de la agricultura</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_109" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">109</field>
+			<field name="name">FCBC Venta en Vivo Santa Clara</field>
+			<field name="org">Cultura </field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_106" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">106</field>
+			<field name="name">Inspección Estatal Provincia Santa Clara </field>
+			<field name="org">MITRANS </field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_104" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">104</field>
+			<field name="name">Empresa Transp. y Comercio MICONS Cfg.</field>
+			<field name="org">MICONS</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_103" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">103</field>
+			<field name="name">Empresa Transportación Trabj. Villa Clara</field>
+			<field name="org">MITRANS </field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_102" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">102</field>
+			<field name="name">ARTEX Sucursal Ciego de Avila </field>
+			<field name="org">Ministerio de Cultura</field>
+			<field name="street">Ciego de Avila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_101" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">101</field>
+			<field name="name">Empresa Cigarros Ranchuelos</field>
+			<field name="org">Industria Ligera</field>
+			<field name="street">Ranchuelos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_100" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">100</field>
+			<field name="name">FCBC Ciudad Habana </field>
+			<field name="org">Cultura </field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_99" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">99</field>
+			<field name="name">Empresa Recuperación Materías Primas Santiago de C</field>
+			<field name="org">SIME</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_98" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">98</field>
+			<field name="name">Empresa Metalúrgica America Libre Sagua</field>
+			<field name="org">SIME</field>
+			<field name="street">Sagua </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_97" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">97</field>
+			<field name="name">Empresa Bebidas y Refrescos Camaguey </field>
+			<field name="org">Industria de Alimentos </field>
+			<field name="street">Camaguey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_96" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">96</field>
+			<field name="name">Torrefactora Café Santa Clara</field>
+			<field name="org">MINAL </field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_95" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">95</field>
+			<field name="name">Empresa Soldar Carriles Placetas </field>
+			<field name="org">MITRANS</field>
+			<field name="street">Placetas </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_94" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">94</field>
+			<field name="name">EPSCONS Nacional Varadero </field>
+			<field name="org">MICONS </field>
+			<field name="street">Varadero</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_93" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">93</field>
+			<field name="name">ECOI # 30 Sancti Spíritus </field>
+			<field name="org">MICONS </field>
+			<field name="street">Sancti Spíritus </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_92" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">92</field>
+			<field name="name">Almacenes Universales S.A Ciego de Avila </field>
+			<field name="org">Comercio Interior </field>
+			<field name="street">Ciego de Avila </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_91" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">91</field>
+			<field name="name">Empresa Talleres Agropecuaria Santa Clara</field>
+			<field name="org">Ministerio de la Agricultura </field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_90" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">90</field>
+			<field name="name">CUBALUB Sancti Spíritus </field>
+			<field name="org">SIME </field>
+			<field name="street">Sancti Spíritus </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_87" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">87</field>
+			<field name="name">Empresa Materiales Construcción Villa Clara</field>
+			<field name="org">MICONS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_86" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">86</field>
+			<field name="name">Procesadora Café Contramaestre Santiago de Cuba</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_85" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">85</field>
+			<field name="name">VEB ALIMATIC  Villa Clara</field>
+			<field name="org">SIME</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_84" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">84</field>
+			<field name="name">Carpintería de Aluminio Villa Clara </field>
+			<field name="org">MICONS</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_83" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">83</field>
+			<field name="name">Empresa Artes Gráficas Villa Clara</field>
+			<field name="org">MINCIN</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_82" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">82</field>
+			<field name="name">TRANSTUR Villa Clara</field>
+			<field name="org">MINTUR</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_81" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">81</field>
+			<field name="name">Empresa Citrícos Ciego de Avila </field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Ciego de Avila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_80" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">80</field>
+			<field name="name">Empresa Pecuaria La Vitrina Manicaragua</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Manicaragua</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_79" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">79</field>
+			<field name="name">Delegación Provincial CITMA Villa Clara</field>
+			<field name="org">CITMA</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_78" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">78</field>
+			<field name="name">Empresa Porcina Villa Clara</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_77" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">77</field>
+			<field name="name">Empresa Apicola Villa Clara</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_76" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">76</field>
+			<field name="name">Empresa Apicola Sancti Spiritus</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Sancti Spiritus</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_75" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">75</field>
+			<field name="name">Empresa Materiales Construcción Las Tunas</field>
+			<field name="org">MINCONS</field>
+			<field name="street">Las Tunas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_74" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">74</field>
+			<field name="name">Comercializadora ITH Santa Clara</field>
+			<field name="org">MINTUR</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_73" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">73</field>
+			<field name="name">FCBC Holguin</field>
+			<field name="org">Cultura</field>
+			<field name="street">Holguin</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_72" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">72</field>
+			<field name="name">FCBC Las Tunas</field>
+			<field name="org">Cultura </field>
+			<field name="street">Las Tunas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_71" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">71</field>
+			<field name="name">Fábrica Antena Santa Clara</field>
+			<field name="org">Comunicaciones</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_70" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">70</field>
+			<field name="name">RETOMED Santiago de Cuba</field>
+			<field name="org">Salud Pública</field>
+			<field name="street">Santiago de Cuba</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_69" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">69</field>
+			<field name="name">Banco Popular de Ahorro Santa Clara</field>
+			<field name="org">BNC</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_68" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">68</field>
+			<field name="name">Empresa Azucarera Wansington</field>
+			<field name="org">MINAZ</field>
+			<field name="street">Santo Domingo</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_67" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">67</field>
+			<field name="name">AUTOIMPORT Cienfuegos</field>
+			<field name="org">CIMEX</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_66" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">66</field>
+			<field name="name">INIVIT Santo Domingo</field>
+			<field name="org">MINAGRI</field>
+			<field name="street">Santo Domingo</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_65" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">65</field>
+			<field name="name">Empresa Acueducto Alcantarillado Cayo Coco</field>
+			<field name="org">Poder Popular</field>
+			<field name="street">Ciego de Avila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_64" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">64</field>
+			<field name="name">INEL Santa Clara</field>
+			<field name="org">MINAZ</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_63" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">63</field>
+			<field name="name">Empresa Azucarera Carlos Baliño Santo Domingo</field>
+			<field name="org">MINAZ</field>
+			<field name="street">Santo Domingo</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_62" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">62</field>
+			<field name="name">Empresa Planta Mecánica Santa Clara</field>
+			<field name="org">SIME</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_61" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">61</field>
+			<field name="name">FCBC Ciudad Santa Clara</field>
+			<field name="org">Fondo Cunbano de Bienes Culturales</field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_60" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">60</field>
+			<field name="name">Empresa Medicamentos Las Tunas</field>
+			<field name="org">MINBAS</field>
+			<field name="street">Las Tunas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_59" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">59</field>
+			<field name="name">Empresa Productos Artículos Opticos Placetas</field>
+			<field name="org">MINSAP</field>
+			<field name="street">Placetas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_58" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">58</field>
+			<field name="name">Empresa VEB Teico Santa Clara</field>
+			<field name="org">MINAZ</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_57" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">57</field>
+			<field name="name">Empresa DIVEP Matanzas</field>
+			<field name="org">SIME</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_56" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">56</field>
+			<field name="name">Empresa Apicultura Cienfuegos</field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_55" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">55</field>
+			<field name="name">Empresa Materias Primas Santa Clara</field>
+			<field name="org">SIME</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_54" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">54</field>
+			<field name="name">Suchel Jovel Matanzas</field>
+			<field name="org">Industria Ligera</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_53" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">53</field>
+			<field name="name">Empresa Planta Escambray (UNECAMOTO)</field>
+			<field name="org">CIMEX</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_52" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">52</field>
+			<field name="name">Empresa Forestal Integral Matanzas</field>
+			<field name="org">Ministerio de la Agricultura </field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_51" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">51</field>
+			<field name="name">Empresa Frutas Selectas V.C</field>
+			<field name="org">Ministerio Agricultura </field>
+			<field name="street">Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_50" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">50</field>
+			<field name="name">Radio Cuba Ciudad Habana </field>
+			<field name="org">Radio cuba </field>
+			<field name="street">Ciudad Habana </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_49" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">49</field>
+			<field name="name">M.C.V SERVICIOS S.A </field>
+			<field name="org">Industria Básica </field>
+			<field name="street">Santa Clara </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_48" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">48</field>
+			<field name="name">Empresa Eléctrica Las Tunas </field>
+			<field name="org">Industria Básica</field>
+			<field name="street">Las Tunas </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_47" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">47</field>
+			<field name="name">Empresa Provincial de Correos de Cuba </field>
+			<field name="org">Comunicaciones</field>
+			<field name="street">Santa Clara </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_46" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">46</field>
+			<field name="name">Unidad Estatal de Tráfico Sancti Spíritus </field>
+			<field name="org">Ministerio Transporte </field>
+			<field name="street">Sancti Spíritus</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_45" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">45</field>
+			<field name="name">Empresa de Bebidas y Resfresco Holguín </field>
+			<field name="org">Industria de Alimentos </field>
+			<field name="street">Holguín</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_44" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">44</field>
+			<field name="name">ESPCONS Nacional Santa Clara</field>
+			<field name="org">Ministerio de la Construcción</field>
+			<field name="street">Santa Clara </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_43" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">43</field>
+			<field name="name">Empresa Pecuria Genética de Matanzas </field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_40" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">40</field>
+			<field name="name">Empresa COPEXTEL</field>
+			<field name="org">Ministerio</field>
+			<field name="street">Ciego de Avila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_39" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">39</field>
+			<field name="name">Empresa Izaje </field>
+			<field name="org">Ministerio de Transporte</field>
+			<field name="street">Cienfuegos</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_38" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">38</field>
+			<field name="name">Empresa de Acueductos y Alcantarillados </field>
+			<field name="org">Poder Popular</field>
+			<field name="street">Granma</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_35" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">35</field>
+			<field name="name">Empresa Bebidas y Refresco  Villa Clara </field>
+			<field name="org">Industria Alimenticia</field>
+			<field name="street">Santa Clara, Villa Clara </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_34" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">34</field>
+			<field name="name">Empresa Triangulo IV </field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">Municipio Triangulo, Camaguey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_33" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">33</field>
+			<field name="name">Empresa Provincial Transporte Ciego de Avila</field>
+			<field name="org">Ministerio de Transporte</field>
+			<field name="street">Ciego de Avila.</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_32" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">32</field>
+			<field name="name">Empresa Citrícola Ciego de Avila </field>
+			<field name="org">Ministerio de la Agricultura.</field>
+			<field name="street">Ciego de Avila </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_31" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">31</field>
+			<field name="name">Empresa Cepillos y Artículos Plásticos </field>
+			<field name="org">Industria Ligera </field>
+			<field name="street">Ciego de Avila</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_30" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">30</field>
+			<field name="name">Empresa de Seguridad y Protección </field>
+			<field name="org">Ministerio de la Construcción</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_29" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">29</field>
+			<field name="name">Empresa VEB Mecánica Jovellanos</field>
+			<field name="org">Ministerio del Transporte </field>
+			<field name="street">Jovellanos, Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_28" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">28</field>
+			<field name="name">Empresa Pecuaria Genética San Juan</field>
+			<field name="org">Ministeria de la Agricultura </field>
+			<field name="street">Martí, Matanzas </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_27" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">27</field>
+			<field name="name">Empresa Cemento Martíres Artemisa </field>
+			<field name="org">Industria Básicas </field>
+			<field name="street">Artemisa. Provincia Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_26" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">26</field>
+			<field name="name">Estación Experimental Pastos y Forrajes </field>
+			<field name="org">Ministerio de la Agricultura </field>
+			<field name="street">Sancti Spíritus </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_25" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">25</field>
+			<field name="name">Almacenes Universales S.A</field>
+			<field name="org">Comercio Interior </field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_24" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">24</field>
+			<field name="name">Empresa Suchel </field>
+			<field name="org">Industria Ligera </field>
+			<field name="street">Jovellanos, Matanzas </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_23" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">23</field>
+			<field name="name">ECOA # 30 Sancti Spíritus </field>
+			<field name="org">Ministerio de la Construcción </field>
+			<field name="street">Sancti Spíritus, Sancti Spíritus.</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_22" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">22</field>
+			<field name="name">Empresas Gases Industriales </field>
+			<field name="org">Ministerio de Industria Básica</field>
+			<field name="street">Jovellanos, Matanzas </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_21" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">21</field>
+			<field name="name">ECOI # 1 Santa Clara.</field>
+			<field name="org">Ministerio de la Construcción.</field>
+			<field name="street">Zona Industrial, Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_20" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">20</field>
+			<field name="name">C.A.I Arrocero Sur del Jibaro</field>
+			<field name="org">Ministerio de la Agricultura</field>
+			<field name="street">La Sierpe. Sancti Spiritus </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_19" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">19</field>
+			<field name="name">Empresa Suministro y Transporte Agropecuario</field>
+			<field name="org">Ministerio de la Agricultura </field>
+			<field name="street">Matanzas, Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_18" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">18</field>
+			<field name="name">Empresas Servicios Técnicos Poligraficos</field>
+			<field name="org">Ministerio de Cultura</field>
+			<field name="street">Ciudad Habana </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_17" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">17</field>
+			<field name="name">Empresas Cultivos Varios</field>
+			<field name="org">Ministerio Agricultura </field>
+			<field name="street">Manacas, Villa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_16" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">16</field>
+			<field name="name">Empresa ENIA Villa Clara</field>
+			<field name="org">Ministerio de la Construcción</field>
+			<field name="street">Santa Clara</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_15" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">15</field>
+			<field name="name">Empresa Presidencia Correos de Cuba</field>
+			<field name="org">ministerio informática y Comunicaciones</field>
+			<field name="street">Ciudad Habana </field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_14" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">14</field>
+			<field name="name">Centro Provincial Patrimonio </field>
+			<field name="org">Ministerio de Cultura</field>
+			<field name="street">Santa Clara.</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_13" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">13</field>
+			<field name="name">Empresa Asistencia y Servicios Cienfuegos</field>
+			<field name="org">Industría Básica.</field>
+			<field name="street">Zona industrial, Cienfuegos.</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_12" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">12</field>
+			<field name="name">Empresa Papelera Damují </field>
+			<field name="org">Industría Ligera </field>
+			<field name="street">Damují, Cienfuegos.</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_11" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">11</field>
+			<field name="name">Empresa Provincial Transporte Las Tunas</field>
+			<field name="org">Ministerio Transporte</field>
+			<field name="street">Las Tunas.</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_10" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">10</field>
+			<field name="name">Empresas de Bevidas y Refrescos </field>
+			<field name="org">Industria Alimenticia</field>
+			<field name="street">Camagüey</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_9" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">9</field>
+			<field name="name">Empresa Talleres Matanzas</field>
+			<field name="org">Ministerio Agricultura </field>
+			<field name="street">Jovellanos, Matanzas</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_8" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">8</field>
+			<field name="name">Agencia Prensa Latina</field>
+			<field name="org">Consejo Estado</field>
+			<field name="street">Ciudad Habana</field>
+			<field name="customer" eval="True" />
+		</record>
+		<record id="client_7" model="res.partner">
+			<field name="company_type">company</field>
+			<field name="vat">7</field>
+			<field name="name">Empresa Citricola Arimao Cienfuegos</field>
+			<field name="org">MINAL</field>
+			<field name="street">Cienfuegos </field>
+			<field name="customer" eval="True" />
+		</record>
+
+    </data>
+</odoo>

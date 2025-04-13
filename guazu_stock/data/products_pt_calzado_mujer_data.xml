@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="product_pt_05221913" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221913</field>
+			<field name="name">Sandalia vestir s/Lara Paja Pala ancha Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222616" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222616</field>
+			<field name="name">Sandalia popular camuflaje s/Microporo</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_otro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221510" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221510</field>
+			<field name="name">Sandalia vestir s/Importada Calada Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221511" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221511</field>
+			<field name="name">Sandalia vestir s/Nicole Carmelita.</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220201" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220201</field>
+			<field name="name">Sandalia popular s/Summer Araña Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221001" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221001</field>
+			<field name="name">Sandalia popular s/Summer Sueca Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05211102" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05211102</field>
+			<field name="name">Sandalia popular s/Shú piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_05220301" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220301</field>
+			<field name="name">Sandalia popular s/Summer Luna negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220801" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220801</field>
+			<field name="name">Sandalia popular s/Summer Cruzada Carmelita (vieja)</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220101" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220101</field>
+			<field name="name">Sandalia popular s/Summer Calada Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220601" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220601</field>
+			<field name="name">Sandalia popular s/Summer Trebol Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220901" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220901</field>
+			<field name="name">Sandalia popular s/Summer Sueca Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221912" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221912</field>
+			<field name="name">Sandalia vestir s/Gloria Trigo Pala Ancha Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222112" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222112</field>
+			<field name="name">Sandalia vestir s/Gloria Trigo Cruzada Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222115" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222115</field>
+			<field name="name">Sandalia vestir s/Gloria Tabaco Cruzada Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222013" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222013</field>
+			<field name="name">Sandalia vestir s/Lara Paja Pala mediana Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221506" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221506</field>
+			<field name="name">Sandalia vestir s/Shuger Carmelita y Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_otro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_03210503" model="product.product">
+			<field name="categ_id" ref="product_category_pt_03"/>
+			<field name="default_code">03210503</field>
+			<field name="name">Náutico y Mocasín M-S PVC Yate y Criolla Piel Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_piel"/>
+		</record>
+		<record id="product_pt_05222701" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222701</field>
+			<field name="name">Sandalia popular s/Summer Textil</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_otro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220701" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220701</field>
+			<field name="name">Sandalia popular s/Summer Flor negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221708" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221708</field>
+			<field name="name">Sandalia vestir s/Erika Beige Claro</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_beige"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220401" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220401</field>
+			<field name="name">Sandalia popular s/Summer Araña Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_07221304" model="product.product">
+			<field name="categ_id" ref="product_category_pt_07"/>
+			<field name="default_code">07221304</field>
+			<field name="name">Balerina Ejecutiva Carmelita c/Remaches S/PVC</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222212" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222212</field>
+			<field name="name">Sandalia vestir s/Gloria Trigo Pala Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220501" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220501</field>
+			<field name="name">Sandalia popular s/Urania Calada  Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_07221204" model="product.product">
+			<field name="categ_id" ref="product_category_pt_07"/>
+			<field name="default_code">07221204</field>
+			<field name="name">Balerina Ejecutiva negra s/PVC</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221607" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221607</field>
+			<field name="name">Sandalia vestir s/Terry Negra c/tiras</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05220112" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05220112</field>
+			<field name="name">Sandalia vestir s/Gloria Trigo Araña Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222214" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222214</field>
+			<field name="name">Sandalia vestir s/Lara Negra Pala Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222215" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222215</field>
+			<field name="name">Sandalia vestir s/Gloria Tabaco Pala Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222315" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222315</field>
+			<field name="name">Sandalia vestir s/Gloria Tabaco Calada Negra</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222412" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222412</field>
+			<field name="name">Sandalia vestir s/Gloria Trigo Pala Roja</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_rojo"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05221809" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05221809</field>
+			<field name="name">Sandalia vestir s/Paradiso Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_07221001" model="product.product">
+			<field name="categ_id" ref="product_category_pt_07"/>
+			<field name="default_code">07221001</field>
+			<field name="name">Balerina popular negra s/Summer</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_07221403" model="product.product">
+			<field name="categ_id" ref="product_category_pt_07"/>
+			<field name="default_code">07221403</field>
+			<field name="name">Balerina negra popular s/PVC</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_negro"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+		<record id="product_pt_05222512" model="product.product">
+			<field name="categ_id" ref="product_category_pt_05"/>
+			<field name="default_code">05222512</field>
+			<field name="name">Sandalia vestir s/Gloria Trigo Pala chiquita Carmelita</field>
+			<field name="uom_id" ref="product_uom_par"/>
+			<field name="uom_po_id" ref="product_uom_par"/>
+			<field name="type">product</field>
+			<field name="purchase_ok">False</field>
+			<field name="sale_ok">True</field>
+			<field name="color_id" ref="color_carmelita"/>
+			<field name="sex_id" ref="sex_mujer"/>
+			<field name="material_id" ref="material_tecnopiel"/>
+		</record>
+	</data>
+</odoo>

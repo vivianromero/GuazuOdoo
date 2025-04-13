@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Poner campo Moneda para la Venta en la vista form de config. de la compania-->
+    <record model="ir.ui.view" id="view_company_form">
+        <field name="name">res.company.form.inherit</field>
+        <field name="model">res.company</field>
+        <field name="type">form</field>
+        <!--hacer referencia a la vista para incorporar nuevos campos-->
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <!--Buscar una etiqueta que tenga la vista padre e incorporar los fields
+             en este caso se busca la etiqueta group-->
+            <field name="currency_id" position="after" >
+                <field name="currency_sales_id" />
+            </field>
+        </field>
+    </record>
+</odoo>

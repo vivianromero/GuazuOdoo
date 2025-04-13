@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <record id="view_employee_form_inherit_8" model="ir.ui.view">
+            <field name="name">hr.employee.form.inherit.8</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <field name="parent_id" position="after">
+                    <field name="is_cutter"/>
+                    <field name="is_artisan"/>
+                    <field name="is_authorized"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_employee_tree_inherit_8" model="ir.ui.view">
+            <field name="name">hr.employee.tree.inherit.8</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="arch" type="xml">
+                <field name="parent_id" position="after">
+                    <field name="is_cutter"/>
+                    <field name="is_artisan"/>
+                    <field name="is_authorized"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_employee_filter_inherit_8" model="ir.ui.view">
+            <field name="name">hr.employee.search.inherit.8</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_filter"/>
+            <field name="arch" type="xml">
+                <field name="job_id" position="after">
+                    <field name="is_cutter"/>
+                    <field name="is_artisan"/>
+                    <filter string="Es cortador" name="is_cutter" domain="[('is_cutter','=',True)]"/>
+                    <filter string="Es artesano" name="is_artisan" domain="[('is_artisan','=',True)]"/>
+                    <filter string="Tiene dispensa" name="is_authorized" domain="[('is_authorized','=',True)]"/>
+                </field>
+             </field>
+         </record>
+
+        <record id="hr_kanban_view_employees_inherit_8" model="ir.ui.view">
+            <field name="name">hr.employee.kanban.inherit.8</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.hr_kanban_view_employees"/>
+            <field name="arch" type="xml">
+                <field name="last_login" position="after">
+                    <field name="is_cutter"/>
+                    <field name="is_artisan"/>
+                    <field name="is_authorized"/>
+                </field>
+                <xpath expr="//div[@class='o_employee_summary_icons']" position="replace">
+                    <div class="o_employee_summary_icons">
+                        <t t-if="record.is_cutter.raw_value">
+                            <span title='Es cortador'><i class='fa fa-cut'/> </span>
+                        </t>
+                        <t t-if="record.is_artisan.raw_value">
+                            <span title='Es artesano'><i class='fa fa-legal'/> </span>
+                        </t>
+                        <t t-if="record.is_authorized.raw_value">
+                            <span title='Tiene dispensa'><i class='fa fa-star'/> </span>
+                        </t>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

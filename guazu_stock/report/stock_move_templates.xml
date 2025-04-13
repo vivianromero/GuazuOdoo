@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+<template id="report_stock_move">
+    <t t-call="report.html_container"> <!-- web.html_container -->
+        <t t-foreach="docs" t-as="o">
+            <t t-call="report.internal_layout"> <!-- web.internal_layout -->
+                <div class="page">
+                    <script>window.print();</script>
+                    <h3>
+                        <span t-if="o.state == 'draft'">Borrador de Movimiento de Inventario</span>
+                        <span t-if="o.state == 'wait'">Movimiento de Inventario Pendiente</span>
+                        <span t-if="o.state == 'done'">Movimiento de Inventario</span>
+                        <span t-if="o.state == 'cancel'">Movimiento de Inventario Cancelado</span>
+                    </h3>
+                    <div class="row mt32 mb32">
+                        <div class="col-xs-6">
+                            <strong>Entidad: </strong>
+                            <p t-field="o.company_id.name"/>
+                        </div>
+                    </div>
+                    <div class="row mt32 mb32">
+                        <div class="col-xs-6">
+                            <strong>Origen: </strong>
+                            <p t-field="o.location_id.name"/>
+                        </div>
+                        <div class="col-xs-6">
+                            <strong>Destino:</strong>
+                            <p t-field="o.location_dest_id.name"/>
+                        </div>
+                    </div>
+                    <div class="row mt32 mb32">
+                        <div class="col-xs-6">
+                            <strong>Fecha de Emisión:</strong>
+                            <p t-field="o.emission_date"/>
+                        </div>
+                        <div class="col-xs-6">
+                            <strong>Fecha de Terminación:</strong>
+                            <p t-field="o.done_date"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+
+                    <table class="table table-condensed" t-if="o.line_ids">
+                      <thead>
+                        <tr>
+                            <th class="col-xs-8"><strong>Producto</strong></th>
+                            <th class="col-xs-1"><strong>UdM</strong></th>
+                            <th class="text-right col-xs-1"><strong>Cantidad</strong></th>
+                            <th class="text-right col-xs-1"><strong>Precio</strong></th>
+                            <th class="text-right col-xs-1"><strong>Importe</strong></th>
+                            <th class="text-right col-xs-1"><strong>Existencia</strong></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr t-foreach="o.line_ids" t-as="line">
+                                <td><span t-esc="line.product_id.name_get()[0][1]"/></td>
+                                <td><span t-field="line.uom_id.name"/></td>
+                                <td class="text-right">
+                                    <span t-field="line.quantity"/>
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="line.price"/>
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="line.amount"/>
+                                </td>
+                                <td class="text-right">
+                                    <span t-field="line.price" attrs="{'invisible':['|', ('o.state', 'in', ('Terminado', 'cancel'))]}"/>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td><strong>Total</strong></td>
+                                <td> </td>
+                                <td class="text-right">
+                                    <strong><span t-field="o.total_quantity"/></strong>
+                                </td>
+                                <td class="text-right"> </td>
+                                <td class="text-right">
+                                    <strong><span t-field="o.total_amount"/></strong>
+                                </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-condensed table-bordered">
+                      <thead>
+                        <tr>
+                            <th width="35%"><strong>Entrega</strong></th>
+                            <th width="35%"><strong>Recibe</strong></th>
+                            <th width="70%"><strong></strong></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>Nombre<br/><br/></td>
+                              <td>Nombre<br/><br/></td>
+                              <td><strong>Anotado</strong></td>
+                          </tr>
+                          <tr>
+                              <td>Cargo<br/><br/></td>
+                              <td>Cargo<br/><br/></td>
+                              <td><strong>Contabilizado</strong><br/><br/></td>
+                          </tr>
+                          <tr>
+                              <td>Firma<br/><br/></td>
+                              <td>Firma<br/><br/></td>
+                              <td><strong>Nro. Doc:</strong><spand style="padding-left:5px;" t-field="o.name" /></td>
+                          </tr>
+
+                      </tbody>
+                    </table>
+                    <div>
+                        <strong>Notas:</strong>
+                        <p t-field="o.note"/>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </t>
+</template>
+</data>
+</odoo>

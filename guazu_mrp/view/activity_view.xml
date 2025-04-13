@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="guazu_mrp_activity_search" model="ir.ui.view">
+			<field name="name">guazu.mrp.activity.search</field>
+			<field name="model">guazu.mrp.activity</field>
+			<field name="arch" type="xml">
+				<search>
+                    <field name="workshop_id" />
+					<field name="name" />
+                    <field name="price" />
+                    <group expand="0" string="Agrupar por">
+                        <filter string="Área de Producción" domain="[]" context="{'group_by':'workshop_id'}"/>
+                    </group>
+				</search>
+			</field>
+		</record>
+
+        <record id="guazu_mrp_activity_list" model="ir.ui.view">
+            <field name="name">guazu.mrp.activity.list</field>
+            <field name="model">guazu.mrp.activity</field>
+            <field name="arch" type="xml">
+                <tree string="Operaciones">
+                    <field name="workshop_id"/>
+                    <field name="name"/>
+                    <field name="price" widget="monetary"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_activity_form" model="ir.ui.view">
+            <field name="name">guazu.mrp.activity.form</field>
+            <field name="model">guazu.mrp.activity</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="workshop_id" />
+                            <h1><field name="workshop_id" placeholder=""/></h1>
+                            <label for="name" />
+                            <h1><field name="name" placeholder=""/></h1>
+                            <label for="price" />
+                            <field name="price" placeholder="" widget="monetary"/>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_activity_action" model="ir.actions.act_window">
+            <field name="name">Operaciones</field>
+            <field name="res_model">guazu.mrp.activity</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="guazu_mrp_activity_list"/>
+            <field name="search_view_id" ref="guazu_mrp_activity_search" />
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Clic para crear una operación.
+              </p><p>
+                Defina las operaciones de producción.
+              </p>
+            </field>
+        </record>
+
+        <menuitem id="guazu_mrp_activity_menu" action="guazu_mrp_activity_action" parent="settings_menu" sequence="2"/>
+    </data>
+</odoo>

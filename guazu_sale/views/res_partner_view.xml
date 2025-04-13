@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="res_partner_search_form_view" model="ir.ui.view">
+            <field name="name">res.partner.search.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_res_partner_filter"/>
+            <field name="arch" type="xml">
+			  <search>
+                <field name="org_id" widget="selection"/>
+				<field name="reup" />
+			  </search>
+
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="res_partner_form_view">
+            <field name="name">Partner Form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="website" position="before">
+                    <field name="org_id"/>
+				    <field name="reup"/>
+                </field>
+                <page name="internal_notes" position="before">
+                    <page string="Contrato">
+                        <group>
+                            <group>
+                                <field name="number_contract" />
+                                <field name="expire_contract_date" />
+                            </group>
+                        </group>
+                    </page>
+                </page>
+            </field>
+        </record>
+		
+		<record id="view_partner_tree" model="ir.ui.view">
+            <field name="name">res.partner.tree</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+				<field name="display_name" position="after">
+                    <field name="reup"/>
+					<field name="org_id" widget="selection"/>
+                    
+                </field>
+			</field>
+        </record>
+
+        <record id="act_res_partner_2_sale_order" model="ir.actions.act_window">
+            <field name="name">Ventas</field>
+            <field name="res_model">guazu.sale.order</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,graph</field>
+            <field name="context">{'search_default_partner_id': active_id}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Cree una oferta, el primer paso en una venta.
+              </p><p>
+                Confirme la oferta para convertirla en una Orden de venta, cree la factura y cóbrela.
+              </p>
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="crm_lead_partner_kanban_view">
+            <field name="name">res.partner.kanban.saleorder.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+            <field name="priority" eval="20"/>
+            <field name="arch" type="xml">
+                <field name="mobile" position="after">
+                    <field name="sale_order_count"/>
+                </field>
+                <xpath expr="//div[hasclass('oe_kanban_partner_links')]" position="inside">
+                    <span t-if="record.sale_order_count.value>0" class="badge"><i class="fa fa-fw fa-truck"/><t t-esc="record.sale_order_count.value"/></span>
+                </xpath>
+            </field>
+        </record>
+
+
+        <record id="res_partner_view_buttons" model="ir.ui.view">
+            <field name="name">res.partner.view.buttons</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="priority" eval="20"/>
+            <field name="arch" type="xml">
+                <button name="toggle_active" position="before">
+                    <button class="oe_stat_button" type="action" name="%(guazu_sale.act_res_partner_2_sale_order)d"
+                        attrs="{'invisible': [('customer', '=', False)]}"
+                        icon="fa-truck">
+                        <field string="Ventas" name="sale_order_count" widget="statinfo"/>
+                    </button>
+                </button>
+            </field>
+        </record>
+        <!--<menuitem id="guazu_sale_client_menu" action="base.action_partner_form" parent="settings_menu" sequence="1" groups="group_guazu_sale_user"/>-->
+    </data>
+</odoo>

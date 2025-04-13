@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+       <record id="guazu_stock_moves_resum_wizard" model="ir.ui.view">
+            <field name="name">Resumen de Movimientos</field>
+            <field name="model">guazu.stock.moves.resum.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Resumen de Movimientos">
+                    <p>Seleccione los parámetros para imprimir el informe</p>
+                    <group colspan="4">
+
+                        <group>
+                            <field name="location_ids" widget="many2many_tags"/>
+                        </group>
+                        <group expand="0" string="Agrupar por">
+                            <field name="group_by" options="{'vertical': true}" class="oe_edit_only" widget="radio"/>
+                            <field name="category_ids" widget="many2many_tags" attrs="{'visible':[('group_by','in',('categ'))],'invisible':[('group_by','in',('sex'))]}"/>
+                            <field name="product_sex_ids" widget="many2many_tags" attrs="{'visible':[('group_by','in',('sex'))],'invisible':[('group_by','in',('categ'))]}"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button name="print_report_html" string="Imprimir" type="object" default_focus="1" class="oe_highlight"/>
+                        <button name="print_report_pdf" string="Descargar PDF" type="object" class="oe_link"/>
+                        <button string="Cancelar" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="guazu_stock_moves_resum_action" model="ir.actions.act_window">
+            <field name="name">Resumen de Movimientos</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">guazu.stock.moves.resum.wizard</field>
+            <field name="view_id" ref="guazu_stock_moves_resum_wizard"/>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+        <menuitem name="Resumen de Movimientos ..." action="guazu_stock_moves_resum_action" id="guazu_stock_moves_resum_menu" parent="report_menu" sequence="8"/>
+    </data>
+</odoo>

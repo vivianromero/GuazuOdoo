@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="color_negro" model="guazu.product.color">
+            <field name="name">Negro</field>
+            <field name="image">iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQMAAAC032DuAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAF0lEQVQokWNgQID6/zAwyhxljjJpwQQAK2XriawYJ9sAAAAASUVORK5CYII=</field>
+        </record>
+        <record id="color_carmelita" model="guazu.product.color">
+            <field name="name">Carmelita</field>
+            <field name="image">iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAzSURBVEhL7cwxAQAgDMTAB5N4qTPcMQQJ7ZZbsmXdOhmwf7v5hV/4hV/4hV/4hV/MfJMHSt8BwL/kaWsAAAAASUVORK5CYII=</field>
+        </record>
+        <record id="color_blanco" model="guazu.product.color">
+            <field name="name">Blanco</field>
+            <field name="image">iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQMAAAC032DuAAAABlBMVEUAAAD///+l2Z/dAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAGklEQVQokWNgwArs/0PBn1HmKHOUSQ4TKwAA8yK7Q3YU0mMAAAAASUVORK5CYII=</field>
+        </record>
+		<record id="color_rojo" model="guazu.product.color">
+            <field name="name">Rojo</field>
+            <field name="image">iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAuSURBVEhL7cwxDQAACAQxhPyIf2d4YDgNDCSXdG5N+oIvfOELX/jCF77wxa83vb74mNGrM/k4AAAAAElFTkSuQmCC</field>
+        </record>
+		<record id="color_beige" model="guazu.product.color">
+            <field name="name">Beige</field>
+            <field name="image">iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAIAAAAPqBNFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA0SURBVEhL7cyhAQAgDMTAh/2HYah6VkCEEVqXM3FZt04G7N9ufuEXfuEXfuEXfuEXM9/kAVBZArlaG1myAAAAAElFTkSuQmCC</field>
+        </record>
+		<record id="color_otro" model="guazu.product.color">
+            <field name="name">Otro</field>
+        </record>
+		<record id="color_azul" model="guazu.product.color">
+            <field name="name">Azul</field>
+			<field name="image">iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAYAAACAyoQSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAA0SURBVEhL7c2hAQAwCMTAp/vvDKYrBEzORKaS7ix7v6ucopyinKKcopyinKKcopyiDqbJAOlUAjSmdAn/AAAAAElFTkSuQmCC</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_guazu_payment_viewer,guazu.payment.viewer,model_guazu_payment,guazu_payment.group_guazu_payment_viewer,1,0,0,0
+access_guazu_payment_line_viewer,guazu.payment.line.viewer,model_guazu_payment_line,guazu_payment.group_guazu_payment_viewer,1,0,0,0
+access_guazu_payment_filial_manager,guazu.payment.filial.manager,model_guazu_payment_filial,guazu_payment.group_guazu_payment_manager,1,1,1,1
+access_guazu_payment_filial_user,guazu.payment.filial.user,model_guazu_payment_filial,guazu_payment.group_guazu_payment_user,1,1,1,1
+access_guazu_payment_user,guazu.payment.user,model_guazu_payment,guazu_payment.group_guazu_payment_user,1,1,1,1
+access_guazu_payment_line_user,guazu.payment.line.user,model_guazu_payment_line,guazu_payment.group_guazu_payment_user,1,1,1,1
+access_guazu_payment_partner_user,guazu.payment.partner.user,guazu_sale.model_res_partner,guazu_payment.group_guazu_payment_user,1,0,0,0
+,,,,,,,
+access_guazu_payment_filial_viewer,guazu.payment.filial.viewer,model_guazu_payment_filial,guazu_payment.group_guazu_payment_viewer,1,0,0,0
+,,,,,,,
+access_guazu_payment_sales_user,guazu.payment.sales.user,model_guazu_sale_order,guazu_payment.group_guazu_payment_user,1,1,0,0
+access_guazu_payment_sales_lines_user,guazu.payment.sales.lines.user,guazu_sale.model_guazu_sale_order_line,guazu_payment.group_guazu_payment_user,1,0,0,0

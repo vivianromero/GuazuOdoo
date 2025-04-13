@@ -1,0 +1,461 @@
+<odoo>
+    <data noupdate="1">
+		<record id="mrp_activity_cut_1" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico tecn. hombre 6.66</field>
+			<field name="price">6.66</field>
+		</record>
+		<record id="mrp_activity_cut_2" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Trabajo Hombre</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_3" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Mujer Carmelita</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_4" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Tosco Liso (Victor)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_5" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Mujer (Popi)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_6" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Hombre </field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_7" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Hombre  3.34</field>
+			<field name="price">3.34</field>
+		</record>
+		<record id="mrp_activity_cut_8" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia semivestir mujer</field>
+			<field name="price">4.45</field>
+		</record>
+		<record id="mrp_activity_cut_9" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Trabajo Acolchonada 3.89</field>
+			<field name="price">3.89</field>
+		</record>
+		<record id="mrp_activity_cut_10" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Hombre (Popi)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_11" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Descalzada hombre Popi</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_12" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Trabajo piel negra</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_13" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_14" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Pta Cuadrada </field>
+			<field name="price">3.7</field>
+		</record>
+		<record id="mrp_activity_cut_15" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Guantes</field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_cut_16" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín Hombre 5.56</field>
+			<field name="price">5.56</field>
+		</record>
+		<record id="mrp_activity_cut_17" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Madera 1.20</field>
+			<field name="price">1.2</field>
+		</record>
+		<record id="mrp_activity_cut_18" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín Piel 6.66</field>
+			<field name="price">6.66</field>
+		</record>
+		<record id="mrp_activity_cut_19" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Corte de Suelas</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_cut_20" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Mujer Madera 2.0</field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_cut_21" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia mujer Madera 1.80</field>
+			<field name="price">1.8</field>
+		</record>
+		<record id="mrp_activity_cut_22" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Descalzada Pta Bruja</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_23" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Trabajo c/ Vista</field>
+			<field name="price">3.35</field>
+		</record>
+		<record id="mrp_activity_cut_24" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico GUAZU Carmelita 5</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_25" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Trabajo Pta Cuadrada</field>
+			<field name="price">3.5</field>
+		</record>
+		<record id="mrp_activity_cut_26" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia de Hombre 2.60</field>
+			<field name="price">2.6</field>
+		</record>
+		<record id="mrp_activity_cut_27" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Palas de Bota de Mujer 0.5</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_cut_28" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Niño</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_29" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Muestra Botas de Trabajo</field>
+			<field name="price">3.5</field>
+		</record>
+		<record id="mrp_activity_cut_30" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Metedeos (Juan J.Cabreras)</field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_cut_31" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Metedeos (Francisco Villafaña)</field>
+			<field name="price">2</field>
+		</record>
+		<record id="mrp_activity_cut_32" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín Hombre 4.45</field>
+			<field name="price">4.45</field>
+		</record>
+		<record id="mrp_activity_cut_33" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Piel diferencia pago</field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_cut_34" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico de Hombre Pta. Bola</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_35" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">B.Botín </field>
+			<field name="price">3.5</field>
+		</record>
+		<record id="mrp_activity_cut_36" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Vestir</field>
+			<field name="price">3.5</field>
+		</record>
+		<record id="mrp_activity_cut_37" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Hombre con Verdigón (6)</field>
+			<field name="price">6</field>
+		</record>
+		<record id="mrp_activity_cut_38" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia  Hombre sin Verdugón (5)</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_39" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Suecos Hombre (Victor) 3</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_40" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Hombre Colombia 4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_41" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas de Trabajo 3</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_42" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Trabajo (Victor)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_43" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas de Trabajo (Manuel)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_44" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota de Trabajo (Ulises)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_45" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín mujer 3.34</field>
+			<field name="price">3.34</field>
+		</record>
+		<record id="mrp_activity_cut_46" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Plantilla 0.25</field>
+			<field name="price">0.25</field>
+		</record>
+		<record id="mrp_activity_cut_47" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Acolchonada piel 6.67</field>
+			<field name="price">6.67</field>
+		</record>
+		<record id="mrp_activity_cut_48" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Acolchonada (Bouza)</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_49" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Acolchonada (Manuel)</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_50" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Acolchonada (Ulises)</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_51" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Bota Mujer (Manuel)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_52" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas Mujer (Ulises)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_53" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náuticos (Hombre)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_54" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náuticos (Mujer)</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_55" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín  (Mujer)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_56" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas de Trabajo (Bouza) Con Vista</field>
+			<field name="price">3.35</field>
+		</record>
+		<record id="mrp_activity_cut_57" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas acolchonadas 3.89</field>
+			<field name="price">3.89</field>
+		</record>
+		<record id="mrp_activity_cut_58" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas de Trabajo  Con Vista</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_59" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín hombre 3.89</field>
+			<field name="price">3.89</field>
+		</record>
+		<record id="mrp_activity_cut_60" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia mujer tipo popular 3.00</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_61" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico hombre 4.45</field>
+			<field name="price">4.45</field>
+		</record>
+		<record id="mrp_activity_cut_62" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas de Trabajo (Popi)</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_63" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Fajas de Seguridad</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_64" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas de Trabajos Acolchonadas</field>
+			<field name="price">1.5</field>
+		</record>
+		<record id="mrp_activity_cut_65" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Muestra 3.5</field>
+			<field name="price">3.5</field>
+		</record>
+		<record id="mrp_activity_cut_66" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Muestra 3</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_68" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico sintético 5.56</field>
+			<field name="price">5.56</field>
+		</record>
+		<record id="mrp_activity_cut_69" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Zapatilla 4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_70" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Vestir Guazu 5</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_71" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico Colom. Negro 4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_72" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico Colom.  Carmelita 4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_73" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico de Vestir GUAZU Negro 5</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_74" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico de Vestir GUAZU Carmelita 5</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_75" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasin Hombre Muestra (Moya) 3</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_76" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico Colombiano (Alayón)4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_77" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Diferencia precio Guantes 1.00</field>
+			<field name="price">1</field>
+		</record>
+		<record id="mrp_activity_cut_78" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Aladino 5</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_79" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Nautico Vestir C/ Hebilla 5</field>
+			<field name="price">5</field>
+		</record>
+		<record id="mrp_activity_cut_80" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Guantes reforzados 3.00</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_81" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Botas Reforzadas 3.5</field>
+			<field name="price">3.5</field>
+		</record>
+		<record id="mrp_activity_cut_82" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Antebrazos y Polainas 4</field>
+			<field name="price">4</field>
+		</record>
+		<record id="mrp_activity_cut_83" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Náutico Hombre piel 4.45</field>
+			<field name="price">4.45</field>
+		</record>
+		<record id="mrp_activity_cut_84" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Cortes de Colegiales 3</field>
+			<field name="price">3</field>
+		</record>
+		<record id="mrp_activity_cut_85" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Aditamento p/ Botas 0.5</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_cut_86" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia vestir mujer 4.45</field>
+			<field name="price">4.45</field>
+		</record>
+		<record id="mrp_activity_cut_87" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Talones de rebajo</field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_cut_88" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Dif. precio mes anterior </field>
+			<field name="price">1.11</field>
+		</record>
+		<record id="mrp_activity_cut_89" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Control de Corte y Calidad a 0.50</field>
+			<field name="price">0.5</field>
+		</record>
+		<record id="mrp_activity_cut_90" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Mocasín Hombre de 4.44</field>
+			<field name="price">4.44</field>
+		</record>
+		<record id="mrp_activity_cut_91" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia popular multiflor 3.34</field>
+			<field name="price">3.34</field>
+		</record>
+		<record id="mrp_activity_cut_92" model="guazu.mrp.activity">
+			<field name="workshop_id" ref="workshop_cut" />
+			<field name="name">Sandalia Popular 3.34</field>
+			<field name="price">3.34 </field>
+		</record>
+
+
+    </data>
+</odoo>

@@ -1,0 +1,234 @@
+<odoo>
+    <data>
+        <!-- Product product -->
+        <record id="view_stock_product_tree" model="ir.ui.view">
+            <field name="name">product.stock.tree.inherit</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_product_tree_view"/>
+            <field name="arch" type="xml">
+                <tree position="attributes">
+                    <attribute name="decoration-danger">existence&lt;0</attribute>
+                    <attribute name="decoration-info">existence&gt;=0</attribute>
+                </tree>
+                <field name="price" position="after">
+                    <field name="standard_price"/>
+                    <field name="existence"/>
+                </field>
+            </field>
+        </record>
+
+        <!-- <record id="product_search_form_view_stock" model="ir.ui.view">
+            <field name="name">product.search.stock.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_search_form_view"/>
+            <field name="arch" type="xml">
+                <field name="pricelist_id" position="before">
+                    <field name="location_id" widget="selection" context="{'location': self}"/>
+                </field>
+            </field>
+        </record> -->
+
+        <record model="ir.ui.view" id="product_kanban_stock_view">
+            <field name="name">Product Kanban Stock</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_kanban_view"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <field name="type" invisible="True"/>
+                </field>
+                <ul position="inside">
+                    <li>Costo: <field name="standard_price" widget="monetary"></field></li>
+                    <li t-if="record.type.raw_value != 'service'">Existencia: <field name="existence"/> <field name="uom_id"/></li>
+                    <li t-if="record.color_id.raw_value or record.material_id.raw_value or record.sex_id.raw_value">
+                        
+                        <span t-if="record.material_image.raw_value">
+                            <span title='Material'><field width="24px" name="material_image" widget="image" title="Material"/></span>
+                        </span>
+                        <span t-if="!record.material_image.raw_value and record.material_id.raw_value">
+                            <span title='Material'><field name="material_id" widget="label_selection" /></span>
+                        </span>
+                        
+                        <span t-if="record.sex_image.raw_value">
+                            <span title='Sexo'><field width="24px" name="sex_image" widget="image" title="Sexo"/></span>
+                        </span>
+                        <span t-if="!record.sex_image.raw_value and record.sex_id.raw_value">
+                            <span title='Sexo'><field name="sex_id" widget="label_selection" title="Sexo"/></span>
+                        </span>
+
+                        <span t-if="record.color_image.raw_value">
+                            <span title="Color"><field width="24px" name="color_image" widget="image" title="Color"/></span>
+                        </span>
+                        <span t-if="!record.color_image.raw_value and record.color_id.raw_value">
+                            <field name="color_id" widget="label_selection" title="Color"/>
+                        </span>
+                    </li>
+                </ul>
+            </field>
+        </record>
+        <!-- <record id="product_normal_form_view" model="ir.ui.view">
+            <field name="name">product.product.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                
+                <field name="default_code" position="replace">
+                    <field name="default_code" readonly="1"/>
+                </field>                              
+                
+            </field>
+        </record> -->
+        <record id="product_variant_easy_edit_view" model="ir.ui.view">
+            <field name="name">product.product.view.form.easy</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_variant_easy_edit_view"/>
+            <field name="arch" type="xml">
+                <field name="default_code" position="replace">
+                    <field name="default_code" readonly="1"/>
+                </field>                              
+            </field>
+        </record>
+        <!-- Product template -->
+        <record id="product_template_search_form_view_stock" model="ir.ui.view">
+            <field name="name">product.template.search.stock.form</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_search_view"/>
+            <field name="arch" type="xml">
+                <field name="pricelist_id" position="after">
+                    <separator/>
+                    <field name="location_id" widget="selection" context="{'location': self}"/>
+                    <field name="material_id" widget="selection"/>
+                    <field name="sex_id" widget="selection"/>
+                    <field name="color_id" widget="selection"/>
+                    <separator/>
+                    <filter name="real_stock_available" string="Disponibles" domain="[('existence','&gt;', 0)]"/>
+                    <filter name="real_stock_exhausted" string="Agotados" domain="[('existence','&lt;=',0),('type','not in',('service', 'consu'))]"/>
+                    <filter name="real_stock_negative" string="Stock negativo" domain="[('existence','&lt;',0)]"/>
+                </field>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="product_template_kanban_stock_view">
+            <field name="name">Product Template Kanban Stock</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_kanban_view"/>
+            <field name="arch" type="xml">
+                <field name="lst_price" position="after">
+                    <field name="type"/>
+                    <field name="color_image" invisible="1"/>
+                    <field name="color_id" invisible="1"/>
+                    <field name="sex_image" invisible="1"/>
+                    <field name="sex_id" invisible="1"/>
+                    <field name="material_image" invisible="1"/>
+                    <field name="material_id" invisible="1"/>
+                </field>
+                <ul position="inside">
+                    <li>Costo: <field name="standard_price" widget="monetary"></field></li>
+                    <li t-if="record.type.raw_value != 'service'">Existencia: <field name="existence"/> <field name="uom_id"/></li>
+                    
+                    <li t-if="record.color_id.raw_value or record.material_id.raw_value or record.sex_id.raw_value">
+                        
+                        <t t-if="record.material_image.raw_value">
+                            <span title='Material'><img width="24px" t-att-src="kanban_image('product.template', 'material_image', record.id.value)"/></span>
+                        </t>
+                        <t t-if="!record.material_image.raw_value and record.material_id.raw_value">
+                            <span title='Material'><field name="material_id" widget="label_selection" /></span>
+                        </t>
+                        
+                        <t t-if="record.sex_image.raw_value">
+                            <span title='Sexo'><img width="24px" t-att-src="kanban_image('product.template', 'sex_image', record.id.value)"/></span>
+                        </t>
+                        <t t-if="!record.sex_image.raw_value and record.sex_id.raw_value">
+                            <span title='Sexo'><field name="sex_id" widget="label_selection" title="Sexo"/></span>
+                        </t>
+
+                        <span t-if="record.color_image.raw_value">
+                            <span title="Color"><img width="24px" t-att-src="kanban_image('product.template', 'color_image', record.id.value)"/></span>
+                        </span>
+                        <span t-if="!record.color_image.raw_value and record.color_id.raw_value">
+                            <span title="Color"><field name="color_id" widget="label_selection" title="Color"/></span>
+                        </span>
+                    </li>
+                </ul>
+            </field>
+        </record>
+
+        <record id="view_stock_product_template_tree" model="ir.ui.view">
+            <field name="name">product.template.stock.tree.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_tree_view"/>
+            <field name="arch" type="xml">
+                <tree position="attributes">
+                    <attribute name="decoration-danger">existence&lt;0</attribute>
+                    <attribute name="decoration-info">existence&gt;=0</attribute>
+                </tree>
+                <field name="uom_id" position="before">
+                    <field name="existence"/>
+                    <field name="material_id" invisible="1"/>
+                    <field name="sex_id" invisible="1"/>
+                    <field name="color_id" invisible="1"/>
+                </field>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="product_template_form_stock_view">
+            <field name="name">Product Template Form Stock</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="priority" eval="1" />
+            <field name="arch" type="xml">
+                <xpath expr="//label[@for='standard_price']" position="replace">
+                    <label for="standard_price" groups="base.group_user"/>
+                </xpath>
+                
+                <field name="default_code" position="replace">
+                    <field name="default_code" />
+                </field>
+                <field name="barcode" position="replace">
+                    <field name="barcode" />
+                </field>
+            
+                <xpath expr="//div[@name='standard_price_uom']" position="replace">
+                    <div name="standard_price_uom" groups="base.group_user">
+                        <field name="standard_price" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                    </div>
+                </xpath>
+                <button name="toggle_active" position="before">
+                    <button class="oe_stat_button" type="action" name="%(guazu_stock.guazu_stock_move_action2)d"
+                        attrs="{'invisible': [('type', '=', 'service')]}"
+                        icon="fa-paperclip">
+                        <field string="Movimientos" name="move_count" widget="statinfo"/>
+                    </button>
+                </button>
+                <field name="uom_id" position="before">
+                   <field t-if="record.type.raw_value !='service'" name="existence" />
+                </field>
+                <field name="barcode" position="replace">
+                   <field name="use_tracks"/>
+                   <field name="color_id" />
+                   <field name="material_id" />
+                   <field name="sex_id" />
+                </field>
+            </field>
+        </record>
+
+        <record id="product_template_action_product" model="ir.actions.act_window">
+            <field name="name">Productos</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.template</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="view_type">form</field>
+            <field name="context">{"search_default_consumable": 1, 'default_type': 'product'}</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Clic para definir un nuevo producto
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_product_variant_config_stock" name="Productos" action="product_template_action_product"
+        parent="product_settings_menu" sequence="4"/>
+        <menuitem id="product_product_menu" name="Variantes" action="product.product_normal_action"
+        parent="product_settings_menu" sequence="5" groups="product.group_product_variant"/>
+
+    </data>
+</odoo>

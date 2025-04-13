@@ -1,0 +1,736 @@
+<odoo>
+    <data noupdate="1">
+		<record id="partner_employee_auth_1" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Rafael Bouza González</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="employee_auth_1" model="hr.employee">
+			<field name="department_id" ref="department_sale_5"/>
+			<field name="name">Rafael Bouza González</field>
+			<field name="address_home_id" ref="partner_employee_auth_1" />
+			<field name="is_authorized">True</field>
+		</record>
+		<record id="partner_employee_auth_2" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Elierzán López de Castro Bacallo</field>
+		</record>
+		<record id="employee_auth_2" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Elierzán López de Castro Bacallo</field>
+			<field name="address_home_id" ref="partner_employee_auth_2" />
+			<field name="is_authorized">True</field>
+
+		</record>
+		<record id="partner_employee_auth_3" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Edmania Montes Vargas </field>
+		</record>
+		<record id="employee_auth_3" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Edmania Montes Vargas </field>
+			<field name="address_home_id" ref="partner_employee_auth_3" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_4" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Andrés Rodríguez López </field>
+		</record>
+		<record id="employee_auth_4" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Andrés Rodríguez López </field>
+			<field name="address_home_id" ref="partner_employee_auth_4" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_5" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Sandra Pérez Oses </field>
+		</record>
+		<record id="employee_auth_5" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Sandra Pérez Oses </field>
+			<field name="address_home_id" ref="partner_employee_auth_5" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_6" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Justo A. Alonso Cárdenas </field>
+		</record>
+		<record id="employee_auth_6" model="hr.employee">
+			<field name="department_id" ref="department_sale_5"/>
+			<field name="name">Justo A. Alonso Cárdenas </field>
+			<field name="address_home_id" ref="partner_employee_auth_6" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_7" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Mariela Jorrín Fernández </field>
+		</record>
+		<record id="employee_auth_7" model="hr.employee">
+			<field name="department_id" ref="department_sale_5"/>
+			<field name="name">Mariela Jorrín Fernández </field>
+			<field name="address_home_id" ref="partner_employee_auth_7" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_8" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Bárbara Dueñas Cabrera </field>
+		</record>
+		<record id="employee_auth_8" model="hr.employee">
+			<field name="department_id" ref="department_sale_5"/>
+			<field name="name">Bárbara Dueñas Cabrera </field>
+			<field name="address_home_id" ref="partner_employee_auth_8" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_9" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Francisco León Villafaña </field>
+		</record>
+		<record id="employee_auth_9" model="hr.employee">
+			<field name="department_id" ref="department_sale_5"/>
+			<field name="name">Francisco León Villafaña </field>
+			<field name="address_home_id" ref="partner_employee_auth_9" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_10" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Andrés Muños Hernández </field>
+		</record>
+		<record id="employee_auth_10" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Andrés Muños Hernández </field>
+			<field name="address_home_id" ref="partner_employee_auth_10" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_11" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Victor M. Rodríguez Casonova </field>
+		</record>
+		<record id="employee_auth_11" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Victor M. Rodríguez Casonova </field>
+			<field name="address_home_id" ref="partner_employee_auth_11" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_12" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Romelio Prieto Rodríguez </field>
+		</record>
+		<record id="employee_auth_12" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Romelio Prieto Rodríguez </field>
+			<field name="address_home_id" ref="partner_employee_auth_12" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_13" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Jesús Martínez Gómez </field>
+		</record>
+		<record id="employee_auth_13" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Jesús Martínez Gómez </field>
+			<field name="address_home_id" ref="partner_employee_auth_13" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_14" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Maikel Aguila Prieto</field>
+		</record>
+		<record id="employee_auth_14" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Maikel Aguila Prieto</field>
+			<field name="address_home_id" ref="partner_employee_auth_14" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_15" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Dennis Rodríguez Rodríguez </field>
+		</record>
+		<record id="employee_auth_15" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Dennis Rodríguez Rodríguez </field>
+			<field name="address_home_id" ref="partner_employee_auth_15" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_16" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Paver R. Chong Rodríguez</field>
+		</record>
+		<record id="employee_auth_16" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Paver R. Chong Rodríguez</field>
+			<field name="address_home_id" ref="partner_employee_auth_16" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_17" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Gladis Cancio Artíles</field>
+		</record>
+		<record id="employee_auth_17" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Gladis Cancio Artíles</field>
+			<field name="address_home_id" ref="partner_employee_auth_17" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_18" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Rafael Armando Luna Llanes </field>
+		</record>
+		<record id="employee_auth_18" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Rafael Armando Luna Llanes </field>
+			<field name="address_home_id" ref="partner_employee_auth_18" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_19" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">José I. Squitín Martinéz </field>
+		</record>
+		<record id="employee_auth_19" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">José I. Squitín Martinéz </field>
+			<field name="address_home_id" ref="partner_employee_auth_19" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_20" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Siam Squitín Manso </field>
+		</record>
+		<record id="employee_auth_20" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Siam Squitín Manso </field>
+			<field name="address_home_id" ref="partner_employee_auth_20" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_21" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Ulises J. Urquía Urquía</field>
+		</record>
+		<record id="employee_auth_21" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Ulises J. Urquía Urquía</field>
+			<field name="address_home_id" ref="partner_employee_auth_21" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_22" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Manuel Rodríguez Pérez</field>
+		</record>
+		<record id="employee_auth_22" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Manuel Rodríguez Pérez</field>
+			<field name="address_home_id" ref="partner_employee_auth_22" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_23" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Leonardo León Alemán </field>
+		</record>
+		<record id="employee_auth_23" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Leonardo León Alemán </field>
+			<field name="address_home_id" ref="partner_employee_auth_23" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_24" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Midiala Hernández Rodríguez </field>
+		</record>
+		<record id="employee_auth_24" model="hr.employee">
+			<field name="department_id" ref="department_sale_1"/>
+			<field name="name">Midiala Hernández Rodríguez </field>
+			<field name="address_home_id" ref="partner_employee_auth_24" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_25" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Alfredo Peréz Oses </field>
+		</record>
+		<record id="employee_auth_25" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Alfredo Peréz Oses </field>
+			<field name="address_home_id" ref="partner_employee_auth_25" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_26" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Joel Martínez González </field>
+		</record>
+		<record id="employee_auth_26" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Joel Martínez González </field>
+			<field name="address_home_id" ref="partner_employee_auth_26" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_27" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Enrique Palacios Péres de Alejo</field>
+		</record>
+		<record id="employee_auth_27" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Enrique Palacios Péres de Alejo</field>
+			<field name="address_home_id" ref="partner_employee_auth_27" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_28" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Anibal Alvárez Vera</field>
+		</record>
+		<record id="employee_auth_28" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Anibal Alvárez Vera</field>
+			<field name="address_home_id" ref="partner_employee_auth_28" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_29" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Herman W. Cuevillas Dueñas </field>
+		</record>
+		<record id="employee_auth_29" model="hr.employee">
+			<field name="department_id" ref="department_sale_5"/>
+			<field name="name">Herman W. Cuevillas Dueñas </field>
+			<field name="address_home_id" ref="partner_employee_auth_29" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_30" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Gustavo Fernandez Triana </field>
+		</record>
+		<record id="employee_auth_30" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Gustavo Fernandez Triana </field>
+			<field name="address_home_id" ref="partner_employee_auth_30" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_31" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Armando Willian Pérez Monteagudo</field>
+		</record>
+		<record id="employee_auth_31" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Armando Willian Pérez Monteagudo</field>
+			<field name="address_home_id" ref="partner_employee_auth_31" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_32" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Eddy Armando La Rosa Cabrera</field>
+		</record>
+		<record id="employee_auth_32" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Eddy Armando La Rosa Cabrera</field>
+			<field name="address_home_id" ref="partner_employee_auth_32" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_33" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Juan Jesús Cabrera orfila</field>
+		</record>
+		<record id="employee_auth_33" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Juan Jesús Cabrera orfila</field>
+			<field name="address_home_id" ref="partner_employee_auth_33" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_34" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Juan Jesús Moya</field>
+		</record>
+		<record id="employee_auth_34" model="hr.employee">
+			<field name="department_id" ref="department_sale_1"/>
+			<field name="name">Juan Jesús Moya</field>
+			<field name="address_home_id" ref="partner_employee_auth_34" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_35" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Rafael Parra Rodríguez</field>
+		</record>
+		<record id="employee_auth_35" model="hr.employee">
+			<field name="department_id" ref="department_sale_6"/>
+			<field name="name">Rafael Parra Rodríguez</field>
+			<field name="address_home_id" ref="partner_employee_auth_35" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_36" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Juan Ángel del Sol Cancio</field>
+		</record>
+		<record id="employee_auth_36" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Juan Ángel del Sol Cancio</field>
+			<field name="address_home_id" ref="partner_employee_auth_36" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_37" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Ricardo León Villafaña</field>
+		</record>
+		<record id="employee_auth_37" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Ricardo León Villafaña</field>
+			<field name="address_home_id" ref="partner_employee_auth_37" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_38" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">José Pascual Garay González</field>
+		</record>
+		<record id="employee_auth_38" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">José Pascual Garay González</field>
+			<field name="address_home_id" ref="partner_employee_auth_38" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_39" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Moure Gorrín Fernández</field>
+		</record>
+		<record id="employee_auth_39" model="hr.employee">
+			<field name="department_id" ref="department_sale_1"/>
+			<field name="name">Moure Gorrín Fernández</field>
+			<field name="address_home_id" ref="partner_employee_auth_39" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_40" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Delvis Vázquez Alfonso</field>
+		</record>
+		<record id="employee_auth_40" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Delvis Vázquez Alfonso</field>
+			<field name="address_home_id" ref="partner_employee_auth_40" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_41" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Elvis Miguel Portal Jiménez</field>
+		</record>
+		<record id="employee_auth_41" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Elvis Miguel Portal Jiménez</field>
+			<field name="address_home_id" ref="partner_employee_auth_41" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_42" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Henry Gutierrez Montes</field>
+		</record>
+		<record id="employee_auth_42" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Henry Gutierrez Montes</field>
+			<field name="address_home_id" ref="partner_employee_auth_42" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_43" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Antonio Delgado Carpio</field>
+		</record>
+		<record id="employee_auth_43" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Antonio Delgado Carpio</field>
+			<field name="address_home_id" ref="partner_employee_auth_43" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_44" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Erich  Zerquera Rios</field>
+		</record>
+		<record id="employee_auth_44" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Erich  Zerquera Rios</field>
+			<field name="address_home_id" ref="partner_employee_auth_44" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_45" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Jorge León Villafaña</field>
+		</record>
+		<record id="employee_auth_45" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Jorge León Villafaña</field>
+			<field name="address_home_id" ref="partner_employee_auth_45" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_46" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Duniesky Herrera Pérez</field>
+		</record>
+		<record id="employee_auth_46" model="hr.employee">
+			<field name="department_id" ref="department_sale_2"/>
+			<field name="name">Duniesky Herrera Pérez</field>
+			<field name="address_home_id" ref="partner_employee_auth_46" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_47" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Madaley Carrazana Rodríguez</field>
+		</record>
+		<record id="employee_auth_47" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Madaley Carrazana Rodríguez</field>
+			<field name="address_home_id" ref="partner_employee_auth_47" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_48" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Rafael P. Bouza Rey</field>
+		</record>
+		<record id="employee_auth_48" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Rafael P. Bouza Rey</field>
+			<field name="address_home_id" ref="partner_employee_auth_48" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_49" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Blas Pérez García</field>
+		</record>
+		<record id="employee_auth_49" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Blas Pérez García</field>
+			<field name="address_home_id" ref="partner_employee_auth_49" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_50" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Felix A. Sánchez Franco</field>
+		</record>
+		<record id="employee_auth_50" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Felix A. Sánchez Franco</field>
+			<field name="address_home_id" ref="partner_employee_auth_50" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_51" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Humberto Muñoz González </field>
+		</record>
+		<record id="employee_auth_51" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Humberto Muñoz González </field>
+			<field name="address_home_id" ref="partner_employee_auth_51" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_52" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Leonor Castañeira Plana</field>
+		</record>
+		<record id="employee_auth_52" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Leonor Castañeira Plana</field>
+			<field name="address_home_id" ref="partner_employee_auth_52" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_53" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Miguel Angel Noriegas Santos</field>
+		</record>
+		<record id="employee_auth_53" model="hr.employee">
+			<field name="department_id" ref="department_sale_4"/>
+			<field name="name">Miguel Angel Noriegas Santos</field>
+			<field name="address_home_id" ref="partner_employee_auth_53" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_54" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Esther Lidia Polanco Valdes</field>
+		</record>
+		<record id="employee_auth_54" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Esther Lidia Polanco Valdes</field>
+			<field name="address_home_id" ref="partner_employee_auth_54" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_55" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Mario Puerto Váldez</field>
+		</record>
+		<record id="employee_auth_55" model="hr.employee">
+			<field name="department_id" ref="department_sale_1"/>
+			<field name="name">Mario Puerto Váldez</field>
+			<field name="address_home_id" ref="partner_employee_auth_55" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_56" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Carlos Rafael López Gutierrez</field>
+		</record>
+		<record id="employee_auth_56" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Carlos Rafael López Gutierrez</field>
+			<field name="address_home_id" ref="partner_employee_auth_56" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_57" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Pedro Andres Castellón Hernández</field>
+		</record>
+		<record id="employee_auth_57" model="hr.employee">
+			<field name="department_id" ref="department_sale_1"/>
+			<field name="name">Pedro Andres Castellón Hernández</field>
+			<field name="address_home_id" ref="partner_employee_auth_57" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_58" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Giraldo Julian Hernández Martín</field>
+		</record>
+		<record id="employee_auth_58" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Giraldo Julian Hernández Martín</field>
+			<field name="address_home_id" ref="partner_employee_auth_58" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_59" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Pedro Javier Fernández Puerto</field>
+		</record>
+		<record id="employee_auth_59" model="hr.employee">
+			<field name="department_id" ref="department_sale_1"/>
+			<field name="name">Pedro Javier Fernández Puerto</field>
+			<field name="address_home_id" ref="partner_employee_auth_59" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_60" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Ernesto Hernandez Martin</field>
+		</record>
+		<record id="employee_auth_60" model="hr.employee">
+			<field name="department_id" ref="department_sale_7"/>
+			<field name="name">Ernesto Hernandez Martin</field>
+			<field name="address_home_id" ref="partner_employee_auth_60" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+		<record id="partner_employee_auth_61" model="res.partner">
+			<field name="company_type">person</field>
+			<field name="customer">False</field>
+			<field name="name">Ulises Mecías Brunet</field>
+		</record>
+		<record id="employee_auth_61" model="hr.employee">
+			<field name="department_id" ref="department_sale_3"/>
+			<field name="name">Ulises Mecías Brunet</field>
+			<field name="address_home_id" ref="partner_employee_auth_61" />
+			<field name="is_authorized">True</field>
+			<field name="customer">False</field>
+		</record>
+    </data>
+</odoo>

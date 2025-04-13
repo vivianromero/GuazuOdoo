@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="guazu_mrp_order_search" model="ir.ui.view">
+			<field name="name">guazu.mrp.order.search</field>
+			<field name="model">guazu.mrp.order</field>
+			<field name="arch" type="xml">
+				<search>
+                    <filter string="Borradores" help="Muestra las órdenes en estado borrador" name="type_draft" domain="[('state','=','draft')]"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="name" />
+                    <field name="workshop_id" />
+					<field name="production_date" />
+                    <group expand="0" string="Agrupar por">
+                        <filter string="Compañía" name="company_id" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Área de Producción" domain="[]" context="{'group_by':'workshop_id'}"/>
+                        <filter string="Fecha" domain="[]" context="{'group_by':'production_date'}"/>
+                        <filter string="Estado" domain="[]" context="{'group_by':'state'}"/>
+                    </group>
+				</search>
+			</field>
+		</record>
+
+        <record id="guazu_mrp_order_calendar" model="ir.ui.view">
+            <field name="name">guazu.mrp.order.calendar</field>
+            <field name="model">guazu.mrp.order</field>
+            <field name="arch" type="xml">
+                <calendar string="Órdenes de producción" color="workshop_id" date_start="production_date" date_stop="production_date">
+                    <field name="name" />
+                    <field name="workshop_id" />
+                    <field name="total_amount"/>
+                </calendar>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="guazu_mrp_order_graph">
+            <field name="name">guazu.mrp.order.graph</field>
+            <field name="model">guazu.mrp.order</field>
+            <field name="arch" type="xml">
+                <graph string="Órdenes de producción" type="pie">
+                    <field name="name" />
+                    <field name="workshop_id" />
+                    <field name="total_amount"/>
+                </graph>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_order_list" model="ir.ui.view">
+            <field name="name">guazu.mrp.order.list</field>
+            <field name="model">guazu.mrp.order</field>
+            <field name="arch" type="xml">
+                <tree string="Órdenes" decoration-success="state=='draft'" decoration-muted="state=='done'">
+                    <field name="name" />
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="workshop_id"/>
+                    <field name="production_date"/>
+                    <field name="total_amount" string="Importe" sum="total" widget="monetary"/>
+                    <field name="currency_id" invisible="1"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_order_form" model="ir.ui.view">
+            <field name="name">guazu.mrp.order.form</field>
+            <field name="model">guazu.mrp.order</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button name="case_done" string="Terminar" type="object"
+                                help="Termina la orden de producción" class="oe_highlight" states="draft,wait" />
+
+                        <button name="case_cancel" string="Cancelar" type="object"
+                                help="Cancela la orden de producción" states="wait"
+                                confirm="¿Está seguro de cancelar esta orden de producción?"/>
+
+                        <field name="state" widget="statusbar" statusbar_visible="draft,wait,done" class="oe_highlight"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" />
+                            <h1><field name="name" placeholder="Dejar en blanco si desea el consecutivo automático" attrs="{'readonly':[('state','!=','draft')]}"/></h1>
+                        </div>
+                        <group colspan="4">
+                            <group>
+                                <field name="company_id" attrs="{'readonly':[('state','!=','draft')]}" groups="base.group_multi_company"/>
+                                <field name="workshop_id" attrs="{'readonly':[('state','!=','draft')]}" />
+                                <field name="currency_id" attrs="{'readonly':[('state','!=','draft')]}" invisible="1"/>
+                            </group>
+                            <group>
+                                <field name="production_date" attrs="{'readonly':[('state','!=','draft')]}" placeholder=""/>
+                                <field name="department_id" attrs="{'readonly':[('state','!=','draft')]}" invisible="1"/>
+                            </group>
+                        </group>
+                        <notebook colspan="4">
+                            <page string="Detalles">
+                                <field colspan="4" name="line_ids" nolabel="1" context="" attrs="{'readonly':[('state','!=','draft')]}" >
+                                    <tree string="Detalles" editable="bottom">
+                                        <field name="employee_id" options="{'no_create': True}" domain="[('department_id', '=', parent.department_id)]"/>
+                                        <field name="activity_id" options="{'no_create': True}" domain="[('workshop_id', '=', parent.workshop_id)]"/>
+                                        <field name="price" readonly="1" />
+                                        <field name="quantity" />
+                                        <field name="currency_id" invisible="1"/>
+                                        <field name="amount" readonly="1"/>
+                                    </tree>
+                                </field>
+                                <group class="oe_subtotal_footer oe_right" colspan="2" name="total">
+                                    <div class="oe_subtotal_footer_separator oe_inline o_td_label">
+                                        <label for="total_quantity" string="Cantidad"/>
+                                    </div>
+                                    <field name="total_quantity" nolabel="1" class="oe_subtotal_footer_separator" />
+                                    
+                                    <div class="oe_subtotal_footer_separator oe_inline o_td_label">
+                                        <label for="total_amount" string="Importe"/>
+                                    </div>
+                                    <field name="total_amount" nolabel="1" class="oe_subtotal_footer_separator" widget='monetary' options="{'currency_field': 'currency_id'}"/>
+                                </group>
+                            </page>
+                            <page string="Notas">
+                                <field colspan="4" name="note" nolabel="1" />
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_order_action" model="ir.actions.act_window">
+            <field name="name">Órdenes</field>
+            <field name="res_model">guazu.mrp.order</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,graph,calendar,form</field>
+            <field name="view_id" ref="guazu_mrp_order_list"/>
+            <field name="search_view_id" ref="guazu_mrp_order_search" />
+            <field name="context">{'search_default_type_draft':'1'}</field>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Clic para crear una orden de producción.
+              </p><p>
+                Defina las órdenes de producción.
+              </p>
+            </field>
+        </record>
+
+        <menuitem id="guazu_mrp_order_menu" action="guazu_mrp_order_action" parent="mrp_menu" sequence="1"/>
+    </data>
+</odoo>

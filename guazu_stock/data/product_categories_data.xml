@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="product_category_pt" model="product.category">
+            <field name="parent_id" ref="product.product_category_all"/>
+            <field name="name">Producción Terminada</field>
+        </record>
+		<record id="product_category_pt_calz" model="product.category">
+            <field name="parent_id" ref="product_category_pt"/>
+            <field name="name">Calzado</field>
+        </record>
+        <record id="product_category_pt_01" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Botas de trabajo</field>
+        </record>
+        <record id="product_category_pt_02" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Botas acolchonadas</field>
+        </record>
+        <record id="product_category_pt_03" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Náuticos</field>
+        </record>
+		<record id="product_category_pt_04" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Mocasines</field>
+        </record>
+        <record id="product_category_pt_05" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Sandalias</field>
+        </record>
+        <record id="product_category_pt_06" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Alpargatas</field>
+        </record>
+        <record id="product_category_pt_07" model="product.category">
+            <field name="parent_id" ref="product_category_pt_calz"/>
+            <field name="name">Balerinas</field>
+        </record>
+    </data>
+</odoo>

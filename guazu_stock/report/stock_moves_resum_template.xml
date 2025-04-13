@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_stock_moves_resum">
+            <t t-call="report.html_container"> <!-- web.html_container -->
+                 <t t-call="report.internal_layout"> <!-- web.external_layout -->
+                    <!-- <t t-foreach="docs" t-as="o"> -->
+                        <div class="page">
+                            <script>window.print();</script>
+                            <div class="oe_structure"/>
+
+                            <h2>Resumen de Movimientos </h2>
+                            <table class="table table-condensed table-bordered">
+                                <tr>
+                                    <!--<td><span t-foreach="locations" t-as="loc"><span t-esc="loc"/><br/></span></td>-->
+                                    <td><strong>Impreso el </strong><span t-esc="date_print"/></td>
+                                </tr>
+                            </table>
+
+                            <h3>Ubicación:<span t-foreach="locations" t-as="location"><span t-esc="location"/><br/></span></h3>
+                            <h3 t-if="group_by=='sex'">Agrupado por:<span t-foreach="sexs" t-as="sex"><span t-esc="sex"/><br/></span></h3>
+                            <h3 t-if="group_by=='categ'">Agrupado por:<span t-foreach="categories" t-as="category"><span t-esc="category"/><br/></span></h3>
+
+                            <!--<h4>Fecha de Impresión:<span t-foreach="date_print" t-as="dateprint"><span t-esc="dateprint"/><br/></span></h4>-->
+                            <br></br>
+                            <div t-foreach="lines" t-as="line" >
+                                <table class="table table-condensed table-bordered" >
+
+                                    <thead>
+                                        <tr>
+                                            <th width="15%">Nro. Doc.</th>
+                                            <th width="10%">Fecha</th>
+                                            <th width="10%" class="text-center">Entrada</th>
+                                            <th width="10%" class="text-center">Salida</th>
+                                            <th width="10%" class="text-center">Existencia</th>
+                                            <th width="45%" class="text-center">Origen/Destino</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr t-foreach="line['products']" t-as="product">
+                                            <th t-if="product['is_total_grupo']"><span t-esc="product['name']"/></th>
+                                            <td t-if="not product['is_total_grupo']"><span t-esc="product['name']"/></td>
+                                            <td><span t-esc="product['fecha']"/></td>
+                                            <td t-if="not product['is_total_grupo']" class="text-right"><span t-esc="product['in_qty']"/></td>
+                                            <th t-if="product['is_total_grupo']" class="text-right"><span t-esc="product['in_qty']"/></th>
+                                            <td t-if="not product['is_total_grupo']" class="text-right"><span t-esc="product['out_qty']"/></td>
+                                            <th t-if="product['is_total_grupo']" class="text-right"><span t-esc="product['out_qty']"/></th>
+                                            <td t-if="not product['is_total_grupo']" class="text-right"><span t-esc="product['saldo']"/></td>
+                                            <th t-if="product['is_total_grupo']" class="text-right"><span t-esc="product['saldo']"/></th>
+                                            <td><span t-esc="product['clave']"/></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

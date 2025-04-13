@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_multi_image_product_image,product.multi.image,model_product_image,,1,0,0,0
+product_multi_image.model_product_image_sales,product.multi.image,model_product_image,guazu_sale.group_guazu_sale_manager,1,1,1,1
+access_product_multi_image_product_image_stock,product.multi.image,model_product_image,guazu_stock.group_guazu_stock_manager,1,1,0,0

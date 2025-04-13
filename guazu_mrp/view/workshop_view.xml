@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="guazu_mrp_workshop_search" model="ir.ui.view">
+			<field name="name">guazu.mrp.workshop.search</field>
+			<field name="model">guazu.mrp.workshop</field>
+			<field name="arch" type="xml">
+				<search>
+                    <field name="code" />
+					<field name="name" />
+                    <field name="department_id" />
+				</search>
+			</field>
+		</record>
+
+        <record id="guazu_mrp_workshop_list" model="ir.ui.view">
+            <field name="name">guazu.mrp.workshop.list</field>
+            <field name="model">guazu.mrp.workshop</field>
+            <field name="arch" type="xml">
+                <tree string="Áreas de Producción" decoration-success="department_id">
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="department_id" invisible="1"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_workshop_form" model="ir.ui.view">
+            <field name="name">guazu.mrp.workshop.form</field>
+            <field name="model">guazu.mrp.workshop</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="code" />
+                            <h1><field name="code" placeholder=""/></h1>
+                            <label for="name" />
+                            <h1><field name="name" placeholder=""/></h1>
+                            <label for="department_id" />
+                            <field name="department_id" placeholder=""/>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="guazu_mrp_workshop_action" model="ir.actions.act_window">
+            <field name="name">Áreas de Producción</field>
+            <field name="res_model">guazu.mrp.workshop</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="guazu_mrp_workshop_list"/>
+            <field name="search_view_id" ref="guazu_mrp_workshop_search" />
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Clic para crear un área de producción.
+              </p><p>
+                Defina sus áreas de producción.
+              </p>
+            </field>
+        </record>
+
+        <menuitem id="guazu_mrp_workshop_menu" action="guazu_mrp_workshop_action" parent="settings_menu" sequence="1"/>
+    </data>
+</odoo>

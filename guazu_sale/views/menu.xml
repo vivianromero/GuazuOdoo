@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <menuitem id="root_menu" name="Ventas" web_icon="guazu_sale,static/description/icon.png"
+        groups="group_guazu_sale_viewer"/>
+        <menuitem id="sales_menu" parent="root_menu" name="Órdenes" sequence="1" groups="group_guazu_sale_viewer"/>
+
+
+        <menuitem id="report_menu" parent="root_menu" name="Informes" sequence="2" groups="group_guazu_sale_viewer"/>
+
+        <!--<menuitem id="client_report_menu_menu" parent="report_menu" name="Clientes" sequence="1" action="product.product_uom_categ_form_action" groups="group_guazu_sale_viewer"/>&ndash;&gt;-->
+
+
+        <menuitem id="settings_menu" parent="root_menu" name="Ajustes" sequence="3" groups="group_guazu_sale_user"/>
+        <menuitem id="res_partner_menu"
+            parent="settings_menu"
+            name="Clientes"
+            action="base.action_partner_form"
+            sequence="1" groups="group_guazu_sale_user"/>
+
+        <!--<menuitem id="product_settings_menu" parent="settings_menu" name="Productos" sequence="1" groups="group_guazu_sale_user"/>-->
+
+        <!--<menuitem id="guazu_product_uom_categ_menu" parent="product_settings_menu" name="Categorías de UdM" action="product.product_uom_categ_form_action" sequence="1" groups="group_guazu_sale_user"/>-->
+        <!--<menuitem id="guazu_product_uom_menu" action="product.product_uom_form_action" name="Unidades de medida" parent="product_settings_menu" sequence="2" groups="group_guazu_sale_user"/>-->
+
+        <!--<menuitem id="menu_product_category_action_form" name="Categorías de producto" action="product.product_category_action_form"-->
+        <!--parent="product_settings_menu" sequence="3" groups="group_guazu_sale_user"/>&ndash;&gt;-->
+
+    </data>
+</odoo>
