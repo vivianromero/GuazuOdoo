@@ -285,8 +285,17 @@ class SaleOrder(models.Model):
         for payment in payments:
             payment.state = 'cancel'
             state='cancelnotback'
-        return self.write({'state': state,
-                           'nro_invoice': '' if state == 'cancel' else self.nro_invoice})
+
+        self.write({'state': state,
+                    'nro_invoice': '' if state == 'cancel' else self.nro_invoice})
+        if state == 'cancelnotback':
+            created_invoice = self.create_inventory_output(is_canceled=True)
+            if not created_invoice:
+                self.env.cr.commit()
+                raise exceptions.Warning(
+                    'El documento de inventario no ha sido creado debido a que no han establecido las ubicaciones para los tipos de factura. Contacte al administrador  ')
+
+        return
 
     @api.multi
     def action_done(self):
@@ -396,7 +405,7 @@ class SaleOrder(models.Model):
                 'guazu_sale.warehouse_ferias_id')
 
         location_o = self.location_id.id if not is_canceled else location_type_invoice
-        location_d = self.location_id if is_canceled else location_type_invoice
+        location_d = self.location_id.id if is_canceled else location_type_invoice
 
         if not location_o or not location_d:
             return False
@@ -427,4 +436,4 @@ class SaleOrder(models.Model):
         }
 
         StockMove.create(move_vals)
-        return False
+        return True

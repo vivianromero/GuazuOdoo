@@ -117,7 +117,12 @@
                     <button name="action_send" states="draft" class="oe_highlight" type="object" string="Oferta enviada" help="Marcar esta oferta como enviada al cliente"/>
                     <button name="action_confirm" string="Confirmar venta" class="oe_highlight" type="object" states="sent"/>
                     <button name="action_invoice" states="confirmed" class="oe_highlight" type="object" string="Facturada"  help="Marcar esta oferta como facturada"/>
-                    <button name="action_cancel" states="sent,confirmed,invoiced,register" type="object" string="Cancelar" />
+                    <button name="action_cancel" states="sent,confirmed,register" type="object" string="Cancelar"
+                      confirm="¿Está seguro de cancelar esta orden?"
+                    />
+                    <button name="action_cancel" states="invoiced" type="object" string="Cancelar Factura"
+                      confirm="¿Está seguro de cancelar esta factura, la acción no se podrá revertir?"
+                    />
                     <button name="action_draft" states="cancel" type="object" string="Volver a oferta"/>
                     <!--<button name="action_done" type="object" class="oe_highlight" string="Terminar" help="Termina la venta y los movimientos de inventarios asociados" states="invoiced" confirm="¿Está seguro de que desea terminar esta orden de venta?"/>-->
                     <field name="state" widget="statusbar" statusbar_visible="draft,sent,confirmed,invoiced,done"/>
