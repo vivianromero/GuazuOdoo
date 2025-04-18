@@ -86,7 +86,6 @@ class SaleOrder(models.Model):
     nro_invoice = fields.Char(string="Nro. Factura", size=25, readonly=True, states={'confirmed': [('readonly', False)]})
     sale_type = fields.Selection([
         ('client', 'Venta a Cliente'),
-        ('promo', 'Promoción'),
         ('consignment', 'Consignación'),
         ('fair', 'Feria')
     ], string='Tipo de Venta', required=True, default='client', readonly=True, copy=False, states={'draft': [('readonly', False)]})
@@ -394,10 +393,7 @@ class SaleOrder(models.Model):
         type_invoice = self.sale_type
         location_type_invoice = self.env["ir.config_parameter"].sudo().get_param(
             'guazu_sale.location_id') #client
-        if type_invoice == 'promo':
-            location_type_invoice = self.env["ir.config_parameter"].sudo().get_param(
-                'guazu_sale.warehouse_promocion_id')
-        elif type_invoice == 'consignment':
+        if type_invoice == 'consignment':
             location_type_invoice = self.env["ir.config_parameter"].sudo().get_param(
                 'guazu_sale.warehouse_consignacion_id')
         elif type_invoice == 'fair':

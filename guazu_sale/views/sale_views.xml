@@ -113,7 +113,7 @@
             <field name="arch" type="xml">
                 <form string="Orden de venta" class="o_sale_order">
                 <header>
-                    <button name="print_quotation" string="Imprimir" type="object" states="draft,sent,register,confirmed,invoiced,done,cancel,cancelnotback,pay" class="o_sale_print"/>
+<!--                    <button name="print_quotation" string="Imprimir" type="object" states="draft,sent,register,confirmed,invoiced,done,cancel,cancelnotback,pay" class="o_sale_print"/>-->
                     <button name="action_send" states="draft" class="oe_highlight" type="object" string="Oferta enviada" help="Marcar esta oferta como enviada al cliente"/>
                     <button name="action_confirm" string="Confirmar venta" class="oe_highlight" type="object" states="sent"/>
                     <button name="action_invoice" states="confirmed" class="oe_highlight" type="object" string="Facturada"  help="Marcar esta oferta como facturada"/>
